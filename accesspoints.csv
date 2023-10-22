@@ -1,0 +1,10 @@
+,fingerprint,x-pos,y-pos,ssid,bssidd,signal_strength
+0,1,5,5,b'Vodafone Homespot',b'7a:6a:1f:3a:95:b9',b'88'
+1,1,5,5,b'Vodafone Hotspot',b'7a:6a:1f:3a:95:99',b'88'
+2,1,5,5,b'Vodafone Hotspot',b'46:67:51:0b:07:7f',b'33'
+3,1,5,5,b'Schirmakazie2',b'78:6a:1f:3a:95:e9',b'90'
+4,1,5,5,b'Schirmakazie2',b'78:6a:1f:3a:95:ea',b'91'
+5,1,5,5,b'WLAN-343813',b'cc:d4:2e:20:fe:ea',b'31'
+6,1,5,5,b'KabelBox-2298',b'54:67:51:0b:07:7f',b'31'
+7,1,5,5,b'DTUBI-92318054',b'54:f2:9f:13:ce:aa',b'31'
+8,1,5,5,b'Schirmakazie',b'24:65:11:8a:e8:9f',b'89'
