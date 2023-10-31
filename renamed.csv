@@ -1,0 +1,13 @@
+;fingerprint;x-pos;y-pos;ssid;bssidd;signal_strength;frequency_standard
+0;1;6;6;b'HotspotFBEB';b'00:54:af:dc:fb:eb';38;b' 802.11n'
+1;1;6;6;b'Vodafone Homespot';b'7a:6a:1f:3a:95:b9';92;b' 802.11n'
+2;1;6;6;b'Vodafone Hotspot';b'7a:6a:1f:3a:95:99';91;b' 802.11n'
+3;1;6;6;b'Schirmakazie2';b'78:6a:1f:3a:95:e9';91;b' 802.11n'
+4;1;6;6;b'Schirmakazie2';b'78:6a:1f:3a:95:ea';91;b'802.11ac'
+5;1;6;6;b'Schirmakazie';b'24:65:11:8a:e8:9f';82;b' 802.11n'
+6;2;5;5;b'HotspotFBEB';b'00:54:af:dc:fb:eb';33;b' 802.11n'
+7;2;5;5;b'Vodafone Homespot';b'7a:6a:1f:3a:95:b9';91;b' 802.11n'
+8;2;5;5;b'Vodafone Hotspot';b'7a:6a:1f:3a:95:99';92;b' 802.11n'
+9;2;5;5;b'Schirmakazie2';b'78:6a:1f:3a:95:e9';94;b' 802.11n'
+10;2;5;5;b'Schirmakazie2';b'78:6a:1f:3a:95:ea';91;b'802.11ac'
+11;2;5;5;b'Schirmakazie';b'24:65:11:8a:e8:9f';82;b' 802.11n'
