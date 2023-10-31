@@ -82,7 +82,6 @@ def scan_func(fingerprint_number: int, locate=False, debug=False) -> list:
         i += 1
     print("bssids_found=", bssi_found)
 
-    fingerprint_number += 1
     fingerprint = []
 
     for ap in accesspoints:

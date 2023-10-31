@@ -37,8 +37,13 @@ try:
     # print(type(fingerprint_number))
     # print(fingerprint_number)
 except FileNotFoundError:
+    # testing sphinx documentation
     print("except in config_reading")
-    fingerprint_number = 0
+    '''
+    Hi
+    :ivar `fingerprint_number`: the amount of fingerprints that have been made and saved in the accesspoints.csv file
+    '''
+    fingerprint_number = int(0)
     mylist = []  # I only know how to make a df out of a list # TODO
     mylist.append(0)
     config_df = pd.DataFrame(mylist, columns=[FID])
@@ -48,15 +53,33 @@ except FileNotFoundError:
 
 fingerprints = []
 while (True):
-    befehl = input("Welchen Befehl wollen sie ausführen?")
+    befehl = input("Welchen Befehl wollen sie ausführen? ")
     if (befehl == "f" or befehl == "fingerprint"):
         # scan the WLAN (do a fingerprint)
         count = input("how many fingerprints do you want to make?")
-        print(int(count))
         for i in range(int(count)):
-            fingerprints.extend(scan_func(fingerprint_number+1))
+            fingerprints.extend(scan_func(fingerprint_number))
             # print("fingerprint:\n",fingerprints)
             fingerprint_number += 1
+
+        # saving
+        print("saving fingerprints")
+        if os.path.isfile(FINGERPRINTS_PATH):
+            df = pd.read_csv(FINGERPRINTS_PATH)
+            df.append(pd.DataFrame(fingerprints, columns=['fingerprint',
+                                                          'x-pos', 'y-pos', 'ssid', 'bssidd', 'signal_strength', 'frequency_standard']))
+        else:
+            df = pd.DataFrame(fingerprints, columns=['fingerprint',
+                                                     'x-pos', 'y-pos', 'ssid', 'bssidd', 'signal_strength', 'frequency_standard'])
+
+        df.to_csv(FINGERPRINTS_PATH, mode="a", sep=";")
+
+        # cleanup
+        mylist = []  # I only know how to make a df out of a list # TODO
+        mylist.append(fingerprint_number)
+        print("fingerprint_number=", fingerprint_number)
+        config_df = pd.DataFrame(mylist, columns=[FID])
+        config_df.to_csv(CONFIG_PATH)
     elif befehl == "s" or befehl == "save":
         print("saving fingerprints")
         df = pd.DataFrame(fingerprints, columns=['fingerprint',
@@ -73,6 +96,7 @@ while (True):
         if os.path.isfile(FINGERPRINTS_PATH):
             os.remove(FINGERPRINTS_PATH)
             os.remove(CONFIG_PATH)
+            fingerprint_number = 0
             print("removed the fingerprints")
         else:
             print("fingerprint file not found, can't remove")
