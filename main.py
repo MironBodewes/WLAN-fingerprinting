@@ -11,6 +11,8 @@ BYTE_COLON = bytes(":", encoding="utf8")  # 112
 CONFIG_PATH = "config.csv"
 FINGERPRINTS_PATH = "accesspoints.pkl"
 FID = 'fingerprint_id'
+COLUMNS = ['fingerprint',
+           'x-pos', 'y-pos', 'ssid', 'bssidd', 'signal_strength', 'frequency_standard','location_name']
 
 
 class Accesspoint:
@@ -65,16 +67,11 @@ if __name__ == "__main__":
             print("saving fingerprints")
             if os.path.isfile(FINGERPRINTS_PATH):
                 df = pd.read_pickle(FINGERPRINTS_PATH)
-                df2 = pd.DataFrame(fingerprints, columns=['fingerprint',
-                                                          'x-pos', 'y-pos', 'ssid', 'bssidd', 'signal_strength', 'frequency_standard'])
+                df2 = pd.DataFrame(fingerprints, columns=COLUMNS)
                 df = pd.concat([df, df2], axis=0)
-                # print(df.head(50))
-                # df = pd.concat([df, pd.DataFrame(fingerprints, columns=['fingerprint',
-                #                                                         'x-pos', 'y-pos', 'ssid', 'bssidd', 'signal_strength', 'frequency_standard'])], axis=0, ignore_index=True)
             else:
                 print(FINGERPRINTS_PATH, "is not a file")
-                df = pd.DataFrame(fingerprints, columns=['fingerprint',
-                                                         'x-pos', 'y-pos', 'ssid', 'bssidd', 'signal_strength', 'frequency_standard'])
+                df = pd.DataFrame(fingerprints, columns=COLUMNS)
             if os.path.isfile(FINGERPRINTS_PATH):
                 os.remove(FINGERPRINTS_PATH)
             df.to_pickle(FINGERPRINTS_PATH)
@@ -87,13 +84,12 @@ if __name__ == "__main__":
             config_df.to_csv(CONFIG_PATH)
         elif befehl == "ssss" or befehl == "save":
             print("saving fingerprints")
-            df = pd.DataFrame(fingerprints, columns=['fingerprint',
-                                                     'x-pos', 'y-pos', 'ssid', 'bssidd', 'signal_strength', 'frequency_standard'])
+            df = pd.DataFrame(fingerprints, columns=COLUMNS)
             # print(df.head())
             df.to_pickle(FINGERPRINTS_PATH)
         elif befehl == "l" or befehl == "locate":
             print("locating with fingerprints=", fingerprint_number)
-            knn_func(FINGERPRINTS_PATH,fingerprint_number)
+            knn_func(FINGERPRINTS_PATH, fingerprint_number)
         elif befehl == "x" or befehl == "exit":
             print("exiting...")
             break

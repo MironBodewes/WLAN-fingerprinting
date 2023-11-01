@@ -44,6 +44,7 @@ def scan_func(fingerprint_number: int, locate=False, debug=False) -> list:
     async_obj = WiFiAdapter.scan_async(wifi_adapter)
     while (async_obj.status == False):  # TODO
         time.sleep(0.001)
+        
     # reading the available networks
     results = subprocess.check_output(
         ["netsh", "wlan", "show", "network", "mode=Bssid"])

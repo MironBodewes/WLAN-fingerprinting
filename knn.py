@@ -5,10 +5,13 @@ import pandas as pd
 import sklearn.preprocessing as oh
 from scan import scan_func
 #########
-INDEX=0
-POS_FINGERPRINT=0
-POS_BSSID=4
-POS_SIGNAL=5
+INDEX = 0
+INDEX_FINGERPRINT = 0
+INDEX_XPOS = 1
+INDEX_YPOS = 2
+INDEX_BSSID = 4
+INDEX_SIGNAL = 5
+
 
 def calculate_something():
     pass
@@ -25,20 +28,24 @@ def knn_func(path: str, amount_of_fingerprints: int):
     current_position_scan = scan_func(amount_of_fingerprints, locate=True)
     current_pos_dict = {}
     for ap in current_position_scan:
-        current_pos_dict[ap[POS_BSSID]] = ap[POS_SIGNAL]
+        current_pos_dict[ap[INDEX_BSSID]] = ap[INDEX_SIGNAL]
     print("current_pos_dict=", current_pos_dict)
 
     list_of_dicts = []
+    fingerprint_location_map = {}
     for i in range(amount_of_fingerprints):
         list_of_dicts.append({})
 
-    # filling the list of dicts
+    # filling the list of dicts and the fingerprint_location_map
     for i in range(df_len):
-        index = df.iloc[i, POS_FINGERPRINT]
-        keyname = df.iloc[i, POS_BSSID]
-        value = df.iloc[i, POS_SIGNAL]
+        fingerprint_location_map[df.iloc[i, INDEX_FINGERPRINT]] = df.iloc[i,
+                                                                          INDEX_XPOS], df.iloc[i, INDEX_YPOS]
+        index = df.iloc[i, INDEX_FINGERPRINT]
+        keyname = df.iloc[i, INDEX_BSSID]
+        value = df.iloc[i, INDEX_SIGNAL]
         list_of_dicts[index][keyname] = value
-        print(df.iloc[i, POS_FINGERPRINT], " ", df.iloc[i, POS_BSSID], " ", df.iloc[i, POS_SIGNAL])
+        print(df.iloc[i, INDEX_FINGERPRINT], " ",
+              df.iloc[i, INDEX_BSSID], " ", df.iloc[i, INDEX_SIGNAL])
 
     # TODO only use 2.4 GHz (802.11n)
     # TODO use knn instead of mean square?
@@ -69,18 +76,18 @@ def knn_func(path: str, amount_of_fingerprints: int):
 
     print("meansquarebla=\n", myndarray)
     means = []
-   
+
     for thing in myndarray:
         means.append(np.mean(thing))
-    minimum=means[0]
-    
+    minimum = abs(means[0])
+
     for i in range(len(means)):
-        if(abs(means[i])<minimum):
-            minimum=means[i]
-            minindex=i
+        if (abs(means[i]) < minimum):
+            minimum = means[i]
+            minindex = i
     print(means)
     print(minimum)
-    print(df.iloc[:,minindex])
+    print("current location=", fingerprint_location_map[minindex])
     # print("mylist=", mylist)
 
     training_data = df.iloc[:, :]  # 20% used as training data
@@ -89,7 +96,8 @@ def knn_func(path: str, amount_of_fingerprints: int):
     # print(x_train)
     # print(y_train)
 
+
     # knn = neighbors.KNeighborsClassifier(
     #     n_neighbors=1).fit(X_train, Y_train)
 if __name__ == "__main__":
-    knn_func("accesspoints.pkl", 3)
+    knn_func("accesspoints.pkl", 2)
