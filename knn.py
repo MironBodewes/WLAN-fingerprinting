@@ -5,30 +5,28 @@ import pandas as pd
 import sklearn.preprocessing as oh
 from scan import scan_func
 #########
-
+INDEX=0
+POS_FINGERPRINT=0
+POS_BSSID=4
+POS_SIGNAL=5
 
 def calculate_something():
     pass
 
 
-def knn_func(amount_of_fingerprints: int):
+def knn_func(path: str, amount_of_fingerprints: int):
     HIGHEST_AMOUNT_OF_ACCESSPOINTS_IN_A_FINGERPRINT = 17  # TODO
     HIGH = HIGHEST_AMOUNT_OF_ACCESSPOINTS_IN_A_FINGERPRINT
 
-    df = pd.read_csv('accesspoints.csv', sep=';',
-                     encoding='ascii', engine='python')
+    df = pd.read_pickle(path)
     df_len = len(df)
     print("df.head()=", df.head())
     twenty_percent = int(0.2*df_len)
-    # df = pd.DataFrame.sample(df, leny)
-    # print(twenty_percent)
-    # print(df.iloc[:, 0])
     current_position_scan = scan_func(amount_of_fingerprints, locate=True)
     current_pos_dict = {}
     for ap in current_position_scan:
-        current_pos_dict[ap[4]] = ap[5]
+        current_pos_dict[ap[POS_BSSID]] = ap[POS_SIGNAL]
     print("current_pos_dict=", current_pos_dict)
-
 
     list_of_dicts = []
     for i in range(amount_of_fingerprints):
@@ -36,18 +34,11 @@ def knn_func(amount_of_fingerprints: int):
 
     # filling the list of dicts
     for i in range(df_len):
-        index = df.iloc[i, 1]
-        keyname = df.iloc[i, 5]
-        value = df.iloc[i, 6]
-        print(type(list_of_dicts[1]))
-        # list_of_dicts[index][keyname] = value
-        foobar = list_of_dicts[index]
-        foobar[keyname] = value
-        print(df.iloc[i, 1], " ", df.iloc[i, 5], " ", df.iloc[i, 6])
-    # for i in range(df_len):
-    #     if (df.iloc[i, 1] == 1):
-    #         # column 5 has bssidd, 6 has signal strength
-    #         mydict[df.iloc[i, 5]] = df.iloc[i, 6]
+        index = df.iloc[i, POS_FINGERPRINT]
+        keyname = df.iloc[i, POS_BSSID]
+        value = df.iloc[i, POS_SIGNAL]
+        list_of_dicts[index][keyname] = value
+        print(df.iloc[i, POS_FINGERPRINT], " ", df.iloc[i, POS_BSSID], " ", df.iloc[i, POS_SIGNAL])
 
     # TODO only use 2.4 GHz (802.11n)
     # TODO use knn instead of mean square?
@@ -63,26 +54,34 @@ def knn_func(amount_of_fingerprints: int):
     #
     #
     #
-    print(list_of_dicts)
-    for i in range(len(list_of_dicts)):
-        print(list_of_dicts[i])
+    # print(list_of_dicts)
+    # for i in range(len(list_of_dicts)):
+    # print(list_of_dicts[i])
     for i in range(len(list_of_dicts)):
         j = 0
         for key in current_pos_dict:
             try:
                 myndarray[i, j] = current_pos_dict[key]-list_of_dicts[i][key]
                 mylist.append(current_pos_dict[key]-list_of_dicts[i][key])
-            except KeyError:  # "tis fine, trust me"
+            except KeyError:  # "tis fine, trust me" # TODO
                 pass
             j += 1
 
-    # for key in current_pos_dict:
-    #     try:
-    #         mylist.append(current_pos_dict[key]-mydict[key])
-    #     except KeyError:
-    #         pass
     print("meansquarebla=\n", myndarray)
-    print("mylist=", mylist)
+    means = []
+   
+    for thing in myndarray:
+        means.append(np.mean(thing))
+    minimum=means[0]
+    
+    for i in range(len(means)):
+        if(abs(means[i])<minimum):
+            minimum=means[i]
+            minindex=i
+    print(means)
+    print(minimum)
+    print(df.iloc[:,minindex])
+    # print("mylist=", mylist)
 
     training_data = df.iloc[:, :]  # 20% used as training data
     x_train = training_data.iloc[:, 6]
@@ -93,4 +92,4 @@ def knn_func(amount_of_fingerprints: int):
     # knn = neighbors.KNeighborsClassifier(
     #     n_neighbors=1).fit(X_train, Y_train)
 if __name__ == "__main__":
-    knn_func(3)
+    knn_func("accesspoints.pkl", 3)
