@@ -32,9 +32,13 @@ def scan_func(fingerprint_number: int, locate=False, debug=False) -> list:
     WiFiAdapter.request_access_async()
     x_coordinate=None
     y_coordinate=None
+    location_name=None
     if locate == False:
-        x_coordinate = input("x-Koordinate?")
-        y_coordinate = input("y-Koordinate?")
+        # x_coordinate = input("x-Koordinate?")
+        # y_coordinate = input("y-Koordinate?")
+        location_name=input("Where are you? ")
+
+    # asking windows for a scan
     wifi_adapter = WiFiAdapter.find_all_adapters_async()
     while (True):  # TODO
         if (wifi_adapter.status == True):
@@ -44,7 +48,7 @@ def scan_func(fingerprint_number: int, locate=False, debug=False) -> list:
     async_obj = WiFiAdapter.scan_async(wifi_adapter)
     while (async_obj.status == False):  # TODO
         time.sleep(0.001)
-        
+
     # reading the available networks
     results = subprocess.check_output(
         ["netsh", "wlan", "show", "network", "mode=Bssid"])
@@ -94,5 +98,6 @@ def scan_func(fingerprint_number: int, locate=False, debug=False) -> list:
         accesspoint.append(ap.bssidd)
         accesspoint.append(ap.signal_strength)
         accesspoint.append(ap.frequency_standard)
+        accesspoint.append(location_name)
         fingerprint.append(accesspoint)
     return fingerprint

@@ -67,8 +67,8 @@ if __name__ == "__main__":
             print("saving fingerprints")
             if os.path.isfile(FINGERPRINTS_PATH):
                 df = pd.read_pickle(FINGERPRINTS_PATH)
-                df2 = pd.DataFrame(fingerprints, columns=COLUMNS)
-                df = pd.concat([df, df2], axis=0)
+                df_new = pd.DataFrame(fingerprints, columns=COLUMNS)
+                df = pd.concat([df, df_new], axis=0)
             else:
                 print(FINGERPRINTS_PATH, "is not a file")
                 df = pd.DataFrame(fingerprints, columns=COLUMNS)
