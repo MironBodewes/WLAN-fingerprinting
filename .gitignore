@@ -1,7 +1,12 @@
 .project
 .pydevproject
 *.py[c|d]
-__pycache__
+__pycache__/*
 *.egg-info
 dist/
 build/
+__pycache__/knn.cpython-311.pyc
+__pycache__/scan.cpython-311.pyc
+accesspoints.pkl
+accesspoints.pkl.aurich
+__pycache__/knn.cpython-311.pyc
