@@ -20,12 +20,12 @@ def calculate_something():
 
 
 def knn_func(path: str, amount_of_fingerprints: int):
-    HIGHEST_AMOUNT_OF_ACCESSPOINTS_IN_A_FINGERPRINT = 34  # TODO
+    HIGHEST_AMOUNT_OF_ACCESSPOINTS_IN_A_FINGERPRINT = 100  # TODO
     HIGH = HIGHEST_AMOUNT_OF_ACCESSPOINTS_IN_A_FINGERPRINT
 
     df = pd.read_pickle(path)
     df_len = len(df)
-    print("df.head()=", df.head())
+    print("df.head()=\n", df.head(500))
     twenty_percent = int(0.2*df_len)
     current_position_scan = scan_func(amount_of_fingerprints, locate=True)
     current_pos_dict = {}
@@ -78,14 +78,17 @@ def knn_func(path: str, amount_of_fingerprints: int):
                 score_array2[i, j] = abs((
                     current_pos_dict[key]-list_of_dicts[i][key])**2)
                 mylist.append(current_pos_dict[key]-list_of_dicts[i][key])
-                accesspoint_matches[i] += 1
+                if(i not in accesspoint_matches):
+                    accesspoint_matches[i] = 1
+                else:
+                    accesspoint_matches[i] +=1
             except KeyError:  # "tis fine, trust me" # TODO
                 pass
                 # accesspint_nonmatches[i]+=1
             j += 1
     print("ap matches=", accesspoint_matches)
-    print("scores=\n", score_array)
-    print("scores2=\n", score_array2)
+    #print("scores=\n", score_array)
+    #print("scores2=\n", score_array2)
     means = []
 
     for score in score_array:
@@ -98,20 +101,20 @@ def knn_func(path: str, amount_of_fingerprints: int):
             minimum = abs(means[i])
             minindex = i
 
-    # print(means)
+    print(means)
     print("minimum=", minimum, "minindex=", minindex)
     print("current location=", fingerprint_location_map[minindex])
     # print("mylist=", mylist)
 
     # knn
     # TODO reshape this so that every accesspoint-signal_strength is a new feature
-    x_train, x_test, y_train, y_test = train_test_split(
-        df.iloc[INDEX_FINGERPRINT], df.iloc[INDEX_LOCATION])
+    # x_train, x_test, y_train, y_test = train_test_split(
+    #     df.iloc[INDEX_FINGERPRINT], df.iloc[INDEX_LOCATION])
 
     # print(x_train)
     # print(y_train)
-    knn = neighbors.KNeighborsClassifier(
-        n_neighbors=1).fit(x_train, y_train)
+    # knn = neighbors.KNeighborsClassifier(
+    #     n_neighbors=1).fit(x_train, y_train)
 
 
 if __name__ == "__main__":

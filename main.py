@@ -75,6 +75,7 @@ if __name__ == "__main__":
             if os.path.isfile(FINGERPRINTS_PATH):
                 os.remove(FINGERPRINTS_PATH)
             df.to_pickle(FINGERPRINTS_PATH)
+            df.to_csv("aps.csv",sep=";")
 
             # cleanup
             mylist = []  # I only know how to make a df out of a list # TODO

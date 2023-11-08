@@ -1,0 +1,571 @@
+;fingerprint;x-pos;y-pos;ssid;bssidd;signal_strength;frequency_standard;location_name
+0;0;;;b'wlan4things';b'f4:db:e6:f1:ba:87';60;b'802.11ac';s117
+1;0;;;b'wlan4things';b'a8:9d:21:cc:14:66';33;b' 802.11n';s117
+2;0;;;b'wlan4things';b'00:be:75:e8:7d:86';46;b' 802.11n';s117
+3;0;;;b'wlan4things';b'00:be:75:e8:84:86';31;b' 802.11n';s117
+4;0;;;b'wlan4things';b'00:be:75:e7:7a:e9';40;b'802.11ac';s117
+5;0;;;b'wlan4things';b'f4:db:e6:f1:ba:88';62;b' 802.11n';s117
+6;0;;;b'wlan4things';b'00:be:75:e8:7d:89';40;b'802.11ac';s117
+7;0;;;b'wlan4things';b'00:be:75:e7:7a:e6';46;b' 802.11n';s117
+8;0;;;b'MCTIoT';b'9c:5c:8e:c9:b6:24';40;b' 802.11n';s117
+9;0;;;b'NETGEAR46';b'2c:30:33:34:6d:30';31;b' 802.11n';s117
+10;0;;;"b""Dana's Galaxy S21+ 5G""";b'42:10:ef:5d:46:a0';31;b' 802.11n';s117
+11;0;;;b'eduroam';b'00:be:75:e8:7d:8f';40;b'802.11ac';s117
+12;0;;;b'eduroam';b'f4:db:e6:f1:ba:88';60;b'802.11ac';s117
+13;0;;;b'eduroam';b'a8:9d:21:cc:14:60';33;b' 802.11n';s117
+14;0;;;b'eduroam';b'f4:db:e6:f1:ba:87';70;b' 802.11n';s117
+15;0;;;b'eduroam';b'00:be:75:e7:7a:e0';50;b' 802.11n';s117
+16;0;;;b'eduroam';b'00:be:75:e7:7a:ef';40;b'802.11ac';s117
+17;0;;;b'';b'00:be:75:e8:84:85';31;b' 802.11n';s117
+18;0;;;b'';b'00:be:75:e8:7d:85';46;b' 802.11n';s117
+19;0;;;b'';b'f4:db:e6:f1:ba:84';70;b' 802.11n';s117
+20;0;;;b'';b'a8:9d:21:cc:14:63';31;b' 802.11n';s117
+21;0;;;b'';b'00:be:75:e7:7a:e5';50;b' 802.11n';s117
+22;0;;;b'';b'f4:db:e6:f1:ba:8b';57;b'802.11ac';s117
+23;0;;;b'';b'00:be:75:e7:7a:ec';40;b'802.11ac';s117
+24;0;;;b'';b'a8:9d:21:cc:14:65';33;b' 802.11n';s117
+25;0;;;b'';b'00:be:75:e7:7a:e3';50;b' 802.11n';s117
+26;0;;;b'HUAWEI P30 Lukas ';b'f2:dd:a1:7d:6e:ee';31;b'802.11ac';s117
+27;0;;;b'Airport S02-S03';b'00:1b:63:2b:ef:c3';31;b' 802.11n';s117
+28;0;;;b'MCTGuest';b'9c:5c:8e:c9:b6:25';31;b' 802.11n';s117
+29;0;;;b'ETW';b'1c:61:b4:79:5a:ee';31;b'802.11ax';s117
+30;0;;;b'rn2';b'38:4b:76:c8:0c:a9';62;b' 802.11n';s117
+31;0;;;b'SensingFeeling';b'34:81:c4:36:17:56';70;b' 802.11n';s117
+32;0;;;b'SensingFeeling';b'34:81:c4:36:17:57';62;b'802.11ac';s117
+33;0;;;b'mcssid';b'50:c7:bf:43:ee:45';31;b' 802.11n';s117
+34;1;;;b'wlan4things';b'f4:db:e6:f1:ba:87';65;b'802.11ac';s117
+35;1;;;b'wlan4things';b'a8:9d:21:cc:14:66';31;b' 802.11n';s117
+36;1;;;b'wlan4things';b'00:be:75:e8:7d:86';46;b' 802.11n';s117
+37;1;;;b'wlan4things';b'00:be:75:e8:84:86';31;b' 802.11n';s117
+38;1;;;b'wlan4things';b'00:be:75:e7:7a:e9';40;b'802.11ac';s117
+39;1;;;b'wlan4things';b'f4:db:e6:f1:ba:88';78;b' 802.11n';s117
+40;1;;;b'wlan4things';b'00:be:75:e8:7d:89';40;b'802.11ac';s117
+41;1;;;b'wlan4things';b'00:be:75:e7:7a:e6';31;b' 802.11n';s117
+42;1;;;b'MCTIoT';b'9c:5c:8e:c9:b6:24';31;b' 802.11n';s117
+43;1;;;b'NETGEAR46';b'2c:30:33:34:6d:30';31;b' 802.11n';s117
+44;1;;;"b""Dana's Galaxy S21+ 5G""";b'42:10:ef:5d:46:a0';31;b' 802.11n';s117
+45;1;;;b'eduroam';b'00:be:75:e8:7d:8f';40;b'802.11ac';s117
+46;1;;;b'eduroam';b'f4:db:e6:f1:ba:88';65;b'802.11ac';s117
+47;1;;;b'eduroam';b'a8:9d:21:cc:14:60';33;b' 802.11n';s117
+48;1;;;b'eduroam';b'f4:db:e6:f1:ba:87';80;b' 802.11n';s117
+49;1;;;b'eduroam';b'00:be:75:e7:7a:e0';57;b' 802.11n';s117
+50;1;;;b'eduroam';b'00:be:75:e7:7a:ef';40;b'802.11ac';s117
+51;1;;;b'';b'00:be:75:e8:84:85';31;b' 802.11n';s117
+52;1;;;b'';b'00:be:75:e8:7d:85';46;b' 802.11n';s117
+53;1;;;b'';b'f4:db:e6:f1:ba:84';75;b' 802.11n';s117
+54;1;;;b'';b'a8:9d:21:cc:14:63';31;b' 802.11n';s117
+55;1;;;b'';b'00:be:75:e7:7a:e5';46;b' 802.11n';s117
+56;1;;;b'';b'f4:db:e6:f1:ba:8b';57;b'802.11ac';s117
+57;1;;;b'';b'00:be:75:e7:7a:ec';40;b'802.11ac';s117
+58;1;;;b'';b'a8:9d:21:cc:14:65';33;b' 802.11n';s117
+59;1;;;b'';b'00:be:75:e7:7a:e3';50;b' 802.11n';s117
+60;1;;;b'HUAWEI P30 Lukas ';b'f2:dd:a1:7d:6e:ee';31;b'802.11ac';s117
+61;1;;;b'Airport S02-S03';b'00:1b:63:2b:ef:c3';40;b' 802.11n';s117
+62;1;;;b'MCTGuest';b'9c:5c:8e:c9:b6:25';31;b' 802.11n';s117
+63;1;;;b'ETW';b'1c:61:b4:79:5a:ee';31;b'802.11ax';s117
+64;1;;;b'rn2';b'38:4b:76:c8:0c:a9';72;b' 802.11n';s117
+65;1;;;b'SmartHomeMctIoT';b'30:5a:3a:68:dc:c0';40;b' 802.11n';s117
+66;1;;;b'SensingFeeling';b'34:81:c4:36:17:56';82;b' 802.11n';s117
+67;1;;;b'SensingFeeling';b'34:81:c4:36:17:57';60;b'802.11ac';s117
+68;1;;;b'mcssid';b'50:c7:bf:43:ee:45';33;b' 802.11n';s117
+69;2;;;b'wlan4things';b'f4:db:e6:f1:ba:87';43;b'802.11ac';s117
+70;2;;;b'wlan4things';b'a8:9d:21:cc:14:66';31;b' 802.11n';s117
+71;2;;;b'wlan4things';b'00:be:75:e8:7d:86';46;b' 802.11n';s117
+72;2;;;b'wlan4things';b'00:be:75:e8:84:86';31;b' 802.11n';s117
+73;2;;;b'wlan4things';b'00:be:75:e7:7a:e9';40;b'802.11ac';s117
+74;2;;;b'wlan4things';b'f4:db:e6:f1:ba:88';72;b' 802.11n';s117
+75;2;;;b'wlan4things';b'dc:8c:37:65:19:48';31;b' 802.11n';s117
+76;2;;;b'wlan4things';b'00:be:75:e8:7d:89';40;b'802.11ac';s117
+77;2;;;b'wlan4things';b'00:be:75:e7:7a:e6';50;b' 802.11n';s117
+78;2;;;b'MCTIoT';b'9c:5c:8e:c9:b6:24';40;b' 802.11n';s117
+79;2;;;b'NETGEAR46';b'2c:30:33:34:6d:30';31;b' 802.11n';s117
+80;2;;;"b""Dana's Galaxy S21+ 5G""";b'42:10:ef:5d:46:a0';31;b' 802.11n';s117
+81;2;;;b'eduroam';b'00:be:75:e8:7d:8f';40;b'802.11ac';s117
+82;2;;;b'eduroam';b'f4:db:e6:f1:ba:88';43;b'802.11ac';s117
+83;2;;;b'eduroam';b'a8:9d:21:cc:14:60';33;b' 802.11n';s117
+84;2;;;b'eduroam';b'f4:db:e6:f1:ba:87';80;b' 802.11n';s117
+85;2;;;b'eduroam';b'00:be:75:e7:7a:e0';53;b' 802.11n';s117
+86;2;;;b'eduroam';b'00:be:75:e7:7a:ef';40;b'802.11ac';s117
+87;2;;;b'';b'00:be:75:e8:84:85';31;b' 802.11n';s117
+88;2;;;b'';b'00:be:75:e8:7d:85';65;b' 802.11n';s117
+89;2;;;b'';b'f4:db:e6:f1:ba:84';75;b' 802.11n';s117
+90;2;;;b'';b'a8:9d:21:cc:14:63';31;b' 802.11n';s117
+91;2;;;b'';b'00:be:75:e7:7a:e5';46;b' 802.11n';s117
+92;2;;;b'';b'f4:db:e6:f1:ba:8b';57;b'802.11ac';s117
+93;2;;;b'';b'a8:9d:21:cc:14:65';33;b' 802.11n';s117
+94;2;;;b'';b'00:be:75:e7:7a:e3';50;b' 802.11n';s117
+95;2;;;b'Airport S02-S03';b'00:1b:63:2b:ef:c3';33;b' 802.11n';s117
+96;2;;;b'MCTGuest';b'9c:5c:8e:c9:b6:25';40;b' 802.11n';s117
+97;2;;;b'ETW';b'1c:61:b4:79:5a:ee';31;b'802.11ax';s117
+98;2;;;b'rn2';b'38:4b:76:c8:0c:a9';40;b' 802.11n';s117
+99;2;;;b'SmartHomeMctIoT';b'30:5a:3a:68:dc:c0';43;b' 802.11n';s117
+100;2;;;b'SensingFeeling';b'34:81:c4:36:17:56';82;b' 802.11n';s117
+101;2;;;b'SensingFeeling';b'34:81:c4:36:17:57';82;b'802.11ac';s117
+102;2;;;b'mcssid';b'50:c7:bf:43:ee:45';46;b' 802.11n';s117
+103;3;;;b'wlan4things';b'f4:db:e6:f1:ba:87';81;b'802.11ac';s100flur
+104;3;;;b'wlan4things';b'a8:9d:21:cc:14:66';31;b' 802.11n';s100flur
+105;3;;;b'wlan4things';b'00:be:75:e8:7d:86';46;b' 802.11n';s100flur
+106;3;;;b'wlan4things';b'00:be:75:e8:84:86';33;b' 802.11n';s100flur
+107;3;;;b'wlan4things';b'00:be:75:e7:7a:e9';53;b'802.11ac';s100flur
+108;3;;;b'wlan4things';b'f4:db:e6:f1:ba:88';81;b' 802.11n';s100flur
+109;3;;;b'wlan4things';b'dc:8c:37:65:19:48';31;b' 802.11n';s100flur
+110;3;;;b'wlan4things';b'00:be:75:e8:7d:89';40;b'802.11ac';s100flur
+111;3;;;b'wlan4things';b'00:be:75:e7:7a:e6';50;b' 802.11n';s100flur
+112;3;;;b'eduroam';b'00:be:75:e8:84:80';31;b' 802.11n';s100flur
+113;3;;;b'eduroam';b'00:be:75:e8:7d:8f';40;b'802.11ac';s100flur
+114;3;;;b'eduroam';b'f4:db:e6:f1:ba:88';81;b'802.11ac';s100flur
+115;3;;;b'eduroam';b'a8:9d:21:cc:14:60';31;b' 802.11n';s100flur
+116;3;;;b'eduroam';b'f4:db:e6:f1:ba:87';85;b' 802.11n';s100flur
+117;3;;;b'eduroam';b'00:be:75:e7:7a:e0';57;b' 802.11n';s100flur
+118;3;;;b'eduroam';b'00:be:75:e7:7a:ef';53;b'802.11ac';s100flur
+119;3;;;b'MCTIoT';b'9c:5c:8e:c9:b6:24';31;b' 802.11n';s100flur
+120;3;;;b'NETGEAR46';b'2c:30:33:34:6d:30';31;b' 802.11n';s100flur
+121;3;;;"b""Dana's Galaxy S21+ 5G""";b'42:10:ef:5d:46:a0';31;b' 802.11n';s100flur
+122;3;;;b'';b'00:be:75:e8:84:85';33;b' 802.11n';s100flur
+123;3;;;b'';b'00:be:75:e8:7d:85';65;b' 802.11n';s100flur
+124;3;;;b'';b'f4:db:e6:f1:ba:84';82;b' 802.11n';s100flur
+125;3;;;b'';b'a8:9d:21:cc:14:63';31;b' 802.11n';s100flur
+126;3;;;b'';b'00:be:75:e7:7a:e5';46;b' 802.11n';s100flur
+127;3;;;b'';b'f4:db:e6:f1:ba:8b';57;b'802.11ac';s100flur
+128;3;;;b'';b'a8:9d:21:cc:14:65';31;b' 802.11n';s100flur
+129;3;;;b'';b'00:be:75:e7:7a:e3';50;b' 802.11n';s100flur
+130;3;;;b'HUAWEI P30 Lukas ';b'f2:dd:a1:7d:6e:ee';31;b'802.11ac';s100flur
+131;3;;;b'Airport S02-S03';b'00:1b:63:2b:ef:c3';57;b' 802.11n';s100flur
+132;3;;;b'MCTGuest';b'9c:5c:8e:c9:b6:25';31;b' 802.11n';s100flur
+133;3;;;b'DIRECT-2C-HP M428fdw LJ';b'4a:9e:bd:6c:b6:2c';40;b' 802.11n';s100flur
+134;3;;;b'ETW';b'1c:61:b4:79:5a:ee';31;b'802.11ax';s100flur
+135;3;;;b'rn2';b'38:4b:76:c8:0c:a9';75;b' 802.11n';s100flur
+136;3;;;b'SmartHomeMctIoT';b'30:5a:3a:68:dc:c0';31;b' 802.11n';s100flur
+137;3;;;b'SensingFeeling';b'34:81:c4:36:17:56';85;b' 802.11n';s100flur
+138;3;;;b'SensingFeeling';b'34:81:c4:36:17:57';81;b'802.11ac';s100flur
+139;3;;;b'mcssid';b'50:c7:bf:43:ee:45';31;b' 802.11n';s100flur
+140;4;;;b'wlan4things';b'f4:db:e6:f1:ba:87';80;b'802.11ac';vors102
+141;4;;;b'wlan4things';b'a8:9d:21:cc:14:66';31;b' 802.11n';vors102
+142;4;;;b'wlan4things';b'00:be:75:e8:7d:86';50;b' 802.11n';vors102
+143;4;;;b'wlan4things';b'00:be:75:e8:84:86';43;b' 802.11n';vors102
+144;4;;;b'wlan4things';b'84:78:ac:b8:b8:d6';46;b' 802.11n';vors102
+145;4;;;b'wlan4things';b'00:be:75:e7:7a:e9';65;b'802.11ac';vors102
+146;4;;;b'wlan4things';b'f4:db:e6:f1:ba:88';81;b' 802.11n';vors102
+147;4;;;b'wlan4things';b'dc:8c:37:65:19:48';31;b' 802.11n';vors102
+148;4;;;b'wlan4things';b'00:be:75:e8:7d:89';40;b'802.11ac';vors102
+149;4;;;b'wlan4things';b'00:be:75:e7:7a:e6';81;b' 802.11n';vors102
+150;4;;;b'eduroam';b'00:be:75:e8:84:80';31;b' 802.11n';vors102
+151;4;;;b'eduroam';b'00:be:75:e8:7d:8f';40;b'802.11ac';vors102
+152;4;;;b'eduroam';b'84:78:ac:b8:b8:d0';53;b' 802.11n';vors102
+153;4;;;b'eduroam';b'f4:db:e6:f1:ba:88';80;b'802.11ac';vors102
+154;4;;;b'eduroam';b'a8:9d:21:cc:14:60';31;b' 802.11n';vors102
+155;4;;;b'eduroam';b'f4:db:e6:f1:ba:87';81;b' 802.11n';vors102
+156;4;;;b'eduroam';b'00:be:75:e7:7a:e0';57;b' 802.11n';vors102
+157;4;;;b'eduroam';b'00:be:75:e7:7a:ef';70;b'802.11ac';vors102
+158;4;;;b'MCTIoT';b'9c:5c:8e:c9:b6:24';31;b' 802.11n';vors102
+159;4;;;b'';b'84:78:ac:b8:b8:d3';46;b' 802.11n';vors102
+160;4;;;b'';b'84:78:ac:b8:b8:dc';40;b' 802.11n';vors102
+161;4;;;b'';b'00:be:75:e8:84:85';40;b' 802.11n';vors102
+162;4;;;b'';b'00:be:75:e8:7d:85';50;b' 802.11n';vors102
+163;4;;;b'';b'ba:fb:e4:1f:0c:5c';40;b'802.11ac';vors102
+164;4;;;b'';b'f4:db:e6:f1:ba:84';85;b' 802.11n';vors102
+165;4;;;b'';b'70:db:98:a3:3c:44';33;b' 802.11n';vors102
+166;4;;;b'';b'a8:9d:21:cc:14:63';31;b' 802.11n';vors102
+167;4;;;b'';b'00:be:75:e8:7d:83';53;b' 802.11n';vors102
+168;4;;;b'';b'00:be:75:e7:7a:e5';81;b' 802.11n';vors102
+169;4;;;b'';b'f4:db:e6:f1:ba:8b';57;b'802.11ac';vors102
+170;4;;;b'';b'a8:9d:21:cc:14:65';31;b' 802.11n';vors102
+171;4;;;b'';b'00:be:75:e7:7a:e3';82;b' 802.11n';vors102
+172;4;;;b'NETGEAR46';b'2c:30:33:34:6d:30';31;b' 802.11n';vors102
+173;4;;;"b""Dana's Galaxy S21+ 5G""";b'42:10:ef:5d:46:a0';31;b' 802.11n';vors102
+174;4;;;b'HUAWEI P30 Lukas ';b'f2:dd:a1:7d:6e:ee';31;b'802.11ac';vors102
+175;4;;;b'Airport S02-S03';b'00:1b:63:2b:ef:c3';72;b' 802.11n';vors102
+176;4;;;b'MCTGuest';b'9c:5c:8e:c9:b6:25';31;b' 802.11n';vors102
+177;4;;;b'DIRECT-2C-HP M428fdw LJ';b'4a:9e:bd:6c:b6:2c';40;b' 802.11n';vors102
+178;4;;;b'ETW';b'1c:61:b4:79:5a:ee';31;b'802.11ax';vors102
+179;4;;;b'rn2';b'38:4b:76:c8:0c:a9';72;b' 802.11n';vors102
+180;4;;;b'SmartHomeMctIoT';b'30:5a:3a:68:dc:c0';38;b' 802.11n';vors102
+181;4;;;b'SensingFeeling';b'34:81:c4:36:17:56';86;b' 802.11n';vors102
+182;4;;;b'SensingFeeling';b'34:81:c4:36:17:57';87;b'802.11ac';vors102
+183;4;;;b'mcssid';b'50:c7:bf:43:ee:45';38;b' 802.11n';vors102
+0;5;;;b'ausy_s105_5ghz';b'30:b5:c2:7f:87:18';40;b'802.11ac';vors116
+1;5;;;b'vcg-Airport';b'90:72:40:12:a2:50';31;b' 802.11n';vors116
+2;5;;;b'wlan4things';b'00:2c:c8:50:a0:f6';31;b' 802.11n';vors116
+3;5;;;b'wlan4things';b'f4:db:e6:f1:ba:87';43;b'802.11ac';vors116
+4;5;;;b'wlan4things';b'a8:9d:21:cc:14:66';31;b' 802.11n';vors116
+5;5;;;b'wlan4things';b'00:be:75:e8:7d:86';60;b' 802.11n';vors116
+6;5;;;b'wlan4things';b'00:be:75:e8:84:86';53;b' 802.11n';vors116
+7;5;;;b'wlan4things';b'00:be:75:e7:7a:e9';85;b'802.11ac';vors116
+8;5;;;b'wlan4things';b'f4:db:e6:f1:ba:88';81;b' 802.11n';vors116
+9;5;;;b'wlan4things';b'84:78:ac:b8:b8:d9';40;b' 802.11n';vors116
+10;5;;;b'wlan4things';b'00:be:75:e8:7d:89';40;b'802.11ac';vors116
+11;5;;;b'wlan4things';b'00:be:75:e7:7a:e6';81;b' 802.11n';vors116
+12;5;;;b'ausy_s105_gast';b'36:b5:c2:7f:87:19';35;b' 802.11n';vors116
+13;5;;;b'eduroam';b'74:a0:2f:a8:14:00';31;b' 802.11n';vors116
+14;5;;;b'eduroam';b'00:be:75:e8:84:80';43;b' 802.11n';vors116
+15;5;;;b'eduroam';b'00:be:75:e8:7d:80';70;b' 802.11n';vors116
+16;5;;;b'eduroam';b'00:be:75:e8:7d:8f';40;b'802.11ac';vors116
+17;5;;;b'eduroam';b'f4:db:e6:f1:ba:88';40;b'802.11ac';vors116
+18;5;;;b'eduroam';b'00:2c:c8:50:a0:f0';31;b' 802.11n';vors116
+19;5;;;b'eduroam';b'f4:db:e6:f1:ba:87';75;b' 802.11n';vors116
+20;5;;;b'eduroam';b'00:be:75:e7:7a:e0';60;b' 802.11n';vors116
+21;5;;;b'eduroam';b'00:be:75:e7:7a:ef';85;b'802.11ac';vors116
+22;5;;;b'ausy_s105';b'30:b5:c2:7f:87:19';40;b' 802.11n';vors116
+23;5;;;b'MCTIoT';b'9c:5c:8e:c9:b6:24';40;b' 802.11n';vors116
+24;5;;;b'';b'00:be:75:e8:84:85';53;b' 802.11n';vors116
+25;5;;;b'';b'00:2c:c8:50:a0:f3';31;b' 802.11n';vors116
+26;5;;;b'';b'00:be:75:e8:7d:85';46;b' 802.11n';vors116
+27;5;;;b'';b'f4:db:e6:f1:ba:84';75;b' 802.11n';vors116
+28;5;;;b'';b'70:db:98:a3:3c:44';50;b' 802.11n';vors116
+29;5;;;b'';b'00:be:75:e8:7d:83';46;b' 802.11n';vors116
+30;5;;;b'';b'00:be:75:e7:7a:e5';80;b' 802.11n';vors116
+31;5;;;b'';b'f4:db:e6:f1:ba:8b';65;b'802.11ac';vors116
+32;5;;;b'';b'a8:9d:21:cc:14:65';31;b' 802.11n';vors116
+33;5;;;b'';b'00:be:75:e7:7a:e3';53;b' 802.11n';vors116
+34;5;;;b'HUAWEI P30 Lukas ';b'f2:dd:a1:7d:6e:ee';31;b'802.11ac';vors116
+35;5;;;b'Airport S02-S03';b'00:1b:63:2b:ef:c3';43;b' 802.11n';vors116
+36;5;;;b'MCTGuest';b'9c:5c:8e:c9:b6:25';40;b' 802.11n';vors116
+37;5;;;b'rn2';b'38:4b:76:c8:0c:a9';80;b' 802.11n';vors116
+38;5;;;b'SmartHomeMctIoT';b'30:5a:3a:68:dc:c0';35;b' 802.11n';vors116
+39;5;;;b'SensingFeeling';b'34:81:c4:36:17:56';70;b' 802.11n';vors116
+40;5;;;b'SensingFeeling';b'34:81:c4:36:17:57';78;b'802.11ac';vors116
+41;5;;;b'mcssid';b'50:c7:bf:43:ee:45';33;b' 802.11n';vors116
+42;6;;;b'ausy_s105_5ghz';b'30:b5:c2:7f:87:18';40;b'802.11ac';vors103
+43;6;;;b'vcg-Airport';b'90:72:40:12:a2:50';31;b' 802.11n';vors103
+44;6;;;b'wlan4things';b'00:2c:c8:50:a0:f6';31;b' 802.11n';vors103
+45;6;;;b'wlan4things';b'f4:db:e6:db:56:88';31;b' 802.11n';vors103
+46;6;;;b'wlan4things';b'f4:db:e6:f1:ba:87';40;b'802.11ac';vors103
+47;6;;;b'wlan4things';b'a8:9d:21:cc:14:66';31;b' 802.11n';vors103
+48;6;;;b'wlan4things';b'00:be:75:e8:7d:86';31;b' 802.11n';vors103
+49;6;;;b'wlan4things';b'00:be:75:e8:84:86';62;b' 802.11n';vors103
+50;6;;;b'wlan4things';b'84:78:ac:b8:b8:d6';70;b' 802.11n';vors103
+51;6;;;b'wlan4things';b'00:be:75:e7:7a:e9';72;b'802.11ac';vors103
+52;6;;;b'wlan4things';b'f4:db:e6:f1:ba:88';81;b' 802.11n';vors103
+53;6;;;b'wlan4things';b'84:78:ac:b8:b8:d9';40;b' 802.11n';vors103
+54;6;;;b'wlan4things';b'00:be:75:e8:7d:89';40;b'802.11ac';vors103
+55;6;;;b'wlan4things';b'00:be:75:e7:7a:e6';80;b' 802.11n';vors103
+56;6;;;b'wlan4things';b'2c:5a:0f:09:9b:86';40;b' 802.11n';vors103
+57;6;;;b'ausy_s105_gast';b'36:b5:c2:7f:87:19';60;b' 802.11n';vors103
+58;6;;;b'eduroam';b'74:a0:2f:a8:14:00';31;b' 802.11n';vors103
+59;6;;;b'eduroam';b'00:be:75:e8:84:80';62;b' 802.11n';vors103
+60;6;;;b'eduroam';b'00:be:75:e8:7d:80';70;b' 802.11n';vors103
+61;6;;;b'eduroam';b'00:be:75:e8:7d:8f';40;b'802.11ac';vors103
+62;6;;;b'eduroam';b'84:78:ac:b8:b8:d0';67;b' 802.11n';vors103
+63;6;;;b'eduroam';b'f4:db:e6:f1:ba:88';40;b'802.11ac';vors103
+64;6;;;b'eduroam';b'2c:5a:0f:09:9b:80';43;b' 802.11n';vors103
+65;6;;;b'eduroam';b'00:2c:c8:50:a0:f0';31;b' 802.11n';vors103
+66;6;;;b'eduroam';b'a8:9d:21:cc:14:60';31;b' 802.11n';vors103
+67;6;;;b'eduroam';b'f4:db:e6:f1:ba:87';70;b' 802.11n';vors103
+68;6;;;b'eduroam';b'00:be:75:e7:7a:e0';72;b' 802.11n';vors103
+69;6;;;b'eduroam';b'00:be:75:e7:7a:ef';65;b'802.11ac';vors103
+70;6;;;b'ETW';b'b4:b0:24:c0:6f:c2';31;b'802.11ax';vors103
+71;6;;;b'ausy_s105';b'30:b5:c2:7f:87:19';62;b' 802.11n';vors103
+72;6;;;b'';b'84:78:ac:b8:b8:da';40;b' 802.11n';vors103
+73;6;;;b'';b'84:78:ac:b8:b8:d5';65;b' 802.11n';vors103
+74;6;;;b'';b'00:be:75:e8:84:85';53;b' 802.11n';vors103
+75;6;;;b'';b'00:2c:c8:50:a0:f3';31;b' 802.11n';vors103
+76;6;;;b'';b'00:be:75:e8:7d:85';46;b' 802.11n';vors103
+77;6;;;b'';b'70:db:98:a3:3c:44';50;b' 802.11n';vors103
+78;6;;;b'';b'00:be:75:e8:7d:83';46;b' 802.11n';vors103
+79;6;;;b'';b'00:be:75:e7:7a:e5';80;b' 802.11n';vors103
+80;6;;;b'';b'f4:db:e6:f1:ba:8b';65;b'802.11ac';vors103
+81;6;;;b'';b'a8:9d:21:cc:14:65';31;b' 802.11n';vors103
+82;6;;;b'';b'00:be:75:e7:7a:e3';53;b' 802.11n';vors103
+83;6;;;b'MCTIoT';b'9c:5c:8e:c9:b6:24';65;b' 802.11n';vors103
+84;6;;;b's4-secure';b'80:e8:6f:0a:53:ff';31;b' 802.11n';vors103
+85;6;;;b'S4';b'80:e8:6f:0a:53:fe';31;b' 802.11n';vors103
+86;6;;;b'HUAWEI P30 Lukas ';b'f2:dd:a1:7d:6e:ee';31;b'802.11ac';vors103
+87;6;;;b'Airport S02-S03';b'00:1b:63:2b:ef:c3';43;b' 802.11n';vors103
+88;6;;;b'MCTGuest';b'9c:5c:8e:c9:b6:25';40;b' 802.11n';vors103
+89;6;;;b'rn2';b'38:4b:76:c8:0c:a9';67;b' 802.11n';vors103
+90;6;;;b'SmartHomeMctIoT';b'30:5a:3a:68:dc:c0';35;b' 802.11n';vors103
+91;6;;;b'SensingFeeling';b'34:81:c4:36:17:56';60;b' 802.11n';vors103
+92;6;;;b'SensingFeeling';b'34:81:c4:36:17:57';53;b'802.11ac';vors103
+93;6;;;b'mcssid';b'50:c7:bf:43:ee:45';72;b' 802.11n';vors103
+94;7;;;b'DIRECT-x9-ITS-106-Airtame-24';b'3a:4b:76:8a:20:e8';40;b' 802.11n';vors104
+95;7;;;b'eduroam';b'f4:db:e6:db:56:88';40;b'802.11ac';vors104
+96;7;;;b'eduroam';b'f4:db:e6:db:56:87';46;b' 802.11n';vors104
+97;7;;;b'eduroam';b'74:a0:2f:a8:14:00';31;b' 802.11n';vors104
+98;7;;;b'eduroam';b'00:be:75:e8:84:80';31;b' 802.11n';vors104
+99;7;;;b'eduroam';b'00:be:75:e8:7d:80';70;b' 802.11n';vors104
+100;7;;;b'eduroam';b'00:be:75:e8:7d:8f';40;b'802.11ac';vors104
+101;7;;;b'eduroam';b'84:78:ac:b8:b8:d0';67;b' 802.11n';vors104
+102;7;;;b'eduroam';b'f4:db:e6:f1:ba:88';43;b'802.11ac';vors104
+103;7;;;b'eduroam';b'2c:5a:0f:09:9b:80';50;b' 802.11n';vors104
+104;7;;;b'eduroam';b'00:2c:c8:50:a0:f0';75;b' 802.11n';vors104
+105;7;;;b'eduroam';b'a8:9d:21:cc:14:60';31;b' 802.11n';vors104
+106;7;;;b'eduroam';b'f4:db:e6:f1:ba:87';31;b' 802.11n';vors104
+107;7;;;b'eduroam';b'00:be:75:e7:7a:e0';72;b' 802.11n';vors104
+108;7;;;b'eduroam';b'00:be:75:e7:7a:ef';40;b'802.11ac';vors104
+109;7;;;b'';b'84:78:ac:b8:b8:dc';40;b' 802.11n';vors104
+110;7;;;b'';b'74:a0:2f:a8:14:03';33;b' 802.11n';vors104
+111;7;;;b'';b'00:2c:c8:50:a0:fc';40;b'802.11ac';vors104
+112;7;;;b'';b'2c:5a:0f:09:9b:85';31;b' 802.11n';vors104
+113;7;;;b'';b'f4:db:e6:db:56:84';67;b' 802.11n';vors104
+114;7;;;b'';b'2c:5a:0f:09:9b:8a';40;b'802.11ac';vors104
+115;7;;;b'';b'84:78:ac:b8:b8:da';40;b' 802.11n';vors104
+116;7;;;b'';b'84:78:ac:b8:b8:d5';75;b' 802.11n';vors104
+117;7;;;b'';b'00:2c:c8:50:a0:f5';40;b' 802.11n';vors104
+118;7;;;b'';b'00:be:75:e8:84:85';53;b' 802.11n';vors104
+119;7;;;b'';b'00:2c:c8:50:a0:f3';31;b' 802.11n';vors104
+120;7;;;b'';b'00:be:75:e8:7d:85';31;b' 802.11n';vors104
+121;7;;;b'';b'f4:db:e6:f1:ba:84';31;b' 802.11n';vors104
+122;7;;;b'';b'70:db:98:a3:3c:44';50;b' 802.11n';vors104
+123;7;;;b'';b'00:be:75:e8:7d:83';46;b' 802.11n';vors104
+124;7;;;b'';b'00:be:75:e7:7a:e5';40;b' 802.11n';vors104
+125;7;;;b'';b'f4:db:e6:f1:ba:8b';65;b'802.11ac';vors104
+126;7;;;b'';b'84:78:ac:b8:b8:d3';70;b' 802.11n';vors104
+127;7;;;b'';b'a8:9d:21:cc:14:65';31;b' 802.11n';vors104
+128;7;;;b'';b'00:be:75:e7:7a:e3';53;b' 802.11n';vors104
+129;7;;;b'wlan4things';b'f4:db:e6:db:56:87';40;b'802.11ac';vors104
+130;7;;;b'wlan4things';b'00:2c:c8:50:a0:f6';31;b' 802.11n';vors104
+131;7;;;b'wlan4things';b'f4:db:e6:db:56:88';50;b' 802.11n';vors104
+132;7;;;b'wlan4things';b'f4:db:e6:f1:ba:87';40;b'802.11ac';vors104
+133;7;;;b'wlan4things';b'a8:9d:21:cc:14:66';31;b' 802.11n';vors104
+134;7;;;b'wlan4things';b'00:be:75:e8:7d:86';31;b' 802.11n';vors104
+135;7;;;b'wlan4things';b'00:be:75:e8:84:86';62;b' 802.11n';vors104
+136;7;;;b'wlan4things';b'84:78:ac:b8:b8:d6';65;b' 802.11n';vors104
+137;7;;;b'wlan4things';b'00:be:75:e7:7a:e9';40;b'802.11ac';vors104
+138;7;;;b'wlan4things';b'f4:db:e6:f1:ba:88';35;b' 802.11n';vors104
+139;7;;;b'wlan4things';b'84:78:ac:b8:b8:d9';40;b' 802.11n';vors104
+140;7;;;b'wlan4things';b'00:be:75:e8:7d:89';40;b'802.11ac';vors104
+141;7;;;b'wlan4things';b'00:be:75:e7:7a:e6';40;b' 802.11n';vors104
+142;7;;;b'wlan4things';b'2c:5a:0f:09:9b:86';57;b' 802.11n';vors104
+143;7;;;b'DIRECT-2C-HP M428fdw LJ';b'4a:9e:bd:6c:b6:2c';40;b' 802.11n';vors104
+144;7;;;b'ausy_s105_5ghz';b'30:b5:c2:7f:87:18';40;b'802.11ac';vors104
+145;7;;;b'vcg-Airport';b'90:72:40:12:a2:50';31;b' 802.11n';vors104
+146;7;;;b'ausy_s105_gast';b'36:b5:c2:7f:87:19';75;b' 802.11n';vors104
+147;7;;;b'ETW';b'b4:b0:24:c0:6f:c2';31;b'802.11ax';vors104
+148;7;;;b'ETW';b'1c:61:b4:79:5a:ee';31;b'802.11ax';vors104
+149;7;;;b'ausy_s105';b'30:b5:c2:7f:87:19';75;b' 802.11n';vors104
+150;7;;;b'MCTIoT';b'9c:5c:8e:c9:b6:24';65;b' 802.11n';vors104
+151;7;;;b's4-secure';b'80:e8:6f:0a:53:ff';60;b' 802.11n';vors104
+152;7;;;b'S4';b'80:e8:6f:0a:53:fe';46;b' 802.11n';vors104
+153;7;;;b'HUAWEI P30 Lukas ';b'f2:dd:a1:7d:6e:ee';31;b'802.11ac';vors104
+154;7;;;b'Airport S02-S03';b'00:1b:63:2b:ef:c3';43;b' 802.11n';vors104
+155;7;;;b'MCTGuest';b'9c:5c:8e:c9:b6:25';82;b' 802.11n';vors104
+156;7;;;b'rn2';b'38:4b:76:c8:0c:a9';72;b' 802.11n';vors104
+157;7;;;b'SmartHomeMctIoT';b'30:5a:3a:68:dc:c0';82;b' 802.11n';vors104
+158;7;;;b'SensingFeeling';b'34:81:c4:36:17:56';60;b' 802.11n';vors104
+159;7;;;b'SensingFeeling';b'34:81:c4:36:17:57';53;b'802.11ac';vors104
+160;7;;;b'mcssid';b'50:c7:bf:43:ee:45';84;b' 802.11n';vors104
+161;8;;;b'';b'2e:87:ba:b2:75:fe';31;b'802.11ax';vors115
+162;8;;;b'';b'00:be:75:e4:43:43';31;b' 802.11n';vors115
+163;8;;;b'';b'ba:fb:e4:1f:0c:5d';40;b'802.11ac';vors115
+164;8;;;b'';b'2c:5a:0f:09:9b:8c';40;b'802.11ac';vors115
+165;8;;;b'';b'00:be:75:e8:84:83';31;b' 802.11n';vors115
+166;8;;;b'';b'ba:fb:e4:1f:0c:5e';40;b' 802.11n';vors115
+167;8;;;b'';b'84:78:ac:b8:b8:dc';40;b' 802.11n';vors115
+168;8;;;b'';b'74:a0:2f:a8:14:03';31;b' 802.11n';vors115
+169;8;;;b'';b'00:2c:c8:50:a0:fc';40;b'802.11ac';vors115
+170;8;;;b'';b'2c:5a:0f:09:9b:85';31;b' 802.11n';vors115
+171;8;;;b'';b'f4:db:e6:db:56:84';67;b' 802.11n';vors115
+172;8;;;b'';b'2c:5a:0f:09:9b:8a';40;b'802.11ac';vors115
+173;8;;;b'';b'84:78:ac:b8:b8:da';40;b' 802.11n';vors115
+174;8;;;b'';b'84:78:ac:b8:b8:d5';57;b' 802.11n';vors115
+175;8;;;b'';b'00:2c:c8:50:a0:f5';40;b' 802.11n';vors115
+176;8;;;b'';b'00:be:75:e8:84:85';31;b' 802.11n';vors115
+177;8;;;b'';b'00:2c:c8:50:a0:f3';31;b' 802.11n';vors115
+178;8;;;b'';b'00:be:75:e8:7d:85';31;b' 802.11n';vors115
+179;8;;;b'';b'f4:db:e6:f1:ba:84';31;b' 802.11n';vors115
+180;8;;;b'';b'70:db:98:a3:3c:44';50;b' 802.11n';vors115
+181;8;;;b'';b'00:be:75:e8:7d:83';46;b' 802.11n';vors115
+182;8;;;b'';b'00:be:75:e7:7a:e5';40;b' 802.11n';vors115
+183;8;;;b'';b'f4:db:e6:f1:ba:8b';65;b'802.11ac';vors115
+184;8;;;b'';b'84:78:ac:b8:b8:d3';70;b' 802.11n';vors115
+185;8;;;b'';b'a8:9d:21:cc:14:65';31;b' 802.11n';vors115
+186;8;;;b'';b'00:be:75:e7:7a:e3';53;b' 802.11n';vors115
+187;8;;;b'Sungate';b'7c:dd:90:b8:6c:70';31;b' 802.11g';vors115
+188;8;;;b'DIRECT-x9-ITS-106-Airtame-24';b'3a:4b:76:8a:20:e8';40;b' 802.11n';vors115
+189;8;;;b'wlan4things';b'00:be:75:e4:43:46';31;b' 802.11n';vors115
+190;8;;;b'wlan4things';b'74:a0:2f:a8:14:06';31;b' 802.11n';vors115
+191;8;;;b'wlan4things';b'f4:db:e6:db:56:87';40;b'802.11ac';vors115
+192;8;;;b'wlan4things';b'00:2c:c8:50:a0:f6';35;b' 802.11n';vors115
+193;8;;;b'wlan4things';b'f4:db:e6:db:56:88';33;b' 802.11n';vors115
+194;8;;;b'wlan4things';b'f4:db:e6:f1:ba:87';40;b'802.11ac';vors115
+195;8;;;b'wlan4things';b'a8:9d:21:cc:14:66';31;b' 802.11n';vors115
+196;8;;;b'wlan4things';b'00:be:75:e8:7d:86';31;b' 802.11n';vors115
+197;8;;;b'wlan4things';b'00:be:75:e8:84:86';31;b' 802.11n';vors115
+198;8;;;b'wlan4things';b'84:78:ac:b8:b8:d6';57;b' 802.11n';vors115
+199;8;;;b'wlan4things';b'00:be:75:e7:7a:e9';40;b'802.11ac';vors115
+200;8;;;b'wlan4things';b'f4:db:e6:f1:ba:88';35;b' 802.11n';vors115
+201;8;;;b'wlan4things';b'84:78:ac:b8:b8:d9';40;b' 802.11n';vors115
+202;8;;;b'wlan4things';b'00:be:75:e8:7d:89';40;b'802.11ac';vors115
+203;8;;;b'wlan4things';b'00:be:75:e7:7a:e6';31;b' 802.11n';vors115
+204;8;;;b'wlan4things';b'2c:5a:0f:09:9b:86';75;b' 802.11n';vors115
+205;8;;;b'eduroam';b'f4:db:e6:db:56:88';40;b'802.11ac';vors115
+206;8;;;b'eduroam';b'f4:db:e6:db:56:87';33;b' 802.11n';vors115
+207;8;;;b'eduroam';b'74:a0:2f:a8:14:00';31;b' 802.11n';vors115
+208;8;;;b'eduroam';b'00:be:75:e8:84:80';31;b' 802.11n';vors115
+209;8;;;b'eduroam';b'00:be:75:e8:7d:80';70;b' 802.11n';vors115
+210;8;;;b'eduroam';b'00:be:75:e8:7d:8f';40;b'802.11ac';vors115
+211;8;;;b'eduroam';b'84:78:ac:b8:b8:d0';60;b' 802.11n';vors115
+212;8;;;b'eduroam';b'f4:db:e6:f1:ba:88';43;b'802.11ac';vors115
+213;8;;;b'eduroam';b'2c:5a:0f:09:9b:80';84;b' 802.11n';vors115
+214;8;;;b'eduroam';b'00:2c:c8:50:a0:f0';77;b' 802.11n';vors115
+215;8;;;b'eduroam';b'a8:9d:21:cc:14:60';31;b' 802.11n';vors115
+216;8;;;b'eduroam';b'f4:db:e6:f1:ba:87';31;b' 802.11n';vors115
+217;8;;;b'eduroam';b'00:be:75:e7:7a:e0';72;b' 802.11n';vors115
+218;8;;;b'eduroam';b'00:be:75:e7:7a:ef';40;b'802.11ac';vors115
+219;8;;;b'DIRECT-2C-HP M428fdw LJ';b'4a:9e:bd:6c:b6:2c';40;b' 802.11n';vors115
+220;8;;;b'ETW';b'28:87:ba:b2:75:fe';31;b'802.11ax';vors115
+221;8;;;b'ETW';b'b4:b0:24:c0:6f:c2';31;b'802.11ax';vors115
+222;8;;;b'ETW';b'1c:61:b4:79:5a:ee';31;b'802.11ax';vors115
+223;8;;;b'ausy_s105_5ghz';b'30:b5:c2:7f:87:18';62;b'802.11ac';vors115
+224;8;;;b'vcg-Airport';b'90:72:40:12:a2:50';31;b' 802.11n';vors115
+225;8;;;b'ausy_s105_gast';b'36:b5:c2:7f:87:19';84;b' 802.11n';vors115
+226;8;;;b'ausy_s105';b'30:b5:c2:7f:87:19';85;b' 802.11n';vors115
+227;8;;;b'MCTIoT';b'9c:5c:8e:c9:b6:24';70;b' 802.11n';vors115
+228;8;;;b's4-secure';b'80:e8:6f:0a:53:ff';60;b' 802.11n';vors115
+229;8;;;b'S4';b'80:e8:6f:0a:53:fe';62;b' 802.11n';vors115
+230;8;;;b'HUAWEI P30 Lukas ';b'f2:dd:a1:7d:6e:ee';31;b'802.11ac';vors115
+231;8;;;b'Airport S02-S03';b'00:1b:63:2b:ef:c3';43;b' 802.11n';vors115
+232;8;;;b'MCTGuest';b'9c:5c:8e:c9:b6:25';80;b' 802.11n';vors115
+233;8;;;b'rn2';b'38:4b:76:c8:0c:a9';70;b' 802.11n';vors115
+234;8;;;b'SmartHomeMctIoT';b'30:5a:3a:68:dc:c0';84;b' 802.11n';vors115
+235;8;;;b'SensingFeeling';b'34:81:c4:36:17:56';60;b' 802.11n';vors115
+236;8;;;b'SensingFeeling';b'34:81:c4:36:17:57';53;b'802.11ac';vors115
+237;8;;;b'mcssid';b'50:c7:bf:43:ee:45';84;b' 802.11n';vors115
+238;9;;;b'';b'2e:87:ba:b2:75:fe';31;b'802.11ax';vors106
+239;9;;;b'';b'00:be:75:e4:43:43';31;b' 802.11n';vors106
+240;9;;;b'';b'ba:fb:e4:1f:0c:5d';40;b'802.11ac';vors106
+241;9;;;b'';b'2c:5a:0f:09:9b:8c';40;b'802.11ac';vors106
+242;9;;;b'';b'00:be:75:e8:84:83';31;b' 802.11n';vors106
+243;9;;;b'';b'ba:fb:e4:1f:0c:5e';40;b' 802.11n';vors106
+244;9;;;b'';b'84:78:ac:b8:b8:dc';40;b' 802.11n';vors106
+245;9;;;b'';b'74:a0:2f:a8:14:03';31;b' 802.11n';vors106
+246;9;;;b'';b'00:2c:c8:50:a0:fc';40;b'802.11ac';vors106
+247;9;;;b'';b'2c:5a:0f:09:9b:85';31;b' 802.11n';vors106
+248;9;;;b'';b'f4:db:e6:db:56:84';67;b' 802.11n';vors106
+249;9;;;b'';b'2c:5a:0f:09:9b:8a';40;b'802.11ac';vors106
+250;9;;;b'';b'84:78:ac:b8:b8:da';40;b' 802.11n';vors106
+251;9;;;b'';b'84:78:ac:b8:b8:d5';81;b' 802.11n';vors106
+252;9;;;b'';b'00:2c:c8:50:a0:f5';40;b' 802.11n';vors106
+253;9;;;b'';b'00:be:75:e8:84:85';31;b' 802.11n';vors106
+254;9;;;b'';b'00:be:75:e8:7d:85';31;b' 802.11n';vors106
+255;9;;;b'';b'f4:db:e6:f1:ba:84';31;b' 802.11n';vors106
+256;9;;;b'';b'70:db:98:a3:3c:44';50;b' 802.11n';vors106
+257;9;;;b'';b'00:be:75:e8:7d:83';46;b' 802.11n';vors106
+258;9;;;b'';b'00:be:75:e7:7a:e5';40;b' 802.11n';vors106
+259;9;;;b'';b'84:78:ac:b8:b8:d3';70;b' 802.11n';vors106
+260;9;;;b'';b'a8:9d:21:cc:14:65';31;b' 802.11n';vors106
+261;9;;;b'Mixality';b'b4:fb:e4:1f:0c:5d';53;b'802.11ac';vors106
+262;9;;;b'Mixality';b'b4:fb:e4:1f:0c:5c';40;b'802.11ac';vors106
+263;9;;;b'LAB-ELAN';b'00:1c:10:1c:77:ea';31;b' 802.11g';vors106
+264;9;;;b'eduroam';b'84:78:ac:b8:b8:df';75;b' 802.11n';vors106
+265;9;;;b'eduroam';b'f4:db:e6:db:56:88';40;b'802.11ac';vors106
+266;9;;;b'eduroam';b'f4:db:e6:db:56:87';33;b' 802.11n';vors106
+267;9;;;b'eduroam';b'74:a0:2f:a8:14:00';31;b' 802.11n';vors106
+268;9;;;b'eduroam';b'00:be:75:e8:84:80';31;b' 802.11n';vors106
+269;9;;;b'eduroam';b'00:be:75:e8:7d:8f';40;b'802.11ac';vors106
+270;9;;;b'eduroam';b'84:78:ac:b8:b8:d0';81;b' 802.11n';vors106
+271;9;;;b'eduroam';b'f4:db:e6:f1:ba:88';43;b'802.11ac';vors106
+272;9;;;b'eduroam';b'2c:5a:0f:09:9b:80';57;b' 802.11n';vors106
+273;9;;;b'eduroam';b'00:2c:c8:50:a0:f0';77;b' 802.11n';vors106
+274;9;;;b'eduroam';b'a8:9d:21:cc:14:60';31;b' 802.11n';vors106
+275;9;;;b'eduroam';b'f4:db:e6:f1:ba:87';31;b' 802.11n';vors106
+276;9;;;b'eduroam';b'00:be:75:e7:7a:e0';72;b' 802.11n';vors106
+277;9;;;b'eduroam';b'00:be:75:e4:43:40';31;b' 802.11n';vors106
+278;9;;;b'eduroam';b'00:be:75:e7:7a:ef';40;b'802.11ac';vors106
+279;9;;;b'Sungate';b'7c:dd:90:b8:6c:70';31;b' 802.11g';vors106
+280;9;;;b'DIRECT-x9-ITS-106-Airtame-24';b'3a:4b:76:8a:20:e8';80;b' 802.11n';vors106
+281;9;;;b'wlan4things';b'00:be:75:e4:43:46';31;b' 802.11n';vors106
+282;9;;;b'wlan4things';b'74:a0:2f:a8:14:06';31;b' 802.11n';vors106
+283;9;;;b'wlan4things';b'f4:db:e6:db:56:87';40;b'802.11ac';vors106
+284;9;;;b'wlan4things';b'74:a0:2f:a8:14:09';40;b'802.11ac';vors106
+285;9;;;b'wlan4things';b'00:2c:c8:50:a0:f6';35;b' 802.11n';vors106
+286;9;;;b'wlan4things';b'f4:db:e6:db:56:88';33;b' 802.11n';vors106
+287;9;;;b'wlan4things';b'f4:db:e6:f1:ba:87';40;b'802.11ac';vors106
+288;9;;;b'wlan4things';b'00:be:75:e8:7d:86';31;b' 802.11n';vors106
+289;9;;;b'wlan4things';b'00:be:75:e8:84:86';31;b' 802.11n';vors106
+290;9;;;b'wlan4things';b'84:78:ac:b8:b8:d6';80;b' 802.11n';vors106
+291;9;;;b'wlan4things';b'00:be:75:e7:7a:e9';40;b'802.11ac';vors106
+292;9;;;b'wlan4things';b'f4:db:e6:f1:ba:88';35;b' 802.11n';vors106
+293;9;;;b'wlan4things';b'84:78:ac:b8:b8:d9';75;b' 802.11n';vors106
+294;9;;;b'wlan4things';b'00:be:75:e8:7d:89';40;b'802.11ac';vors106
+295;9;;;b'wlan4things';b'00:be:75:e7:7a:e6';31;b' 802.11n';vors106
+296;9;;;b'wlan4things';b'2c:5a:0f:09:9b:86';50;b' 802.11n';vors106
+297;9;;;b'DIRECT-2C-HP M428fdw LJ';b'4a:9e:bd:6c:b6:2c';40;b' 802.11n';vors106
+298;9;;;b'ETW';b'28:87:ba:b2:75:fe';62;b'802.11ax';vors106
+299;9;;;b'ETW';b'b4:b0:24:c0:6f:c2';31;b'802.11ax';vors106
+300;9;;;b'ETW';b'1c:61:b4:79:5a:ee';31;b'802.11ax';vors106
+301;9;;;b'ETW';b'28:87:ba:b2:75:ff';40;b'802.11ax';vors106
+302;9;;;b'ausy_s105_5ghz';b'30:b5:c2:7f:87:18';40;b'802.11ac';vors106
+303;9;;;b'vcg-Airport';b'90:72:40:12:a2:50';31;b' 802.11n';vors106
+304;9;;;b'ausy_s105_gast';b'36:b5:c2:7f:87:19';81;b' 802.11n';vors106
+305;9;;;b'ausy_s105';b'30:b5:c2:7f:87:19';81;b' 802.11n';vors106
+306;9;;;b'MCTIoT';b'9c:5c:8e:c9:b6:24';70;b' 802.11n';vors106
+307;9;;;b's4-secure';b'80:e8:6f:0a:53:ff';31;b' 802.11n';vors106
+308;9;;;b'S4';b'80:e8:6f:0a:53:fe';31;b' 802.11n';vors106
+309;9;;;b'HUAWEI P30 Lukas ';b'f2:dd:a1:7d:6e:ee';31;b'802.11ac';vors106
+310;9;;;b'Airport S02-S03';b'00:1b:63:2b:ef:c3';43;b' 802.11n';vors106
+311;9;;;b'MCTGuest';b'9c:5c:8e:c9:b6:25';80;b' 802.11n';vors106
+312;9;;;b'rn2';b'38:4b:76:c8:0c:a9';46;b' 802.11n';vors106
+313;9;;;b'SmartHomeMctIoT';b'30:5a:3a:68:dc:c0';46;b' 802.11n';vors106
+314;9;;;b'SensingFeeling';b'34:81:c4:36:17:56';31;b' 802.11n';vors106
+315;9;;;b'SensingFeeling';b'34:81:c4:36:17:57';53;b'802.11ac';vors106
+316;9;;;b'mcssid';b'50:c7:bf:43:ee:45';53;b' 802.11n';vors106
+0;10;;;b'wlan4things';b'00:be:75:e8:84:86';31;b' 802.11n';s117
+1;10;;;b'wlan4things';b'f4:db:e6:f1:ba:88';78;b' 802.11n';s117
+2;10;;;b'wlan4things';b'00:be:75:e7:7a:e9';43;b'802.11ac';s117
+3;10;;;b'wlan4things';b'00:be:75:e8:7d:89';40;b'802.11ac';s117
+4;10;;;b'wlan4things';b'f4:db:e6:f1:ba:87';62;b'802.11ac';s117
+5;10;;;b'wlan4things';b'a8:9d:21:cc:14:66';40;b' 802.11n';s117
+6;10;;;b'wlan4things';b'00:be:75:e8:7d:86';70;b' 802.11n';s117
+7;10;;;b'wlan4things';b'00:be:75:e7:7a:e6';65;b' 802.11n';s117
+8;10;;;b'rn2';b'38:4b:76:c8:0c:a9';65;b' 802.11n';s117
+9;10;;;b'';b'00:be:75:e7:7a:e5';67;b' 802.11n';s117
+10;10;;;b'';b'00:be:75:e7:7a:e3';72;b' 802.11n';s117
+11;10;;;b'';b'00:be:75:e7:7a:ea';46;b'802.11ac';s117
+12;10;;;b'';b'00:be:75:e7:7a:ec';40;b'802.11ac';s117
+13;10;;;b'';b'00:be:75:e8:84:83';31;b' 802.11n';s117
+14;10;;;b'';b'00:be:75:e8:7d:8a';40;b'802.11ac';s117
+15;10;;;b'';b'00:be:75:e8:84:85';31;b' 802.11n';s117
+16;10;;;b'';b'a8:9d:21:cc:14:65';33;b' 802.11n';s117
+17;10;;;b'';b'f4:db:e6:f1:ba:8b';40;b'802.11ac';s117
+18;10;;;b'';b'f4:db:e6:f1:ba:84';81;b' 802.11n';s117
+19;10;;;b'';b'00:be:75:e8:7d:85';62;b' 802.11n';s117
+20;10;;;b'';b'00:be:75:e8:7d:83';62;b' 802.11n';s117
+21;10;;;b'eduroam';b'00:be:75:e8:84:80';31;b' 802.11n';s117
+22;10;;;b'eduroam';b'a8:9d:21:cc:14:60';33;b' 802.11n';s117
+23;10;;;b'eduroam';b'f4:db:e6:f1:ba:88';75;b'802.11ac';s117
+24;10;;;b'eduroam';b'f4:db:e6:f1:ba:87';78;b' 802.11n';s117
+25;10;;;b'eduroam';b'00:be:75:e8:7d:8f';40;b'802.11ac';s117
+26;10;;;b'eduroam';b'00:be:75:e7:7a:ef';53;b'802.11ac';s117
+27;10;;;b'eduroam';b'00:be:75:e8:7d:80';67;b' 802.11n';s117
+28;10;;;b'eduroam';b'00:be:75:e7:7a:e0';62;b' 802.11n';s117
+29;10;;;b'mcssid';b'50:c7:bf:43:ee:45';31;b' 802.11n';s117
+30;10;;;b'ausy_s105';b'30:b5:c2:7f:87:19';31;b' 802.11n';s117
+31;10;;;b'ausy_s105_gast';b'36:b5:c2:7f:87:19';31;b' 802.11n';s117
+32;10;;;b'HUAWEI P30 Lukas ';b'f2:dd:a1:7d:6e:ee';31;b'802.11ac';s117
+33;10;;;b'MCTGuest';b'9c:5c:8e:c9:b6:25';31;b' 802.11n';s117
+34;10;;;b'SensingFeeling';b'34:81:c4:36:17:57';80;b'802.11ac';s117
+35;10;;;b'SensingFeeling';b'34:81:c4:36:17:56';80;b' 802.11n';s117
+36;10;;;b'MCTIoT';b'9c:5c:8e:c9:b6:24';31;b' 802.11n';s117
+37;10;;;"b""Dana's Galaxy S21+ 5G""";b'42:10:ef:5d:46:a0';31;b' 802.11n';s117
+38;10;;;b'SmartHomeMctIoT';b'30:5a:3a:68:dc:c0';33;b' 802.11n';s117
+0;11;;;b'eduroam';b'00:be:75:e8:84:80';31;b' 802.11n';s117
+1;11;;;b'eduroam';b'00:be:75:e7:7a:e0';67;b' 802.11n';s117
+2;11;;;b'eduroam';b'f4:db:e6:f1:ba:88';76;b'802.11ac';s117
+3;11;;;b'eduroam';b'00:be:75:e8:7d:8f';40;b'802.11ac';s117
+4;11;;;b'eduroam';b'00:be:75:e7:7a:ef';53;b'802.11ac';s117
+5;11;;;b'wlan4things';b'00:be:75:e8:84:86';31;b' 802.11n';s117
+6;11;;;b'wlan4things';b'00:be:75:e8:7d:89';40;b'802.11ac';s117
+7;11;;;b'wlan4things';b'f4:db:e6:f1:ba:87';72;b'802.11ac';s117
+8;11;;;b'wlan4things';b'00:be:75:e7:7a:e9';53;b'802.11ac';s117
+9;11;;;b'wlan4things';b'f4:db:e6:f1:ba:88';70;b' 802.11n';s117
+10;11;;;b'wlan4things';b'00:be:75:e8:7d:86';62;b' 802.11n';s117
+11;11;;;b'wlan4things';b'00:be:75:e7:7a:e6';62;b' 802.11n';s117
+12;11;;;"b""Dana's Galaxy S21+ 5G""";b'42:10:ef:5d:46:a0';31;b' 802.11n';s117
+13;11;;;b'Airport S02-S03';b'00:1b:63:2b:ef:c3';46;b' 802.11n';s117
+14;11;;;b'';b'f4:db:e6:f1:ba:8b';40;b'802.11ac';s117
+15;11;;;b'';b'a8:9d:21:cc:14:65';31;b' 802.11n';s117
+16;11;;;b'';b'f4:db:e6:f1:ba:84';67;b' 802.11n';s117
+17;11;;;b'';b'00:be:75:e7:7a:e3';62;b' 802.11n';s117
+18;11;;;b'';b'00:be:75:e7:7a:ea';43;b'802.11ac';s117
+19;11;;;b'';b'00:be:75:e7:7a:ec';43;b'802.11ac';s117
+20;11;;;b'';b'00:be:75:e8:7d:85';67;b' 802.11n';s117
+21;11;;;b'';b'00:be:75:e8:7d:83';67;b' 802.11n';s117
+22;11;;;b'rn2';b'38:4b:76:c8:0c:a9';67;b' 802.11n';s117
+23;11;;;b'HUAWEI P30 Lukas ';b'f2:dd:a1:7d:6e:ee';31;b'802.11ac';s117
+24;11;;;b'ausy_s105_gast';b'36:b5:c2:7f:87:19';31;b' 802.11n';s117
+25;11;;;b'mcssid';b'50:c7:bf:43:ee:45';33;b' 802.11n';s117
+26;11;;;b'MCTGuest';b'9c:5c:8e:c9:b6:25';31;b' 802.11n';s117
+27;11;;;b'SmartHomeMctIoT';b'30:5a:3a:68:dc:c0';31;b' 802.11n';s117
+28;11;;;b'SensingFeeling';b'34:81:c4:36:17:57';80;b'802.11ac';s117
+29;11;;;b'SensingFeeling';b'34:81:c4:36:17:56';75;b' 802.11n';s117
