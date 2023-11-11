@@ -1,0 +1,252 @@
+;fingerprint;x-pos;y-pos;ssid;bssidd;signal_strength;frequency_standard;location_name
+0;0;;;b'';b'ea:63:da:07:47:21';40;b' 802.11n';sofa
+1;0;;;b'';b'ee:63:da:07:47:21';40;b' 802.11n';sofa
+2;0;;;b'WiTre_Gast';b'e6:63:da:07:47:21';40;b' 802.11n';sofa
+3;0;;;b'TP-Link_7104';b'90:9a:4a:07:71:04';31;b' 802.11n';sofa
+4;0;;;b'FRITZ!Box Fon WLAN 7270';b'c0:25:06:0d:4b:7d';31;b' 802.11n';sofa
+5;0;;;b'Vodafone Homespot';b'4a:67:51:0b:07:7f';35;b' 802.11n';sofa
+6;0;;;b'Vodafone Homespot';b'7a:6a:1f:3a:95:b9';90;b' 802.11n';sofa
+7;0;;;b'Vodafone Hotspot';b'46:67:51:0b:07:7f';38;b' 802.11n';sofa
+8;0;;;b'Vodafone Hotspot';b'7a:6a:1f:3a:95:99';90;b' 802.11n';sofa
+9;0;;;b'KabelBox-2298';b'54:67:51:0b:07:7f';35;b' 802.11n';sofa
+10;0;;;b'DTUBI-92318054';b'54:f2:9f:13:ce:aa';31;b'802.11ax';sofa
+11;0;;;b'Schirmakazie2';b'78:6a:1f:3a:95:e9';92;b' 802.11n';sofa
+12;0;;;b'Schirmakazie2';b'78:6a:1f:3a:95:ea';92;b'802.11ac';sofa
+13;0;;;b'Schirmakazie';b'24:65:11:8a:e8:9f';82;b' 802.11n';sofa
+14;1;;;b'WLAN-343813';b'cc:d4:2e:20:fe:ea';31;b'802.11ac';sofa
+15;1;;;b'';b'ea:63:da:07:47:21';40;b' 802.11n';sofa
+16;1;;;b'';b'ee:63:da:07:47:21';40;b' 802.11n';sofa
+17;1;;;b'WiTre_Gast';b'e6:63:da:07:47:21';40;b' 802.11n';sofa
+18;1;;;b'TP-Link_7104';b'90:9a:4a:07:71:04';31;b' 802.11n';sofa
+19;1;;;b'FRITZ!Box Fon WLAN 7270';b'c0:25:06:0d:4b:7d';31;b' 802.11n';sofa
+20;1;;;b'Vodafone Homespot';b'4a:67:51:0b:07:7f';38;b' 802.11n';sofa
+21;1;;;b'Vodafone Homespot';b'7a:6a:1f:3a:95:b9';88;b' 802.11n';sofa
+22;1;;;b'Vodafone Hotspot';b'46:67:51:0b:07:7f';38;b' 802.11n';sofa
+23;1;;;b'Vodafone Hotspot';b'7a:6a:1f:3a:95:99';90;b' 802.11n';sofa
+24;1;;;b'KabelBox-2298';b'54:67:51:0b:07:7f';35;b' 802.11n';sofa
+25;1;;;b'DTUBI-92318054';b'54:f2:9f:13:ce:aa';38;b'802.11ax';sofa
+26;1;;;b'Schirmakazie2';b'78:6a:1f:3a:95:e9';92;b' 802.11n';sofa
+27;1;;;b'Schirmakazie2';b'78:6a:1f:3a:95:ea';92;b'802.11ac';sofa
+28;1;;;b'Schirmakazie';b'24:65:11:8a:e8:9f';82;b' 802.11n';sofa
+0;0;;;b'';b'ea:63:da:07:47:21';40;b' 802.11n';sofa
+1;0;;;b'';b'ee:63:da:07:47:21';40;b' 802.11n';sofa
+2;0;;;b'WiTre_Gast';b'e6:63:da:07:47:21';40;b' 802.11n';sofa
+3;0;;;b'TP-Link_7104';b'90:9a:4a:07:71:04';31;b' 802.11n';sofa
+4;0;;;b'FRITZ!Box Fon WLAN 7270';b'c0:25:06:0d:4b:7d';31;b' 802.11n';sofa
+5;0;;;b'Vodafone Homespot';b'4a:67:51:0b:07:7f';35;b' 802.11n';sofa
+6;0;;;b'Vodafone Homespot';b'7a:6a:1f:3a:95:b9';90;b' 802.11n';sofa
+7;0;;;b'Vodafone Hotspot';b'46:67:51:0b:07:7f';38;b' 802.11n';sofa
+8;0;;;b'Vodafone Hotspot';b'7a:6a:1f:3a:95:99';90;b' 802.11n';sofa
+9;0;;;b'KabelBox-2298';b'54:67:51:0b:07:7f';35;b' 802.11n';sofa
+10;0;;;b'DTUBI-92318054';b'54:f2:9f:13:ce:aa';31;b'802.11ax';sofa
+11;0;;;b'Schirmakazie2';b'78:6a:1f:3a:95:e9';92;b' 802.11n';sofa
+12;0;;;b'Schirmakazie2';b'78:6a:1f:3a:95:ea';92;b'802.11ac';sofa
+13;0;;;b'Schirmakazie';b'24:65:11:8a:e8:9f';82;b' 802.11n';sofa
+14;1;;;b'WLAN-343813';b'cc:d4:2e:20:fe:ea';31;b'802.11ac';sofa
+15;1;;;b'';b'ea:63:da:07:47:21';40;b' 802.11n';sofa
+16;1;;;b'';b'ee:63:da:07:47:21';40;b' 802.11n';sofa
+17;1;;;b'WiTre_Gast';b'e6:63:da:07:47:21';40;b' 802.11n';sofa
+18;1;;;b'TP-Link_7104';b'90:9a:4a:07:71:04';31;b' 802.11n';sofa
+19;1;;;b'FRITZ!Box Fon WLAN 7270';b'c0:25:06:0d:4b:7d';31;b' 802.11n';sofa
+20;1;;;b'Vodafone Homespot';b'4a:67:51:0b:07:7f';38;b' 802.11n';sofa
+21;1;;;b'Vodafone Homespot';b'7a:6a:1f:3a:95:b9';88;b' 802.11n';sofa
+22;1;;;b'Vodafone Hotspot';b'46:67:51:0b:07:7f';38;b' 802.11n';sofa
+23;1;;;b'Vodafone Hotspot';b'7a:6a:1f:3a:95:99';90;b' 802.11n';sofa
+24;1;;;b'KabelBox-2298';b'54:67:51:0b:07:7f';35;b' 802.11n';sofa
+25;1;;;b'DTUBI-92318054';b'54:f2:9f:13:ce:aa';38;b'802.11ax';sofa
+26;1;;;b'Schirmakazie2';b'78:6a:1f:3a:95:e9';92;b' 802.11n';sofa
+27;1;;;b'Schirmakazie2';b'78:6a:1f:3a:95:ea';92;b'802.11ac';sofa
+28;1;;;b'Schirmakazie';b'24:65:11:8a:e8:9f';82;b' 802.11n';sofa
+29;2;;;b'FRITZ!Box 7430 NH';b'7c:ff:4d:58:dc:d8';31;b' 802.11n';window
+30;2;;;b'WLAN-343813';b'cc:ce:1e:6a:a9:54';31;b' 802.11n';window
+31;2;;;b'WLAN-343813';b'cc:d4:2e:20:fe:ea';31;b'802.11ac';window
+32;2;;;b'';b'ea:63:da:07:47:21';40;b' 802.11n';window
+33;2;;;b'';b'ee:63:da:07:47:21';40;b' 802.11n';window
+34;2;;;b'WiTre_Gast';b'e6:63:da:07:47:21';40;b' 802.11n';window
+35;2;;;b'TP-Link_7104';b'90:9a:4a:07:71:04';31;b' 802.11n';window
+36;2;;;b'FRITZ!Box Fon WLAN 7270';b'c0:25:06:0d:4b:7d';31;b' 802.11n';window
+37;2;;;b'Vodafone Homespot';b'4a:67:51:0b:07:7f';38;b' 802.11n';window
+38;2;;;b'Vodafone Homespot';b'7a:6a:1f:3a:95:b9';87;b' 802.11n';window
+39;2;;;b'Vodafone Hotspot';b'46:67:51:0b:07:7f';38;b' 802.11n';window
+40;2;;;b'Vodafone Hotspot';b'7a:6a:1f:3a:95:99';85;b' 802.11n';window
+41;2;;;b'KabelBox-2298';b'54:67:51:0b:07:7f';35;b' 802.11n';window
+42;2;;;b'DTUBI-92318054';b'54:f2:9f:13:ce:aa';31;b'802.11ax';window
+43;2;;;b'Schirmakazie2';b'78:6a:1f:3a:95:e9';86;b' 802.11n';window
+44;2;;;b'Schirmakazie2';b'78:6a:1f:3a:95:ea';87;b'802.11ac';window
+45;2;;;b'Schirmakazie';b'24:65:11:8a:e8:9f';84;b' 802.11n';window
+46;3;;;b'FRITZ!Box 7430 NH';b'7c:ff:4d:58:dc:d8';35;b' 802.11n';window
+47;3;;;b'WLAN-343813';b'cc:ce:1e:6a:a9:54';31;b' 802.11n';window
+48;3;;;b'WLAN-343813';b'cc:d4:2e:20:fe:ea';31;b'802.11ac';window
+49;3;;;b'';b'ea:63:da:07:47:21';40;b' 802.11n';window
+50;3;;;b'';b'ee:63:da:07:47:21';40;b' 802.11n';window
+51;3;;;b'WiTre_Gast';b'e6:63:da:07:47:21';40;b' 802.11n';window
+52;3;;;b'TP-Link_7104';b'90:9a:4a:07:71:04';33;b' 802.11n';window
+53;3;;;b'FRITZ!Box Fon WLAN 7270';b'c0:25:06:0d:4b:7d';31;b' 802.11n';window
+54;3;;;b'Vodafone Homespot';b'4a:67:51:0b:07:7f';38;b' 802.11n';window
+55;3;;;b'Vodafone Homespot';b'7a:6a:1f:3a:95:b9';93;b' 802.11n';window
+56;3;;;b'Vodafone Hotspot';b'46:67:51:0b:07:7f';38;b' 802.11n';window
+57;3;;;b'Vodafone Hotspot';b'7a:6a:1f:3a:95:99';93;b' 802.11n';window
+58;3;;;b'KabelBox-2298';b'54:67:51:0b:07:7f';35;b' 802.11n';window
+59;3;;;b'DTUBI-92318054';b'54:f2:9f:13:ce:aa';31;b'802.11ax';window
+60;3;;;b'Schirmakazie2';b'78:6a:1f:3a:95:e9';93;b' 802.11n';window
+61;3;;;b'Schirmakazie2';b'78:6a:1f:3a:95:ea';90;b'802.11ac';window
+62;3;;;b'Schirmakazie';b'24:65:11:8a:e8:9f';72;b' 802.11n';window
+63;4;;;b'FRITZ!Box 7430 NH';b'7c:ff:4d:58:dc:d8';35;b' 802.11n';window
+64;4;;;b'WLAN-343813';b'cc:ce:1e:6a:a9:54';31;b' 802.11n';window
+65;4;;;b'WLAN-343813';b'cc:d4:2e:20:fe:ea';31;b'802.11ac';window
+66;4;;;b'';b'ea:63:da:07:47:21';40;b' 802.11n';window
+67;4;;;b'';b'ee:63:da:07:47:21';40;b' 802.11n';window
+68;4;;;b'WiTre_Gast';b'e6:63:da:07:47:21';40;b' 802.11n';window
+69;4;;;b'TP-Link_7104';b'90:9a:4a:07:71:04';33;b' 802.11n';window
+70;4;;;b'FRITZ!Box Fon WLAN 7270';b'c0:25:06:0d:4b:7d';31;b' 802.11n';window
+71;4;;;b'Vodafone Homespot';b'4a:67:51:0b:07:7f';38;b' 802.11n';window
+72;4;;;b'Vodafone Homespot';b'7a:6a:1f:3a:95:b9';93;b' 802.11n';window
+73;4;;;b'Vodafone Hotspot';b'46:67:51:0b:07:7f';38;b' 802.11n';window
+74;4;;;b'Vodafone Hotspot';b'7a:6a:1f:3a:95:99';92;b' 802.11n';window
+75;4;;;b'KabelBox-2298';b'54:67:51:0b:07:7f';35;b' 802.11n';window
+76;4;;;b'DTUBI-92318054';b'54:f2:9f:13:ce:aa';33;b'802.11ax';window
+77;4;;;b'Schirmakazie2';b'78:6a:1f:3a:95:e9';94;b' 802.11n';window
+78;4;;;b'Schirmakazie2';b'78:6a:1f:3a:95:ea';91;b'802.11ac';window
+79;4;;;b'Schirmakazie';b'24:65:11:8a:e8:9f';83;b' 802.11n';window
+0;0;;;b'';b'ea:63:da:07:47:21';40;b' 802.11n';sofa
+1;0;;;b'';b'ee:63:da:07:47:21';40;b' 802.11n';sofa
+2;0;;;b'WiTre_Gast';b'e6:63:da:07:47:21';40;b' 802.11n';sofa
+3;0;;;b'TP-Link_7104';b'90:9a:4a:07:71:04';31;b' 802.11n';sofa
+4;0;;;b'FRITZ!Box Fon WLAN 7270';b'c0:25:06:0d:4b:7d';31;b' 802.11n';sofa
+5;0;;;b'Vodafone Homespot';b'4a:67:51:0b:07:7f';35;b' 802.11n';sofa
+6;0;;;b'Vodafone Homespot';b'7a:6a:1f:3a:95:b9';90;b' 802.11n';sofa
+7;0;;;b'Vodafone Hotspot';b'46:67:51:0b:07:7f';38;b' 802.11n';sofa
+8;0;;;b'Vodafone Hotspot';b'7a:6a:1f:3a:95:99';90;b' 802.11n';sofa
+9;0;;;b'KabelBox-2298';b'54:67:51:0b:07:7f';35;b' 802.11n';sofa
+10;0;;;b'DTUBI-92318054';b'54:f2:9f:13:ce:aa';31;b'802.11ax';sofa
+11;0;;;b'Schirmakazie2';b'78:6a:1f:3a:95:e9';92;b' 802.11n';sofa
+12;0;;;b'Schirmakazie2';b'78:6a:1f:3a:95:ea';92;b'802.11ac';sofa
+13;0;;;b'Schirmakazie';b'24:65:11:8a:e8:9f';82;b' 802.11n';sofa
+14;1;;;b'WLAN-343813';b'cc:d4:2e:20:fe:ea';31;b'802.11ac';sofa
+15;1;;;b'';b'ea:63:da:07:47:21';40;b' 802.11n';sofa
+16;1;;;b'';b'ee:63:da:07:47:21';40;b' 802.11n';sofa
+17;1;;;b'WiTre_Gast';b'e6:63:da:07:47:21';40;b' 802.11n';sofa
+18;1;;;b'TP-Link_7104';b'90:9a:4a:07:71:04';31;b' 802.11n';sofa
+19;1;;;b'FRITZ!Box Fon WLAN 7270';b'c0:25:06:0d:4b:7d';31;b' 802.11n';sofa
+20;1;;;b'Vodafone Homespot';b'4a:67:51:0b:07:7f';38;b' 802.11n';sofa
+21;1;;;b'Vodafone Homespot';b'7a:6a:1f:3a:95:b9';88;b' 802.11n';sofa
+22;1;;;b'Vodafone Hotspot';b'46:67:51:0b:07:7f';38;b' 802.11n';sofa
+23;1;;;b'Vodafone Hotspot';b'7a:6a:1f:3a:95:99';90;b' 802.11n';sofa
+24;1;;;b'KabelBox-2298';b'54:67:51:0b:07:7f';35;b' 802.11n';sofa
+25;1;;;b'DTUBI-92318054';b'54:f2:9f:13:ce:aa';38;b'802.11ax';sofa
+26;1;;;b'Schirmakazie2';b'78:6a:1f:3a:95:e9';92;b' 802.11n';sofa
+27;1;;;b'Schirmakazie2';b'78:6a:1f:3a:95:ea';92;b'802.11ac';sofa
+28;1;;;b'Schirmakazie';b'24:65:11:8a:e8:9f';82;b' 802.11n';sofa
+29;2;;;b'FRITZ!Box 7430 NH';b'7c:ff:4d:58:dc:d8';31;b' 802.11n';window
+30;2;;;b'WLAN-343813';b'cc:ce:1e:6a:a9:54';31;b' 802.11n';window
+31;2;;;b'WLAN-343813';b'cc:d4:2e:20:fe:ea';31;b'802.11ac';window
+32;2;;;b'';b'ea:63:da:07:47:21';40;b' 802.11n';window
+33;2;;;b'';b'ee:63:da:07:47:21';40;b' 802.11n';window
+34;2;;;b'WiTre_Gast';b'e6:63:da:07:47:21';40;b' 802.11n';window
+35;2;;;b'TP-Link_7104';b'90:9a:4a:07:71:04';31;b' 802.11n';window
+36;2;;;b'FRITZ!Box Fon WLAN 7270';b'c0:25:06:0d:4b:7d';31;b' 802.11n';window
+37;2;;;b'Vodafone Homespot';b'4a:67:51:0b:07:7f';38;b' 802.11n';window
+38;2;;;b'Vodafone Homespot';b'7a:6a:1f:3a:95:b9';87;b' 802.11n';window
+39;2;;;b'Vodafone Hotspot';b'46:67:51:0b:07:7f';38;b' 802.11n';window
+40;2;;;b'Vodafone Hotspot';b'7a:6a:1f:3a:95:99';85;b' 802.11n';window
+41;2;;;b'KabelBox-2298';b'54:67:51:0b:07:7f';35;b' 802.11n';window
+42;2;;;b'DTUBI-92318054';b'54:f2:9f:13:ce:aa';31;b'802.11ax';window
+43;2;;;b'Schirmakazie2';b'78:6a:1f:3a:95:e9';86;b' 802.11n';window
+44;2;;;b'Schirmakazie2';b'78:6a:1f:3a:95:ea';87;b'802.11ac';window
+45;2;;;b'Schirmakazie';b'24:65:11:8a:e8:9f';84;b' 802.11n';window
+46;3;;;b'FRITZ!Box 7430 NH';b'7c:ff:4d:58:dc:d8';35;b' 802.11n';window
+47;3;;;b'WLAN-343813';b'cc:ce:1e:6a:a9:54';31;b' 802.11n';window
+48;3;;;b'WLAN-343813';b'cc:d4:2e:20:fe:ea';31;b'802.11ac';window
+49;3;;;b'';b'ea:63:da:07:47:21';40;b' 802.11n';window
+50;3;;;b'';b'ee:63:da:07:47:21';40;b' 802.11n';window
+51;3;;;b'WiTre_Gast';b'e6:63:da:07:47:21';40;b' 802.11n';window
+52;3;;;b'TP-Link_7104';b'90:9a:4a:07:71:04';33;b' 802.11n';window
+53;3;;;b'FRITZ!Box Fon WLAN 7270';b'c0:25:06:0d:4b:7d';31;b' 802.11n';window
+54;3;;;b'Vodafone Homespot';b'4a:67:51:0b:07:7f';38;b' 802.11n';window
+55;3;;;b'Vodafone Homespot';b'7a:6a:1f:3a:95:b9';93;b' 802.11n';window
+56;3;;;b'Vodafone Hotspot';b'46:67:51:0b:07:7f';38;b' 802.11n';window
+57;3;;;b'Vodafone Hotspot';b'7a:6a:1f:3a:95:99';93;b' 802.11n';window
+58;3;;;b'KabelBox-2298';b'54:67:51:0b:07:7f';35;b' 802.11n';window
+59;3;;;b'DTUBI-92318054';b'54:f2:9f:13:ce:aa';31;b'802.11ax';window
+60;3;;;b'Schirmakazie2';b'78:6a:1f:3a:95:e9';93;b' 802.11n';window
+61;3;;;b'Schirmakazie2';b'78:6a:1f:3a:95:ea';90;b'802.11ac';window
+62;3;;;b'Schirmakazie';b'24:65:11:8a:e8:9f';72;b' 802.11n';window
+63;4;;;b'FRITZ!Box 7430 NH';b'7c:ff:4d:58:dc:d8';35;b' 802.11n';window
+64;4;;;b'WLAN-343813';b'cc:ce:1e:6a:a9:54';31;b' 802.11n';window
+65;4;;;b'WLAN-343813';b'cc:d4:2e:20:fe:ea';31;b'802.11ac';window
+66;4;;;b'';b'ea:63:da:07:47:21';40;b' 802.11n';window
+67;4;;;b'';b'ee:63:da:07:47:21';40;b' 802.11n';window
+68;4;;;b'WiTre_Gast';b'e6:63:da:07:47:21';40;b' 802.11n';window
+69;4;;;b'TP-Link_7104';b'90:9a:4a:07:71:04';33;b' 802.11n';window
+70;4;;;b'FRITZ!Box Fon WLAN 7270';b'c0:25:06:0d:4b:7d';31;b' 802.11n';window
+71;4;;;b'Vodafone Homespot';b'4a:67:51:0b:07:7f';38;b' 802.11n';window
+72;4;;;b'Vodafone Homespot';b'7a:6a:1f:3a:95:b9';93;b' 802.11n';window
+73;4;;;b'Vodafone Hotspot';b'46:67:51:0b:07:7f';38;b' 802.11n';window
+74;4;;;b'Vodafone Hotspot';b'7a:6a:1f:3a:95:99';92;b' 802.11n';window
+75;4;;;b'KabelBox-2298';b'54:67:51:0b:07:7f';35;b' 802.11n';window
+76;4;;;b'DTUBI-92318054';b'54:f2:9f:13:ce:aa';33;b'802.11ax';window
+77;4;;;b'Schirmakazie2';b'78:6a:1f:3a:95:e9';94;b' 802.11n';window
+78;4;;;b'Schirmakazie2';b'78:6a:1f:3a:95:ea';91;b'802.11ac';window
+79;4;;;b'Schirmakazie';b'24:65:11:8a:e8:9f';83;b' 802.11n';window
+80;5;;;b'WiTre_Gast';b'e6:63:da:75:57:e3';40;b'802.11ac';flur
+81;5;;;b'WiTre_Gast';b'e6:63:da:15:71:be';40;b' 802.11n';flur
+82;5;;;b'WiTre_Gast';b'e6:63:da:74:57:e3';40;b' 802.11n';flur
+83;5;;;b'WiTre_Gast';b'e6:63:da:07:47:21';40;b' 802.11n';flur
+84;5;;;b'FRITZ!Box 7430 NH';b'7c:ff:4d:58:dc:d8';35;b' 802.11n';flur
+85;5;;;b'WLAN-343813';b'cc:ce:1e:6a:a9:54';31;b' 802.11n';flur
+86;5;;;b'WLAN-343813';b'cc:d4:2e:20:fe:ea';31;b'802.11ac';flur
+87;5;;;b'';b'ea:63:da:07:47:21';40;b' 802.11n';flur
+88;5;;;b'TP-Link_7104';b'90:9a:4a:07:71:04';33;b' 802.11n';flur
+89;5;;;b'FRITZ!Box Fon WLAN 7270';b'c0:25:06:0d:4b:7d';31;b' 802.11n';flur
+90;5;;;b'Vodafone Homespot';b'4a:67:51:0b:07:7f';38;b' 802.11n';flur
+91;5;;;b'Vodafone Homespot';b'7a:6a:1f:3a:95:b9';94;b' 802.11n';flur
+92;5;;;b'Vodafone Hotspot';b'46:67:51:0b:07:7f';38;b' 802.11n';flur
+93;5;;;b'Vodafone Hotspot';b'7a:6a:1f:3a:95:99';94;b' 802.11n';flur
+94;5;;;b'KabelBox-2298';b'54:67:51:0b:07:7f';35;b' 802.11n';flur
+95;5;;;b'DTUBI-92318054';b'54:f2:9f:13:ce:aa';33;b'802.11ax';flur
+96;5;;;b'Schirmakazie2';b'78:6a:1f:3a:95:e9';96;b' 802.11n';flur
+97;5;;;b'Schirmakazie2';b'78:6a:1f:3a:95:ea';92;b'802.11ac';flur
+98;5;;;b'Schirmakazie';b'24:65:11:8a:e8:9f';85;b' 802.11n';flur
+99;6;;;b'WiTre_Gast';b'e6:63:da:75:57:e3';40;b'802.11ac';hintertür
+100;6;;;b'WiTre_Gast';b'e6:63:da:15:71:be';40;b' 802.11n';hintertür
+101;6;;;b'WiTre_Gast';b'e6:63:da:74:57:e3';40;b' 802.11n';hintertür
+102;6;;;b'WiTre_Gast';b'e6:63:da:07:47:21';40;b' 802.11n';hintertür
+103;6;;;b'FRITZ!Box 7430 NH';b'7c:ff:4d:58:dc:d8';35;b' 802.11n';hintertür
+104;6;;;b'WLAN-343813';b'cc:ce:1e:6a:a9:54';31;b' 802.11n';hintertür
+105;6;;;b'WLAN-343813';b'cc:d4:2e:20:fe:ea';31;b'802.11ac';hintertür
+106;6;;;b'';b'ea:63:da:07:47:21';40;b' 802.11n';hintertür
+107;6;;;b'TP-Link_7104';b'90:9a:4a:07:71:04';33;b' 802.11n';hintertür
+108;6;;;b'FRITZ!Box Fon WLAN 7270';b'c0:25:06:0d:4b:7d';31;b' 802.11n';hintertür
+109;6;;;b'Vodafone Homespot';b'4a:67:51:0b:07:7f';38;b' 802.11n';hintertür
+110;6;;;b'Vodafone Homespot';b'7a:6a:1f:3a:95:b9';82;b' 802.11n';hintertür
+111;6;;;b'Vodafone Hotspot';b'46:67:51:0b:07:7f';38;b' 802.11n';hintertür
+112;6;;;b'Vodafone Hotspot';b'7a:6a:1f:3a:95:99';82;b' 802.11n';hintertür
+113;6;;;b'KabelBox-2298';b'54:67:51:0b:07:7f';35;b' 802.11n';hintertür
+114;6;;;b'DTUBI-92318054';b'54:f2:9f:13:ce:aa';33;b'802.11ax';hintertür
+115;6;;;b'Schirmakazie2';b'78:6a:1f:3a:95:e9';82;b' 802.11n';hintertür
+116;6;;;b'Schirmakazie2';b'78:6a:1f:3a:95:ea';85;b'802.11ac';hintertür
+117;6;;;b'Schirmakazie';b'24:65:11:8a:e8:9f';81;b' 802.11n';hintertür
+118;7;;;b'';b'ea:63:da:08:47:21';40;b'802.11ac';vordertür
+119;7;;;b'';b'e0:63:da:08:47:21';40;b'802.11ac';vordertür
+120;7;;;b'';b'ea:63:da:07:47:21';40;b' 802.11n';vordertür
+121;7;;;b'WiTre_Gast';b'e6:63:da:08:47:21';40;b'802.11ac';vordertür
+122;7;;;b'WiTre_Gast';b'e6:63:da:75:57:e3';40;b'802.11ac';vordertür
+123;7;;;b'WiTre_Gast';b'e6:63:da:15:71:be';43;b' 802.11n';vordertür
+124;7;;;b'WiTre_Gast';b'e6:63:da:74:57:e3';46;b' 802.11n';vordertür
+125;7;;;b'WiTre_Gast';b'e6:63:da:07:47:21';40;b' 802.11n';vordertür
+126;7;;;b'FRITZ!Box 7530 LC';b'98:9b:cb:9f:90:f9';31;b'802.11ac';vordertür
+127;7;;;b'WLAN-244575';b'30:b1:b5:09:d2:36';53;b'802.11ac';vordertür
+128;7;;;b'FRITZ!Box 7430 NH';b'7c:ff:4d:58:dc:d8';35;b' 802.11n';vordertür
+129;7;;;b'WLAN-343813';b'cc:ce:1e:6a:a9:54';31;b' 802.11n';vordertür
+130;7;;;b'WLAN-343813';b'cc:d4:2e:20:fe:ea';31;b'802.11ac';vordertür
+131;7;;;b'TP-Link_7104';b'90:9a:4a:07:71:04';33;b' 802.11n';vordertür
+132;7;;;b'FRITZ!Box Fon WLAN 7270';b'c0:25:06:0d:4b:7d';31;b' 802.11n';vordertür
+133;7;;;b'Vodafone Homespot';b'4a:67:51:0b:07:7f';38;b' 802.11n';vordertür
+134;7;;;b'Vodafone Homespot';b'7a:6a:1f:3a:95:b9';86;b' 802.11n';vordertür
+135;7;;;b'Vodafone Hotspot';b'46:67:51:0b:07:7f';38;b' 802.11n';vordertür
+136;7;;;b'Vodafone Hotspot';b'7a:6a:1f:3a:95:99';87;b' 802.11n';vordertür
+137;7;;;b'KabelBox-2298';b'54:67:51:0b:07:7f';35;b' 802.11n';vordertür
+138;7;;;b'DTUBI-92318054';b'54:f2:9f:13:ce:aa';33;b'802.11ax';vordertür
+139;7;;;b'Schirmakazie2';b'78:6a:1f:3a:95:e9';86;b' 802.11n';vordertür
+140;7;;;b'Schirmakazie2';b'78:6a:1f:3a:95:ea';84;b'802.11ac';vordertür
+141;7;;;b'Schirmakazie';b'24:65:11:8a:e8:9f';62;b' 802.11n';vordertür

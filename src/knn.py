@@ -19,15 +19,20 @@ def calculate_something():
     pass
 
 
-def knn_func(path: str, amount_of_fingerprints: int):
+def knn_func2(path: str, amount_of_fingerprints: int):
+    pass
+
+
+def knn_func(path: str, fingerprint_count: int):
     HIGHEST_AMOUNT_OF_ACCESSPOINTS_IN_A_FINGERPRINT = 100  # TODO
     HIGH = HIGHEST_AMOUNT_OF_ACCESSPOINTS_IN_A_FINGERPRINT
+    UNIQUE_APS_TOTAL=120 # TODO remove magic numbers
 
     df = pd.read_pickle(path)
     df_len = len(df)
-    print("df.head()=\n", df.head(500))
+    #print("df.head()=\n", df.head(11))
     twenty_percent = int(0.2*df_len)
-    current_position_scan = scan_func(amount_of_fingerprints, locate=True)
+    current_position_scan = scan_func(fingerprint_count, locate=True)
     current_pos_dict = {}
     for ap in current_position_scan:
         current_pos_dict[ap[INDEX_BSSID]] = ap[INDEX_SIGNAL]
@@ -36,10 +41,11 @@ def knn_func(path: str, amount_of_fingerprints: int):
     list_of_dicts = []  # make sure this is filled at index 1 with fingerprint 1. It might be necessary to sort the fingerprints in the dataframe
 
     fingerprint_location_map = {}
-    for i in range(amount_of_fingerprints):
+    for i in range(fingerprint_count):
         list_of_dicts.append({})
 
     # filling the list of dicts and the fingerprint_location_map
+    # key is fingerprint_id, value is xpos etc.
     for i in range(df_len):
         fingerprint_location_map[df.iloc[i, INDEX_FINGERPRINT]] = df.iloc[i,
                                                                           INDEX_XPOS], df.iloc[i, INDEX_YPOS], df.iloc[i, INDEX_LOCATION]
@@ -53,11 +59,11 @@ def knn_func(path: str, amount_of_fingerprints: int):
     # TODO only use 2.4 GHz (802.11n)
     # TODO use knn instead of mean square?
     # "knn" or just mean square right now
-    score_array = np.zeros((amount_of_fingerprints, HIGH))
+    score_array = np.zeros((fingerprint_count, HIGH))
     mylist = []
-    score_array2 = np.zeros((amount_of_fingerprints, HIGH))
+    score_array2 = np.zeros((fingerprint_count, HIGH))
     # key is the fingerprint_number, value is how many APs are in BOTH the current_position_scan and the fingerprint scan
-    accesspoint_matches = {}
+    accesspoint_matches = {} #TODO make this an array!?
     # calculation of the "distance" of the current position to the fingerprints
     # possible algorithms: sum/mean of:
     # with "a" being the fingerprint of the location which position has to be determined and "b" being another fingerprint
@@ -78,21 +84,22 @@ def knn_func(path: str, amount_of_fingerprints: int):
                 score_array2[i, j] = abs((
                     current_pos_dict[key]-list_of_dicts[i][key])**2)
                 mylist.append(current_pos_dict[key]-list_of_dicts[i][key])
-                if(i not in accesspoint_matches):
+                if (i not in accesspoint_matches):
                     accesspoint_matches[i] = 1
                 else:
-                    accesspoint_matches[i] +=1
+                    accesspoint_matches[i] += 1
             except KeyError:  # "tis fine, trust me" # TODO
                 pass
                 # accesspint_nonmatches[i]+=1
             j += 1
     print("ap matches=", accesspoint_matches)
-    #print("scores=\n", score_array)
-    #print("scores2=\n", score_array2)
+    # print("scores=\n", score_array)
+    # print("scores2=\n", score_array2)
     means = []
-
+    i = 0
     for score in score_array:
-        means.append(np.mean(score))
+        means.append(np.sum(score)/accesspoint_matches[i])
+        i += 1
     minimum = abs(means[0])
     minindex = 0
 
@@ -105,7 +112,46 @@ def knn_func(path: str, amount_of_fingerprints: int):
     print("minimum=", minimum, "minindex=", minindex)
     print("current location=", fingerprint_location_map[minindex])
     # print("mylist=", mylist)
+    """change the format of the df to use it with knn.
+    format should be bssidd -> list[fingerprint_ID,signal_strength]
+    format in df is currently: 
+    fingerprint_ID, bssid, signalstrength
+    ...
+    """
+    print("type=",type((5,6)))
+    x_train = np.zeros((fingerprint_count,UNIQUE_APS_TOTAL))
+    y_train=np.zeros(fingerprint_count)
+    print(x_train.shape)
+    print(y_train.shape)
+    """ we need to map bssids to integers so we can use the integers as index for our ndarray
+        algorithm: for every bssid, check if it's already in the map. if not, add it to the map.
+    
+    """
+    bssid_map={}
+    """bssid_map key: bssid, value: index of that bssid
+    """
+    from sklearn import preprocessing
+    for i in range(len(df)):
+        bssid=df.iloc[i,INDEX_BSSID]
+        if bssid not in bssid_map:
+            bssid_map[bssid]=len(bssid_map) #lookup table should be faster than a map? idk
+        signal=df.iloc[i,INDEX_SIGNAL]
+        fingerprint_id=df.iloc[i,INDEX_FINGERPRINT]
+        location=df.iloc[i,INDEX_LOCATION]
+        # print(type(fingerprint_id))
+        # print(type(bssid))
+        x_train[fingerprint_id,bssid_map[bssid]]=signal
 
+        
+        y_train[fingerprint_id]=fingerprint_id
+        # TODO make sure this doesn't copy the whole array for every step
+        #np.append(x_train, (df.loc[INDEX_SIGNAL],df.loc[INDEX_FINGERPRINT]))
+    """LabelBinarizer
+        currently not in use...
+    """
+    # lb=preprocessing.LabelBinarizer()
+    # lb.fit(y_train)
+    # print("x_train=",x_train)
     # knn
     # TODO reshape this so that every accesspoint-signal_strength is a new feature
     # x_train, x_test, y_train, y_test = train_test_split(
@@ -113,11 +159,24 @@ def knn_func(path: str, amount_of_fingerprints: int):
 
     # print(x_train)
     # print(y_train)
-    # knn = neighbors.KNeighborsClassifier(
-    #     n_neighbors=1).fit(x_train, y_train)
+    x_test=np.zeros(UNIQUE_APS_TOTAL) # should be unique aps total PLUS current scan
+    knn = neighbors.KNeighborsClassifier(
+        n_neighbors=1).fit(x_train, y_train)
+    for bssid in current_pos_dict:
+        try:
+            x_test[bssid_map[bssid]]=current_pos_dict[bssid]
+        except KeyError:
+            print("bssid ",bssid,"of the current scan was not found in a previous scan.")
+        
+    predict=knn.predict(x_test.reshape(1, -1))
+    predict=int(predict[0])
+    print(type(predict),predict)
+    print("predict=",predict,"location is ",fingerprint_location_map[predict])
+    return "current location="+str(fingerprint_location_map[minindex])
 
 
 if __name__ == "__main__":
-    config_df = pd.read_csv("config.csv")
-    fingerprint_number = config_df.loc[:, 'fingerprint_id'][0]
-    knn_func("accesspoints.pkl", fingerprint_number)
+    config_df = pd.read_csv("data/config.csv")
+    amount_of_fingerprints = config_df.loc[:, 'fingerprint_id'][0] # fingerprint_count formerly fingerprint_number is the count of 
+    #fingerprints. fingerprint_id should be the individual id of a fingerprint
+    knn_func("data/accesspoints.pkl", amount_of_fingerprints)
