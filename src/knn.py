@@ -36,7 +36,7 @@ def knn_func(path: str, fingerprint_count: int):
     current_pos_dict = {}
     for ap in current_position_scan:
         current_pos_dict[ap[INDEX_BSSID]] = ap[INDEX_SIGNAL]
-    print("current_pos_dict=", current_pos_dict)
+    # print("current_pos_dict=", current_pos_dict)
 
     list_of_dicts = []  # make sure this is filled at index 1 with fingerprint 1. It might be necessary to sort the fingerprints in the dataframe
 
@@ -92,7 +92,7 @@ def knn_func(path: str, fingerprint_count: int):
                 pass
                 # accesspint_nonmatches[i]+=1
             j += 1
-    print("ap matches=", accesspoint_matches)
+    # print("ap matches=", accesspoint_matches)
     # print("scores=\n", score_array)
     # print("scores2=\n", score_array2)
     means = []

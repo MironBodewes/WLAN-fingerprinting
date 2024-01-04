@@ -12,7 +12,7 @@ CONFIG_PATH = "data/config.csv"
 FINGERPRINTS_PATH = "data/accesspoints.pkl"
 FID = 'fingerprint_id'
 COLUMNS = ['fingerprint',
-           'x-pos', 'y-pos', 'ssid', 'bssidd', 'signal_strength', 'frequency_standard','location_name']
+           'x-pos', 'y-pos', 'ssid', 'bssidd', 'signal_strength', 'frequency_standard', 'location_name']
 
 
 class Accesspoint:
@@ -28,8 +28,8 @@ class Accesspoint:
 
 ############################
 # start of main
-# try reading the config. If it does not exist, initialize with 0
 if __name__ == "__main__":
+    # try reading the config. If it does not exist, initialize with 0
     try:
         config_df = pd.read_csv(CONFIG_PATH)
         # fingerprint_number = config_df.loc[FID]
@@ -54,7 +54,8 @@ if __name__ == "__main__":
 
     fingerprints = []
     while (True):
-        befehl = input("Welchen Befehl wollen sie ausführen? Try f for fingerprint, l to locate or x for exit")
+        befehl = input(
+            "Welchen Befehl wollen sie ausführen? Try f for fingerprint, l to locate or x for exit")
         if (befehl == "f" or befehl == "fingerprint"):
             # scan the WLAN (do a fingerprint)
             count = input("how many fingerprints do you want to make?")
@@ -75,7 +76,7 @@ if __name__ == "__main__":
             if os.path.isfile(FINGERPRINTS_PATH):
                 os.remove(FINGERPRINTS_PATH)
             df.to_pickle(FINGERPRINTS_PATH)
-            df.to_csv("aps.csv",sep=";")
+            df.to_csv("aps.csv", sep=";")
 
             # cleanup
             mylist = []  # I only know how to make a df out of a list # TODO
@@ -83,6 +84,7 @@ if __name__ == "__main__":
             print("fingerprint_number=", fingerprint_count)
             config_df = pd.DataFrame(mylist, columns=[FID])
             config_df.to_csv(CONFIG_PATH)
+        #save is deprecated
         elif befehl == "ssss" or befehl == "save":
             print("saving fingerprints")
             df = pd.DataFrame(fingerprints, columns=COLUMNS)
@@ -104,7 +106,7 @@ if __name__ == "__main__":
                 print("fingerprint file not found, can't remove")
         else:
             print(
-                "Befehl wurde nicht erkannt. Try f for fingerprint, s for save or x for exit")
+                "Befehl wurde nicht erkannt. Try f for fingerprint, l to locate or x for exit")
 
     # cleanup
     mylist = []  # I only know how to make a df out of a list # TODO
