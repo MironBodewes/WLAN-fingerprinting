@@ -54,7 +54,7 @@ if __name__ == "__main__":
 
     fingerprints = []
     while (True):
-        befehl = input("Welchen Befehl wollen sie ausführen? ")
+        befehl = input("Welchen Befehl wollen sie ausführen? Try f for fingerprint, l to locate or x for exit")
         if (befehl == "f" or befehl == "fingerprint"):
             # scan the WLAN (do a fingerprint)
             count = input("how many fingerprints do you want to make?")
@@ -104,7 +104,7 @@ if __name__ == "__main__":
                 print("fingerprint file not found, can't remove")
         else:
             print(
-                "Befehl wurde nicht erkannt. Try \\f for fingerprint, \\s for save or \\x for exit")
+                "Befehl wurde nicht erkannt. Try f for fingerprint, s for save or x for exit")
 
     # cleanup
     mylist = []  # I only know how to make a df out of a list # TODO
