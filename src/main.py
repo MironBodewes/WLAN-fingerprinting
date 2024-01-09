@@ -60,7 +60,7 @@ if __name__ == "__main__":
             # scan the WLAN (do a fingerprint)
             count = input("how many fingerprints do you want to make?")
             for i in range(int(count)):
-                fingerprints.extend(scan_func(fingerprint_count))
+                fingerprints=(scan_func(fingerprint_count))
                 # print("fingerprint:\n",fingerprints)
                 fingerprint_count += 1
 
@@ -84,12 +84,13 @@ if __name__ == "__main__":
             print("fingerprint_number=", fingerprint_count)
             config_df = pd.DataFrame(mylist, columns=[FID])
             config_df.to_csv(CONFIG_PATH)
-        #save is deprecated
         elif befehl == "ssss" or befehl == "save":
-            print("saving fingerprints")
-            df = pd.DataFrame(fingerprints, columns=COLUMNS)
-            # print(df.head())
-            df.to_pickle(FINGERPRINTS_PATH)
+            #save is deprecated
+            print("save is deprecated")
+            # print("saving fingerprints")
+            # df = pd.DataFrame(fingerprints, columns=COLUMNS)
+            # # print(df.head())
+            # df.to_pickle(FINGERPRINTS_PATH)
         elif befehl == "l" or befehl == "locate":
             print("locating with fingerprints=", fingerprint_count)
             knn_func(FINGERPRINTS_PATH, fingerprint_count)
