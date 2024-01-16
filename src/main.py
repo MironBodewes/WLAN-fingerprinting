@@ -2,9 +2,9 @@ import os
 import time
 import numpy as np
 import pandas as pd
-from winsdk.windows.devices.wifi import WiFiAdapter
 from knn import knn_func
-from scan import scan_func
+# from scan import scan_func
+from linux_scan import scan_wifi
 
 BYTE_N = 78  # N
 BYTE_COLON = bytes(":", encoding="utf8")  # 112
@@ -60,7 +60,7 @@ if __name__ == "__main__":
             # scan the WLAN (do a fingerprint)
             count = input("how many fingerprints do you want to make?")
             for i in range(int(count)):
-                fingerprints=(scan_func(fingerprint_count))
+                fingerprints=(scan_wifi(fingerprint_count))
                 # print("fingerprint:\n",fingerprints)
                 fingerprint_count += 1
 

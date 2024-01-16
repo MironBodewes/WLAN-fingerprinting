@@ -28,21 +28,27 @@ class Accesspoint:
 #
 
 
+def scan_func_linux(fingerprint_number: int, locate=False, debug=False) -> list:
+    print("hi")
+    print(5/0)
+    pass
+
+
 def scan_func(fingerprint_number: int, locate=False, debug=False) -> list:
     WiFiAdapter.request_access_async()
-    x_coordinate=None
-    y_coordinate=None
-    location_name=None
+    x_coordinate = None
+    y_coordinate = None
+    location_name = None
     if locate == False:
         # x_coordinate = input("x-Koordinate?")
         # y_coordinate = input("y-Koordinate?")
-        location_name=input("Where are you? ")
+        location_name = input("Where are you? ")
 
     # asking windows for a scan
     wifi_adapter = WiFiAdapter.find_all_adapters_async()
     while (True):  # TODO
         if (wifi_adapter.status == True):
-            #print("myWifi=", wifi_adapter.id, wifi_adapter.status)
+            # print("myWifi=", wifi_adapter.id, wifi_adapter.status)
             wifi_adapter = wifi_adapter.get_results()[0]
             break
     async_obj = WiFiAdapter.scan_async(wifi_adapter)
