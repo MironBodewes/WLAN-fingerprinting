@@ -1,33 +1,44 @@
 ;fingerprint;x-pos;y-pos;ssid;bssidd;signal_strength;frequency_standard;location_name
-0;1;;;eduroam;F4:DB:E6:F1:BA:88;-75;5 GHz;s117
-1;1;;;eduroam;F4:DB:E6:F1:BA:87;-63;2.4 GHz;s117
-2;1;;;eduroam;00:BE:75:E7:7A:EF;-79;5 GHz;s117
-3;1;;;rn1;38:4B:76:C8:03:D2;-69;2.4 GHz;s117
-4;1;;;wlan4things;00:BE:75:E8:7D:86;-75;2.4 GHz;s117
-5;1;;;DIRECT-V7M283x Series;32:CD:A7:C8:64:7E;-68;2.4 GHz;s117
-6;1;;;wlan4things;A8:9D:21:CC:14:66;-83;2.4 GHz;s117
-7;1;;;wlan4things;F4:DB:E6:F1:BA:88;-66;2.4 GHz;s117
-8;1;;;rn2;38:4B:76:C8:0C:A9;-73;2.4 GHz;s117
-9;1;;;SmartHomeMctIoT;30:5A:3A:68:DC:C0;-79;2.4 GHz;s117
-10;1;;;MCTIoT;9C:5C:8E:C9:B6:24;-83;2.4 GHz;s117
-11;1;;;MCTGuest;9C:5C:8E:C9:B6:25;-83;2.4 GHz;s117
-12;1;;;wlan4things;00:BE:75:E7:7A:E6;-77;2.4 GHz;s117
-13;1;;;wlan4things;F4:DB:E6:F1:BA:87;-74;5 GHz;s117
-14;1;;;wlan4things;00:BE:75:E7:7A:E9;-79;5 GHz;s117
-15;1;;;\x00\x00\x00\x00\x00;F4:DB:E6:F1:BA:84;-69;2.4 GHz;s117
-16;1;;;unknown;60:E3:27:76:BB:B6;-83;2.4 GHz;s117
-17;1;;;wlan4things;00:BE:75:E8:7D:89;-78;5 GHz;s117
-18;1;;;eduroam;00:BE:75:E8:7D:8F;-78;5 GHz;s117
-19;1;;;\x00;A8:9D:21:CC:14:63;-83;2.4 GHz;s117
-20;1;;;wlan4things;00:2C:C8:50:A0:F6;-83;2.4 GHz;s117
-21;1;;;Airport S02-S03;00:1B:63:2B:EF:C3;-83;2.4 GHz;s117
-22;1;;;\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00;00:BE:75:E7:7A:E5;-69;2.4 GHz;s117
-23;1;;;eduroam;A8:9D:21:CC:14:60;-80;2.4 GHz;s117
-24;1;;;\x00;00:2C:C8:50:A0:F3;-83;2.4 GHz;s117
-25;1;;;eduroam;00:2C:C8:50:A0:F0;-83;2.4 GHz;s117
-26;1;;;eduroam;00:BE:75:E8:7D:80;-72;2.4 GHz;s117
-27;1;;;\x00\x00\x00\x00;00:BE:75:E8:7D:83;-75;2.4 GHz;s117
-28;1;;;eduroam;00:BE:75:E7:7A:E0;-77;2.4 GHz;s117
-29;1;;;\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00;00:BE:75:E8:7D:85;-76;2.4 GHz;s117
-30;1;;;mcssid;50:C7:BF:43:EE:45;-83;2.4 GHz;s117
-31;1;;;\x00\x00\x00\x00;00:BE:75:E7:7A:EC;-79;5 GHz;s117
+0;0;;;Schirmakazie;24:65:11:8A:E8:9F;-72;2.4 GHz;sofa
+1;0;;;Schirmakazie2;78:6A:1F:3A:95:EA;-55;5 GHz;sofa
+2;0;;;WiTre_Gast;E6:63:DA:74:57:E3;-79;2.4 GHz;sofa
+3;0;;;Schirmakazie2;78:6A:1F:3A:95:E9;-44;2.4 GHz;sofa
+4;0;;;Vodafone Hotspot;7A:6A:1F:3A:95:99;-45;2.4 GHz;sofa
+5;0;;;TP-Link_7104;90:9A:4A:07:71:04;-83;2.4 GHz;sofa
+6;0;;;;92:9A:4A:27:71:04;-83;2.4 GHz;sofa
+7;1;;;Schirmakazie;24:65:11:8A:E8:9F;-63;2.4 GHz;sofa2
+8;1;;;Schirmakazie2;78:6A:1F:3A:95:EA;-47;5 GHz;sofa2
+9;1;;;WiTre_Gast;E6:63:DA:74:57:E3;-79;2.4 GHz;sofa2
+10;1;;;Schirmakazie2;78:6A:1F:3A:95:E9;-44;2.4 GHz;sofa2
+11;1;;;Vodafone Hotspot;7A:6A:1F:3A:95:99;-54;2.4 GHz;sofa2
+12;1;;;TP-Link_7104;90:9A:4A:07:71:04;-83;2.4 GHz;sofa2
+13;1;;;;92:9A:4A:27:71:04;-83;2.4 GHz;sofa2
+14;1;;;Vodafone Homespot;7A:6A:1F:3A:95:B9;-54;2.4 GHz;sofa2
+15;1;;;;E0:63:DA:74:57:E3;-79;2.4 GHz;sofa2
+16;1;;;;EE:63:DA:74:57:E3;-79;2.4 GHz;sofa2
+17;1;;;;EA:63:DA:74:57:E3;-79;2.4 GHz;sofa2
+18;1;;;Vodafone Homespot;4A:67:51:0B:07:7F;-83;2.4 GHz;sofa2
+0;2;;;Schirmakazie;24:65:11:8A:E8:9F;-63;2.4 GHz;sofa3
+1;2;;;Schirmakazie2;78:6A:1F:3A:95:EA;-48;5 GHz;sofa3
+2;2;;;WiTre_Gast;E6:63:DA:74:57:E3;-79;2.4 GHz;sofa3
+3;2;;;Schirmakazie2;78:6A:1F:3A:95:E9;-44;2.4 GHz;sofa3
+4;2;;;TP-Link_7104;90:9A:4A:07:71:04;-83;2.4 GHz;sofa3
+5;2;;;;92:9A:4A:27:71:04;-83;2.4 GHz;sofa3
+6;2;;;Vodafone Homespot;7A:6A:1F:3A:95:B9;-43;2.4 GHz;sofa3
+7;2;;;FRITZ!Box 7430 NH;7C:FF:4D:58:DC:D8;-83;2.4 GHz;sofa3
+8;2;;;FRITZ!Box Fon WLAN 7270;C0:25:06:0D:4B:7D;-83;2.4 GHz;sofa3
+9;2;;;WiTre_Gast;E6:63:DA:15:71:BE;-79;2.4 GHz;sofa3
+10;3;;;Schirmakazie;24:65:11:8A:E8:9F;-63;2.4 GHz;sofa4
+11;3;;;Schirmakazie2;78:6A:1F:3A:95:EA;-54;5 GHz;sofa4
+12;3;;;WiTre_Gast;E6:63:DA:74:57:E3;-79;2.4 GHz;sofa4
+13;3;;;Schirmakazie2;78:6A:1F:3A:95:E9;-44;2.4 GHz;sofa4
+14;3;;;TP-Link_7104;90:9A:4A:07:71:04;-83;2.4 GHz;sofa4
+15;3;;;;92:9A:4A:27:71:04;-83;2.4 GHz;sofa4
+16;3;;;Vodafone Homespot;7A:6A:1F:3A:95:B9;-45;2.4 GHz;sofa4
+17;3;;;FRITZ!Box 7430 NH;7C:FF:4D:58:DC:D8;-83;2.4 GHz;sofa4
+18;3;;;FRITZ!Box Fon WLAN 7270;C0:25:06:0D:4B:7D;-83;2.4 GHz;sofa4
+19;3;;;WiTre_Gast;E6:63:DA:15:71:BE;-79;2.4 GHz;sofa4
+20;3;;;Vodafone Hotspot;7A:6A:1F:3A:95:99;-43;2.4 GHz;sofa4
+21;3;;;KabelBox-2298;54:67:51:0B:07:7F;-83;2.4 GHz;sofa4
+22;3;;;Vodafone Hotspot;46:67:51:0B:07:7F;-83;2.4 GHz;sofa4
+23;3;;;Vodafone Homespot;4A:67:51:0B:07:7F;-83;2.4 GHz;sofa4

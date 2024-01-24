@@ -22,8 +22,8 @@ def calculate_something():
 def knn_func2(path: str, amount_of_fingerprints: int):
     pass
 
-
 def knn_func(path: str, fingerprint_count: int):
+    """this function compares the signal strengths at the current position with all other fingerprints previously made and spits out the nearest fingerprint(s)"""
     HIGHEST_AMOUNT_OF_ACCESSPOINTS_IN_A_FINGERPRINT = 100  # TODO
     HIGH = HIGHEST_AMOUNT_OF_ACCESSPOINTS_IN_A_FINGERPRINT
     UNIQUE_APS_TOTAL = 120  # TODO remove magic numbers
@@ -59,7 +59,14 @@ def knn_func(path: str, fingerprint_count: int):
     # TODO only use 2.4 GHz (802.11n)
     # TODO use knn instead of mean square?
     # "knn" or just mean square right now
-    score_array = np.zeros((fingerprint_count, HIGH))
+    # 'score_arrays' is a matrix
+    score_arrays = np.zeros((fingerprint_count, HIGH))
+    """
+    score_arrays
+    The signal strengths are compared with all other fingerprints
+    Every array is filled by iterating over all APs at the current location and getting the difference between the current signal_strength and the signal strength from a fingerprint
+    """
+    accesspoint_nonmatches = np.zeros((fingerprint_count, HIGH))
     mylist = []
     score_array2 = np.zeros((fingerprint_count, HIGH))
     # key is the fingerprint_number, value is how many APs are in BOTH the current_position_scan and the fingerprint scan
@@ -79,7 +86,7 @@ def knn_func(path: str, fingerprint_count: int):
         j = 0
         for key in current_pos_dict:
             try:
-                score_array[i, j] = abs(
+                score_arrays[i, j] = abs(
                     current_pos_dict[key]-list_of_dicts[i][key])
                 score_array2[i, j] = abs((
                     current_pos_dict[key]-list_of_dicts[i][key])**2)
@@ -90,14 +97,14 @@ def knn_func(path: str, fingerprint_count: int):
                     accesspoint_matches[i] += 1
             except KeyError:  # "tis fine, trust me" # TODO
                 pass
-                # accesspint_nonmatches[i]+=1
+                accesspoint_nonmatches[i] += 1
             j += 1
     print("ap matches=", accesspoint_matches)
-    print("scores=\n", score_array)
+    print("scores=\n", score_arrays)
     print("scores2=\n", score_array2)
     means = []
     i = 0
-    for score in score_array:
+    for score in score_arrays:
         means.append(np.sum(score)/accesspoint_matches[i])
         i += 1
     minimum = abs(means[0])

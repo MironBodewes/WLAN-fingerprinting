@@ -5,6 +5,7 @@ import pandas as pd
 from knn import knn_func
 # from scan import scan_func
 from linux_scan import scan_func
+from pathlib import Path
 
 BYTE_N = 78  # N
 BYTE_COLON = bytes(":", encoding="utf8")  # 112
@@ -32,7 +33,6 @@ if __name__ == "__main__":
     # try reading the config. If it does not exist, initialize with 0
     try:
         config_df = pd.read_csv(CONFIG_PATH)
-        # fingerprint_number = config_df.loc[FID]
         # print(type(config_df))
         config_df.head()
         fingerprint_count = config_df.loc[:, FID][0]
@@ -40,14 +40,14 @@ if __name__ == "__main__":
         # print(fingerprint_number)
     except FileNotFoundError:
         # testing sphinx documentation
-        print("except in config_reading")
+        print("except in config_reading, FileNotFoundError")
         '''
-        Hi
-        :ivar "fingerprint_number": the amount of fingerprints that have been made and saved in the accesspoints.csv file
+        "fingerprint_number": the amount of fingerprints that have been made and saved in the accesspoints.csv file
         '''
         fingerprint_count = int(0)
         mylist = []  # I only know how to make a df out of a list # TODO
         mylist.append(0)
+        Path("./data").mkdir(parents=True, exist_ok=True)
         config_df = pd.DataFrame(mylist, columns=[FID])
         config_df.to_csv(CONFIG_PATH)
         mylist.clear()
@@ -59,9 +59,11 @@ if __name__ == "__main__":
         if (befehl == "f" or befehl == "fingerprint"):
             # scan the WLAN (do a fingerprint)
             count = input("how many fingerprints do you want to make?")
+            fingerprints=[]
+            fingerprints.clear()
             for i in range(int(count)):
-                fingerprints=(scan_func(fingerprint_count))
-                # print("fingerprint:\n",fingerprints)
+                fingerprints.extend(scan_func(fingerprint_count))
+                print("fingerprint:\n",fingerprints)
                 fingerprint_count += 1
 
             # saving
@@ -71,7 +73,7 @@ if __name__ == "__main__":
                 df_new = pd.DataFrame(fingerprints, columns=COLUMNS)
                 df = pd.concat([df, df_new], axis=0)
             else:
-                print(FINGERPRINTS_PATH, "is not a file")
+                print(FINGERPRINTS_PATH, "is not a file yet. Creating it now.")
                 df = pd.DataFrame(fingerprints, columns=COLUMNS)
             if os.path.isfile(FINGERPRINTS_PATH):
                 os.remove(FINGERPRINTS_PATH)

@@ -3,9 +3,10 @@ import subprocess
 
 WiFiAdapter.request_access_async()
 myWifi = WiFiAdapter.find_all_adapters_async()
-while (True): # TODO
-    if (myWifi.status == True):
-        print("myWifi=", myWifi.id, myWifi.status)
-        myWifi = myWifi.get_results()[0]
-        break
-WiFiAdapter.scan_async(myWifi)
+while (myWifi.status == False): 
+    pass #sleep would be better
+
+if (myWifi.status == True): # this if-clause is redundant
+    print("myWifi=", myWifi.id, myWifi.status)
+    myWifi = myWifi.get_results()[0]
+    WiFiAdapter.scan_async(myWifi)

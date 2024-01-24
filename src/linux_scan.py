@@ -50,9 +50,9 @@ def scan_func(fingerprint_number: int, locate=False, debug=False) -> list:
         accesspoint.append(frequency_band)
         accesspoint.append(location_name)
         fingerprint.append(accesspoint)
-    # print(len(fingerprint),"accesspoints found")
-    for thing in accesspoint:
-        print(type(thing),thing)
+    print(len(fingerprint),"accesspoints found")
+    # for thing in accesspoint:
+    #     print(type(thing),thing)
     return fingerprint
 
 
