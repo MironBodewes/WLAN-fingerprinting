@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 from knn import knn_func
 # from scan import scan_func
-from linux_scan import scan_wifi
+from linux_scan import scan_func
 
 BYTE_N = 78  # N
 BYTE_COLON = bytes(":", encoding="utf8")  # 112
@@ -55,12 +55,12 @@ if __name__ == "__main__":
     fingerprints = []
     while (True):
         befehl = input(
-            "Welchen Befehl wollen sie ausführen? Try f for fingerprint, l to locate or x for exit")
+            "Welchen Befehl wollen sie ausführen? Try f for fingerprint, l to locate or x for exit ")
         if (befehl == "f" or befehl == "fingerprint"):
             # scan the WLAN (do a fingerprint)
             count = input("how many fingerprints do you want to make?")
             for i in range(int(count)):
-                fingerprints=(scan_wifi(fingerprint_count))
+                fingerprints=(scan_func(fingerprint_count))
                 # print("fingerprint:\n",fingerprints)
                 fingerprint_count += 1
 

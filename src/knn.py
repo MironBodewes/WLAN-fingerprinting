@@ -4,7 +4,7 @@ from sklearn import neighbors
 import pandas as pd
 from sklearn.model_selection import train_test_split
 import sklearn.preprocessing as oh
-from scan import scan_func
+from linux_scan import scan_func
 #########
 INDEX = 0
 INDEX_FINGERPRINT = 0
@@ -72,9 +72,9 @@ def knn_func(path: str, fingerprint_count: int):
     #
     #
     #
-    # print(list_of_dicts)
-    # for i in range(len(list_of_dicts)):
-    # print(list_of_dicts[i])
+    print(list_of_dicts)
+    for i in range(len(list_of_dicts)):
+        print(list_of_dicts[i])
     for i in range(len(list_of_dicts)):
         j = 0
         for key in current_pos_dict:
@@ -92,9 +92,9 @@ def knn_func(path: str, fingerprint_count: int):
                 pass
                 # accesspint_nonmatches[i]+=1
             j += 1
-    # print("ap matches=", accesspoint_matches)
-    # print("scores=\n", score_array)
-    # print("scores2=\n", score_array2)
+    print("ap matches=", accesspoint_matches)
+    print("scores=\n", score_array)
+    print("scores2=\n", score_array2)
     means = []
     i = 0
     for score in score_array:

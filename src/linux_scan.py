@@ -13,9 +13,12 @@ def get_frequency_band(channel):
         return "Unknown"
 
 
-def scan_wifi(fingerprint_number: int, locate=False, debug=False) -> list:
+def scan_func(fingerprint_number: int, locate=False, debug=False) -> list:
     # scan the wifi
-    location_name = input("Where are you? ")
+    if locate == False:
+        location_name = input("Where are you? ")
+    else:
+        location_name = None
     x_coordinate = None
     y_coordinate = None
 
@@ -43,12 +46,15 @@ def scan_wifi(fingerprint_number: int, locate=False, debug=False) -> list:
         accesspoint.append(y_coordinate)  # y-pos
         accesspoint.append(essid)
         accesspoint.append(bssid)
-        accesspoint.append(signal_strength)
+        accesspoint.append(int(signal_strength))
         accesspoint.append(frequency_band)
         accesspoint.append(location_name)
         fingerprint.append(accesspoint)
     # print(len(fingerprint),"accesspoints found")
+    for thing in accesspoint:
+        print(type(thing),thing)
     return fingerprint
 
+
 if __name__ == "__main__":
-    scan_wifi(150)
+    scan_func(150)
