@@ -12,6 +12,7 @@ Ausarbeitung
 - Stand der Technik find3
 A3utilities ausgeben mit korrekten ssids undso
 ...?
+3 mal scannen und nur die APs mit signalstärke > -60 dBm benutzen
 
 
 https://en.wikipedia.org/wiki/Beacon_frame :
