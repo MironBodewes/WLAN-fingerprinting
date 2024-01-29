@@ -22,6 +22,7 @@ def calculate_something():
 def knn_func2(path: str, amount_of_fingerprints: int):
     pass
 
+
 def knn_func(path: str, fingerprint_count: int):
     """this function compares the signal strengths at the current position with all other fingerprints previously made and spits out the nearest fingerprint(s)"""
     HIGHEST_AMOUNT_OF_ACCESSPOINTS_IN_A_FINGERPRINT = 100  # TODO
@@ -47,8 +48,7 @@ def knn_func(path: str, fingerprint_count: int):
     # filling the list of dicts and the fingerprint_location_map
     # key is fingerprint_id, value is xpos etc.
     for i in range(df_len):
-        fingerprint_location_map[df.iloc[i, INDEX_FINGERPRINT]] = df.iloc[i,
-                                                                          INDEX_XPOS], df.iloc[i, INDEX_YPOS], df.iloc[i, INDEX_LOCATION]
+        fingerprint_location_map[df.iloc[i, INDEX_FINGERPRINT]] = df.iloc[i, INDEX_XPOS], df.iloc[i, INDEX_YPOS], df.iloc[i, INDEX_LOCATION]
         index = df.iloc[i, INDEX_FINGERPRINT]
         keyname = df.iloc[i, INDEX_BSSID]
         value = df.iloc[i, INDEX_SIGNAL]
@@ -79,9 +79,9 @@ def knn_func(path: str, fingerprint_count: int):
     #
     #
     #
-    print(list_of_dicts)
-    for i in range(len(list_of_dicts)):
-        print(list_of_dicts[i])
+    # print(list_of_dicts)
+    # for i in range(len(list_of_dicts)):
+    #     print(list_of_dicts[i])
     for i in range(len(list_of_dicts)):
         j = 0
         for key in current_pos_dict:
@@ -100,23 +100,23 @@ def knn_func(path: str, fingerprint_count: int):
                 accesspoint_nonmatches[i] += 1
             j += 1
     print("ap matches=", accesspoint_matches)
-    print("scores=\n", score_arrays)
-    print("scores2=\n", score_array2)
+    # print("scores=\n", score_arrays)
+    # print("scores2=\n", score_array2)
     means = []
     i = 0
     for score in score_arrays:
         means.append(np.sum(score)/accesspoint_matches[i])
         i += 1
-    minimum = abs(means[0])
-    minindex = 0
 
+    lowest_found_score = abs(means[0])
+    minindex = 0
     for i in range(len(means)):
-        if (abs(means[i]) < minimum):
-            minimum = abs(means[i])
+        if (abs(means[i]) < lowest_found_score):
+            lowest_found_score = abs(means[i])
             minindex = i
 
     print(means)
-    print("minimum=", minimum, "minindex=", minindex)
+    print("minimum=", lowest_found_score, "minindex=", minindex)
     print("current location=", fingerprint_location_map[minindex])
     # print("mylist=", mylist)
     """change the format of the df to use it with knn.
@@ -125,12 +125,11 @@ def knn_func(path: str, fingerprint_count: int):
     fingerprint_ID, bssid, signalstrength
     ...
     """
-    print("type=", type((5, 6)))
     x_train = np.zeros((fingerprint_count, UNIQUE_APS_TOTAL))
     y_train = np.zeros(fingerprint_count)
-    print(x_train.shape)
-    print(y_train.shape)
-    """ we need to map bssids to integers so we can use the integers as index for our ndarray
+    # print(x_train.shape)
+    # print(y_train.shape)
+    """ We need to map bssids to integers so we can use the integers as index for our ndarray.
         algorithm: for every bssid, check if it's already in the map. if not, add it to the map.
     
     """
@@ -179,7 +178,6 @@ def knn_func(path: str, fingerprint_count: int):
 
     predict = knn.predict(x_test.reshape(1, -1))
     predict = int(predict[0])
-    print(type(predict), predict)
     print("predict=", predict, "location is ",
           fingerprint_location_map[predict])
     return "current location="+str(fingerprint_location_map[minindex])

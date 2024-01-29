@@ -1,0 +1,9 @@
+
+BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
+54:67:51:0B:07:7F, 2024-01-26 17:00:37, 2024-01-26 17:00:37,  6, 195, WPA2, CCMP, PSK, -74,        1,        1,   0.  0.  0.  0,  13, KabelBox-2298, 
+46:67:51:0B:07:7F, 2024-01-26 17:00:37, 2024-01-26 17:00:37,  6, 195, OPN, ,   , -74,        1,        2, 192.168.  0.  7,  16, Vodafone Hotspot, 
+4A:67:51:0B:07:7F, 2024-01-26 17:00:37, 2024-01-26 17:00:37,  6, 195, OPN, ,   , -75,        1,        2, 192.168.  0.  7,  17, Vodafone Homespot, 
+24:65:11:8A:E8:9F, 2024-01-26 17:00:37, 2024-01-26 17:00:55, 13, 270, WPA2, CCMP, PSK, -64,      178,       17,   0.  0.  0.  0,  12, Schirmakazie, 
+
+Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
+

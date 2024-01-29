@@ -1,0 +1,6 @@
+
+BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
+24:65:11:8A:E8:9F, 2024-01-26 14:42:10, 2024-01-26 14:43:52, 13, 270, WPA2, CCMP, PSK, -60,     1001,       74,   0.  0.  0.  0,  12, Schirmakazie, 
+
+Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
+
