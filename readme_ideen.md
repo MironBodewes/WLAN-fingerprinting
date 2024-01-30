@@ -18,14 +18,25 @@ A3utilities ausgeben mit korrekten ssids undso
 https://en.wikipedia.org/wiki/Beacon_frame :
 Most access points allow the changing of the beacon interval. Increasing the beacon interval will cause the beacons to be sent less frequently. This reduces load on the network and increases throughput for clients on the network; however, it has the undesirable effect of delaying association and roaming processes as stations scanning for access points could potentially miss a beacon while scanning other channels.
 
+Ergebnis: fast alle Beacons werden alle 102.4 ms gesendet, mit 10% varianz
+![Alt text](image.png)
+
+
 TODO:
 beacon frame timings aufzeichnen, um herauszufinden, warum einige verpasst werden.
-airomon-ng check kill
-airomon-ng start wlp4s0
-airodump
-syscontrol start NetworkManager oder so ähnlich
+
+starting:
+airmon-ng check kill
+airmon-ng start wlp4s0
+airodump-ng -w wlans2 --beacons wlp4s0mon -c 6
+
+stopping:
+airmon-ng stop wlp4s0mon
+systemctl start NetworkManager
 
 
 Notizen
 sudo iw dev wlp4s0 scan
 sudo iwlist wlp4s0 scan
+
+TODO: Code review linux_scan: wären Klassen besser als Listen? Die Indexe sind instabil gegenüber Änderugen. Klassenattributnamen ändern sich ja nicht

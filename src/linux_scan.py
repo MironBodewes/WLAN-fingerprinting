@@ -1,6 +1,9 @@
 import subprocess
 import re
 import numpy as np
+import time
+
+
 
 WLAN_INTERACE="wlp4s0"
 
@@ -15,6 +18,8 @@ def get_frequency_band(freq):
 
 
 def scan_func(fingerprint_number: int, locate=True, debug=False) -> list:
+    start_time = time.time()
+
     # scan the wifi
     if locate == False:
         location_name = input("Where are you? ")
@@ -22,6 +27,7 @@ def scan_func(fingerprint_number: int, locate=True, debug=False) -> list:
         location_name = None
     x_coordinate = None
     y_coordinate = None
+    print("before scan",time.time()-start_time); start_time=time.time()
 
     # changed to iw
     try:
@@ -30,6 +36,8 @@ def scan_func(fingerprint_number: int, locate=True, debug=False) -> list:
     except subprocess.CalledProcessError as e:
         print(f"Error: {e}")
     # print(result)
+    print("after scan",time.time()-start_time); start_time=time.time()
+    
 
     # Extract ESSID, BSSID, signal strength, and channel using regular expressions
     essid_list = re.findall(r"SSID: (.*)", result)
@@ -58,6 +66,8 @@ def scan_func(fingerprint_number: int, locate=True, debug=False) -> list:
     print(len(fingerprint), "accesspoints found")
     # for thing in accesspoint:
     #     print(type(thing),thing)
+
+    # print("end",time.time()-start_time); start_time=time.time()
     return fingerprint
 
 
