@@ -1,3 +1,4 @@
+import os
 import pickle
 import subprocess
 import re
@@ -7,12 +8,13 @@ import matplotlib.pyplot as plt
 
 
 class Accesspoint:
-    def __init__(self, ssid, bssid, fingerprint_id, signal_strength):
+    def __init__(self, ssid, bssid, fingerprint_id, signal_strength, frequency_band):
         # could use one list with fingerprint, signal tuples instead of two lists here.
         self.fingerprint_list = [fingerprint_id]
         self.signal_strength_list = [signal_strength]
         self.ssid = ssid
         self.bssid = bssid
+        self.frequency_band = frequency_band
 
 
 WLAN_INTERACE = "wlp4s0"
@@ -88,19 +90,32 @@ if __name__ == "__main__":
     # plotting and boxplotting
     INDEX_ID = 0  # fingerprint id
     INDEX_SIGNAL = 5
+    INDEX_FREQUENCY_BAND = 6
     INDEX_BSSID = 4
     INDEX_ESSID = 3
     fingerprint_list = []
-    SCAN = False
+    SCAN = True
+
+    import time
+    timestr = time.strftime("%Y%m%d-%H%M%S")
+    FILENAME = "./test/data/scan_data_"+timestr+".pkl"
+    PATH_TO_LATEST_DATA = "./test/data/latest_scan_data_path.txt"
+    if os.path.exists(PATH_TO_LATEST_DATA):
+        with open(PATH_TO_LATEST_DATA, "r") as f:
+            latest_file = f.read()
+
     if SCAN == True:
-        for i in range(5):
+        for i in range(15):
             fingerprint_list.append(scan_func(i))
-
         # Saving and loading the list so we can restart the program without scanning.
-        with open('./saved_dictionary.pkl', 'wb') as f:
+        os.makedirs("./test/data",exist_ok=True)
+        with open(FILENAME, 'wb') as f:
             pickle.dump(fingerprint_list, f)
+        latest_file = FILENAME
+        with open(PATH_TO_LATEST_DATA, "w") as f:
+            f.write(FILENAME)
 
-    with open('./saved_dictionary.pkl', 'rb') as f:
+    with open(latest_file, 'rb') as f: #TODO try catch NameError
         fingerprint_list = pickle.load(f)
 
     ap_to_signals = {}
@@ -110,7 +125,7 @@ if __name__ == "__main__":
             # new version
             my_ap: Accesspoint = next((x for x in ap_list if x.bssid == ap[INDEX_BSSID]), None)
             if my_ap is None:
-                ap_list.append(Accesspoint(ap[INDEX_ESSID], ap[INDEX_BSSID], ap[INDEX_ID], ap[INDEX_SIGNAL]))
+                ap_list.append(Accesspoint(ap[INDEX_ESSID], ap[INDEX_BSSID], ap[INDEX_ID], ap[INDEX_SIGNAL], ap[INDEX_FREQUENCY_BAND]))
             else:
                 my_ap.signal_strength_list.append(ap[INDEX_SIGNAL])
                 my_ap.fingerprint_list.append(ap[INDEX_ID])
@@ -124,10 +139,15 @@ if __name__ == "__main__":
     fig = plt.figure()
     ax = plt.subplot(111)
     for ap in ap_list:
-        ax.plot(ap.fingerprint_list, ap.signal_strength_list, label=ap.ssid)
+        if ap.frequency_band == "2.4 GHz":
+            _linestyle = "-"
+        else:
+            _linestyle = "--"
+        ax.plot(ap.fingerprint_list, ap.signal_strength_list, label=ap.ssid, alpha=1, drawstyle="default", linestyle=_linestyle)
     # Shrink current axis by 20%
     box = ax.get_position()
-    ax.set_position([box.x0, box.y0, box.width * 1, box.height*0.8])
-    plt.legend(loc='upper center', bbox_to_anchor=(0.5, 1.3),
-            ncol=3, fancybox=True, shadow=True)
+    ax.set_position([box.x0, box.y0, box.width * 1, box.height*0.75])
+    plt.legend(loc='upper center', bbox_to_anchor=(0.5, 1.35),
+               ncol=3, fancybox=True, shadow=True)
+    fig.suptitle("solid graphs are 2.4 GHz, dashed lines are 5 GHz")
     plt.show()
