@@ -35,8 +35,16 @@ airmon-ng stop wlp4s0mon
 systemctl start NetworkManager
 
 
-Notizen
+## Notizen:
 sudo iw dev wlp4s0 scan
 sudo iwlist wlp4s0 scan
 
 TODO: Code review linux_scan: wären Klassen besser als Listen? Die Indexe sind instabil gegenüber Änderugen. Klassenattributnamen ändern sich ja nicht
+
+
+TODO: bisschen messen räume
+Versuchsaufbau beschreiben für Messgenauigkeit
+Zahlen Genauigkeit
+Recherchieren bezüglich iw
+wie funktioniert Netzwerkscan
+Schreiben

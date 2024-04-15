@@ -27,7 +27,7 @@ def scan_func(fingerprint_number: int, locate=True, debug=False) -> list:
         location_name = None
     x_coordinate = None
     y_coordinate = None
-    print("before scan",time.time()-start_time); start_time=time.time()
+    # print("before scan",time.time()-start_time); start_time=time.time()
 
     # changed to iw
     try:
@@ -36,7 +36,7 @@ def scan_func(fingerprint_number: int, locate=True, debug=False) -> list:
     except subprocess.CalledProcessError as e:
         print(f"Error: {e}")
     # print(result)
-    print("after scan",time.time()-start_time); start_time=time.time()
+    # print("after scan",time.time()-start_time); start_time=time.time()
     
 
     # Extract ESSID, BSSID, signal strength, and channel using regular expressions

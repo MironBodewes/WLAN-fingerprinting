@@ -105,7 +105,7 @@ if __name__ == "__main__":
             latest_file = f.read()
 
     if SCAN == True:
-        for i in range(15):
+        for i in range(20):
             fingerprint_list.append(scan_func(i))
         # Saving and loading the list so we can restart the program without scanning.
         os.makedirs("./test/data",exist_ok=True)
