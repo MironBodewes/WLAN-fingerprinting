@@ -3,7 +3,7 @@ import time
 import numpy as np
 import pandas as pd
 from knn import knn_func
-# from scan import scan_func
+# from windows_scan import scan_func
 from linux_scan import scan_func
 from pathlib import Path
 
@@ -59,11 +59,11 @@ if __name__ == "__main__":
         if (befehl == "f" or befehl == "fingerprint"):
             # scan the WLAN (do a fingerprint)
             count = input("how many fingerprints do you want to make?")
-            fingerprints=[]
+            fingerprints = []
             fingerprints.clear()
             for i in range(int(count)):
-                fingerprints.extend(scan_func(fingerprint_count,locate=False))
-                print("fingerprint:\n",fingerprints)
+                fingerprints.extend(scan_func(fingerprint_count, locate=False))
+                print("fingerprint:\n", fingerprints)
                 fingerprint_count += 1
 
             # saving
@@ -87,7 +87,7 @@ if __name__ == "__main__":
             config_df = pd.DataFrame(mylist, columns=[FID])
             config_df.to_csv(CONFIG_PATH)
         elif befehl == "ssss" or befehl == "save":
-            #save is deprecated
+            # save is deprecated
             print("save is deprecated")
             # print("saving fingerprints")
             # df = pd.DataFrame(fingerprints, columns=COLUMNS)
@@ -95,7 +95,7 @@ if __name__ == "__main__":
             # df.to_pickle(FINGERPRINTS_PATH)
         elif befehl == "l" or befehl == "locate":
             print("locating with fingerprints=", fingerprint_count)
-            knn_func(FINGERPRINTS_PATH, fingerprint_count)
+            knn_func(FINGERPRINTS_PATH, fingerprint_count,verbose_level=1)
         elif befehl == "x" or befehl == "exit":
             print("exiting...")
             break

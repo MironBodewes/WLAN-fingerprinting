@@ -1,8 +1,26 @@
 ;fingerprint;x-pos;y-pos;ssid;bssidd;signal_strength;frequency_standard;location_name
-0;0;;;Schirmakazie;24:65:11:8a:e8:9f;-54;2.4 GHz;pc
-1;0;;;Schirmakazie2;78:6a:1f:3a:95:ea;-79;Unknown;pc
-2;0;;;WLAN-244575;30:b1:b5:09:d2:36;-83;2.4 GHz;pc
-3;1;;;Schirmakazie;24:65:11:8a:e8:9f;-54;2.4 GHz;pc
-4;1;;;Schirmakazie2;78:6a:1f:3a:95:ea;-79;Unknown;pc
-5;1;;;WLAN-244575;30:b1:b5:09:d2:36;-83;2.4 GHz;pc
-6;1;;;Vodafone Homespot;4a:67:51:0b:07:7f;-83;2.4 GHz;pc
+0;0;;;FBKIRCHE24;98:9b:cb:23:4f:ec;-55;2.4 GHz;kitchen
+1;0;;;FBKIRCHE50;98:9b:cb:23:4f:eb;-61;Unknown;kitchen
+2;0;;;FBKIRCHE_AP24;14:eb:b6:aa:af:40;-60;2.4 GHz;kitchen
+3;0;;;FBKIRCHE_GAST;9a:9b:cb:23:4f:ec;-54;2.4 GHz;kitchen
+4;0;;;FBKIRCHE_AP50;14:eb:b6:aa:af:42;-64;5 GHz;kitchen
+5;0;;;FBKIRCHE_GAST;9a:9b:cb:23:4f:eb;-63;Unknown;kitchen
+6;1;;;FBKIRCHE24;98:9b:cb:23:4f:ec;-55;2.4 GHz;kitchen
+7;1;;;FBKIRCHE50;98:9b:cb:23:4f:eb;-69;Unknown;kitchen
+8;1;;;FBKIRCHE_AP24;14:eb:b6:aa:af:40;-62;2.4 GHz;kitchen
+9;1;;;FBKIRCHE_GAST;9a:9b:cb:23:4f:ec;-55;2.4 GHz;kitchen
+10;1;;;FBKIRCHE_AP50;14:eb:b6:aa:af:42;-61;5 GHz;kitchen
+11;1;;;FBKIRCHE_GAST;9a:9b:cb:23:4f:eb;-69;Unknown;kitchen
+0;2;;;FBKIRCHE50;98:9b:cb:23:4f:eb;-59;Unknown;kitchen
+1;2;;;FBKIRCHE_GAST;9a:9b:cb:23:4f:ec;-59;2.4 GHz;kitchen
+2;2;;;FBKIRCHE_AP24;14:eb:b6:aa:af:40;-60;2.4 GHz;kitchen
+3;2;;;FBKIRCHE_GAST;9a:9b:cb:23:4f:eb;-59;Unknown;kitchen
+4;2;;;FBKIRCHE24;98:9b:cb:23:4f:ec;-61;2.4 GHz;kitchen
+5;2;;;FBKIRCHE_AP50;14:eb:b6:aa:af:42;-66;5 GHz;kitchen
+6;3;;;FBKIRCHE50;98:9b:cb:23:4f:eb;-68;Unknown;kitchen
+7;3;;;FBKIRCHE_GAST;9a:9b:cb:23:4f:ec;-57;2.4 GHz;kitchen
+8;3;;;FBKIRCHE_AP24;14:eb:b6:aa:af:40;-58;2.4 GHz;kitchen
+9;3;;;FBKIRCHE_GAST;9a:9b:cb:23:4f:eb;-68;Unknown;kitchen
+10;3;;;FBKIRCHE24;98:9b:cb:23:4f:ec;-58;2.4 GHz;kitchen
+11;3;;;FBKIRCHE_AP50;14:eb:b6:aa:af:42;-66;5 GHz;kitchen
+12;3;;;;16:eb:b6:da:af:40;-65;5 GHz;kitchen

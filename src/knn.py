@@ -23,7 +23,7 @@ def knn_func2(path: str, amount_of_fingerprints: int):
     pass
 
 
-def knn_func(path: str, fingerprint_count: int):
+def knn_func(path: str, fingerprint_count: int, verbose_level: int = 0):
     """this function compares the signal strengths at the current position with all other fingerprints previously made and spits out the nearest fingerprint(s)"""
     HIGHEST_AMOUNT_OF_ACCESSPOINTS_IN_A_FINGERPRINT = 100  # TODO
     HIGH = HIGHEST_AMOUNT_OF_ACCESSPOINTS_IN_A_FINGERPRINT
@@ -99,7 +99,7 @@ def knn_func(path: str, fingerprint_count: int):
                 pass
                 accesspoint_nonmatches[i] += 1
             j += 1
-    print("ap matches=", accesspoint_matches)
+    # print("ap matches=", accesspoint_matches)
     # print("scores=\n", score_arrays)
     # print("scores2=\n", score_array2)
     means = []
@@ -114,9 +114,10 @@ def knn_func(path: str, fingerprint_count: int):
         if (abs(means[i]) < lowest_found_score):
             lowest_found_score = abs(means[i])
             minindex = i
-
-    print(means)
-    print("minimum=", lowest_found_score, "minindex=", minindex)
+    if (verbose_level >= 1):
+        print("Errors to other fingerprints are:\n")
+        print(means)
+        print("minimum=", lowest_found_score, "minindex=", minindex)
     print("current location=", fingerprint_location_map[minindex])
     # print("mylist=", mylist)
     """change the format of the df to use it with knn.
@@ -186,6 +187,6 @@ def knn_func(path: str, fingerprint_count: int):
 if __name__ == "__main__":
     config_df = pd.read_csv("data/config.csv")
     # fingerprint_count formerly fingerprint_number is the count of
-    amount_of_fingerprints = config_df.loc[:, 'fingerprint_id'][0]
     # fingerprints. fingerprint_id should be the individual id of a fingerprint
+    amount_of_fingerprints = config_df.loc[:, 'fingerprint_id'][0]
     knn_func("data/accesspoints.pkl", amount_of_fingerprints)

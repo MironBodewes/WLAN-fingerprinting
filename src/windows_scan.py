@@ -91,7 +91,8 @@ def scan_func(fingerprint_number: int, locate=False, debug=False) -> list:
             accesspoints.append(Accesspoint(
                 ssid, bssidd, signal_strength, frequency_standard))
         i += 1
-    print("bssids_found=", bssi_found)
+    if(debug):
+        print("bssids_found=", bssi_found)
 
     fingerprint = []
 

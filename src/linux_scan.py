@@ -45,7 +45,8 @@ def scan_func(fingerprint_number: int, locate=True, debug=False) -> list:
     signal_strength_list = re.findall(r"signal: (-\d+)", result)
     #                                 r'signal: (-\d+) dBm'
     channel_list = re.findall(r"freq: (\d+)", result)
-    print(essid_list, bssid_list, signal_strength_list, channel_list, sep="\n")
+    if(debug):
+        print(essid_list, bssid_list, signal_strength_list, channel_list, sep="\n")
     # print(len(essid_list),len(bssid_list),len(signal_strength_list),len(channel_list))
 
     # Print the results including frequency band information
