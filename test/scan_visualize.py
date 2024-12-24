@@ -95,6 +95,7 @@ if __name__ == "__main__":
     INDEX_ESSID = 3
     fingerprint_list = []
     SCAN = True
+    ITERATIONS=16
 
     import time
     timestr = time.strftime("%Y%m%d-%H%M%S")
@@ -105,7 +106,7 @@ if __name__ == "__main__":
             latest_file = f.read()
 
     if SCAN == True:
-        for i in range(20):
+        for i in range(ITERATIONS):
             fingerprint_list.append(scan_func(i))
         # Saving and loading the list so we can restart the program without scanning.
         os.makedirs("./test/data",exist_ok=True)
@@ -138,6 +139,12 @@ if __name__ == "__main__":
 
     fig = plt.figure()
     ax = plt.subplot(111)
+    plt.xlabel("Scan index")
+    plt.ylabel("RSSI")
+    plt.xticks(range(1,ITERATIONS+1,2))
+    for ap in ap_list:
+        
+        print(ap.ssid,"stddev=",np.std(ap.signal_strength_list))
     for ap in ap_list:
         if ap.frequency_band == "2.4 GHz":
             _linestyle = "-"
