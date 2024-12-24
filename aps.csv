@@ -1,33 +1,48 @@
 ;fingerprint;x-pos;y-pos;ssid;bssidd;signal_strength;frequency_standard;location_name
-0;0;;;FBKIRCHE24;98:9b:cb:23:4f:ec;-55;2.4 GHz;kitchen
-1;0;;;FBKIRCHE50;98:9b:cb:23:4f:eb;-61;Unknown;kitchen
-2;0;;;FBKIRCHE_AP24;14:eb:b6:aa:af:40;-60;2.4 GHz;kitchen
-3;0;;;FBKIRCHE_GAST;9a:9b:cb:23:4f:ec;-54;2.4 GHz;kitchen
-4;0;;;FBKIRCHE_AP50;14:eb:b6:aa:af:42;-64;5 GHz;kitchen
-5;0;;;FBKIRCHE_GAST;9a:9b:cb:23:4f:eb;-63;Unknown;kitchen
-6;1;;;FBKIRCHE24;98:9b:cb:23:4f:ec;-55;2.4 GHz;kitchen
-7;1;;;FBKIRCHE50;98:9b:cb:23:4f:eb;-69;Unknown;kitchen
-8;1;;;FBKIRCHE_AP24;14:eb:b6:aa:af:40;-62;2.4 GHz;kitchen
-9;1;;;FBKIRCHE_GAST;9a:9b:cb:23:4f:ec;-55;2.4 GHz;kitchen
-10;1;;;FBKIRCHE_AP50;14:eb:b6:aa:af:42;-61;5 GHz;kitchen
-11;1;;;FBKIRCHE_GAST;9a:9b:cb:23:4f:eb;-69;Unknown;kitchen
-0;2;;;FBKIRCHE50;98:9b:cb:23:4f:eb;-59;Unknown;kitchen
-1;2;;;FBKIRCHE_GAST;9a:9b:cb:23:4f:ec;-59;2.4 GHz;kitchen
-2;2;;;FBKIRCHE_AP24;14:eb:b6:aa:af:40;-60;2.4 GHz;kitchen
-3;2;;;FBKIRCHE_GAST;9a:9b:cb:23:4f:eb;-59;Unknown;kitchen
-4;2;;;FBKIRCHE24;98:9b:cb:23:4f:ec;-61;2.4 GHz;kitchen
-5;2;;;FBKIRCHE_AP50;14:eb:b6:aa:af:42;-66;5 GHz;kitchen
-6;3;;;FBKIRCHE50;98:9b:cb:23:4f:eb;-68;Unknown;kitchen
-7;3;;;FBKIRCHE_GAST;9a:9b:cb:23:4f:ec;-57;2.4 GHz;kitchen
-8;3;;;FBKIRCHE_AP24;14:eb:b6:aa:af:40;-58;2.4 GHz;kitchen
-9;3;;;FBKIRCHE_GAST;9a:9b:cb:23:4f:eb;-68;Unknown;kitchen
-10;3;;;FBKIRCHE24;98:9b:cb:23:4f:ec;-58;2.4 GHz;kitchen
-11;3;;;FBKIRCHE_AP50;14:eb:b6:aa:af:42;-66;5 GHz;kitchen
-12;3;;;;16:eb:b6:da:af:40;-65;5 GHz;kitchen
-0;4;;;Schirmakazie2;78:6a:1f:3a:95:ea;-51;Unknown;kitchen
-1;4;;;Schirmakazie;24:65:11:8a:e8:9f;-72;2.4 GHz;kitchen
-2;4;;;uniwifi;e0:63:da:07:47:21;-83;2.4 GHz;kitchen
-3;4;;;WiTre_Gast;ea:63:da:07:47:21;-83;2.4 GHz;kitchen
-4;4;;;SCharger-22KT-S0-NS2352789872;2c:52:af:15:c8:2a;-83;2.4 GHz;kitchen
-5;4;;;WiTre_IoT;e6:63:da:74:57:e3;-83;2.4 GHz;kitchen
-6;4;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-54;2.4 GHz;kitchen
+0;0;;;Schirmakazie2;78:6a:1f:3a:95:ea;-50;Unknown;kitchen
+1;0;;;Schirmakazie;24:65:11:8a:e8:9f;-76;2.4 GHz;kitchen
+2;0;;;WiTre_Gast;ea:63:da:07:47:21;-83;2.4 GHz;kitchen
+3;0;;;WiTre_IoT;e6:63:da:15:71:be;-83;2.4 GHz;kitchen
+4;0;;;WiTre_IoT;e6:63:da:74:57:e3;-83;2.4 GHz;kitchen
+5;0;;;WiTre_Gast;ea:63:da:74:57:e3;-83;2.4 GHz;kitchen
+6;0;;;uniwifi;e0:63:da:07:47:21;-83;2.4 GHz;kitchen
+7;0;;;WiTre_Gast;ea:63:da:15:71:be;-83;2.4 GHz;kitchen
+8;0;;;Vodafone-6CC4;f8:5e:42:27:6c:c8;-83;2.4 GHz;kitchen
+9;0;;;Vodafone Hotspot;fa:5e:42:27:6c:cc;-83;2.4 GHz;kitchen
+0;1;;;Schirmakazie2;78:6a:1f:3a:95:ea;-52;Unknown;kitchen
+1;1;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-56;2.4 GHz;kitchen
+2;1;;;WiTre_IoT;e6:63:da:15:71:be;-83;2.4 GHz;kitchen
+3;1;;;Schirmakazie;24:65:11:8a:e8:9f;-74;2.4 GHz;kitchen
+4;1;;;WiTre_Gast;ea:63:da:15:71:be;-83;2.4 GHz;kitchen
+5;1;;;WiTre_IoT;e6:63:da:74:57:e3;-83;2.4 GHz;kitchen
+6;1;;;uniwifi;e0:63:da:74:57:e3;-83;2.4 GHz;kitchen
+7;1;;;WiTre_Gast;ea:63:da:74:57:e3;-83;2.4 GHz;kitchen
+8;1;;;SCharger-22KT-S0-NS2352789872;2c:52:af:15:c8:2a;-83;2.4 GHz;kitchen
+9;2;;;Schirmakazie2;78:6a:1f:3a:95:ea;-65;Unknown;frontdoor
+10;2;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-67;2.4 GHz;frontdoor
+11;2;;;WiTre_IoT;e6:63:da:15:71:be;-81;2.4 GHz;frontdoor
+12;2;;;Schirmakazie;24:65:11:8a:e8:9f;-77;2.4 GHz;frontdoor
+13;2;;;WiTre_Gast;ea:63:da:15:71:be;-82;2.4 GHz;frontdoor
+14;2;;;WiTre_IoT;e6:63:da:74:57:e3;-83;2.4 GHz;frontdoor
+15;2;;;uniwifi;e0:63:da:74:57:e3;-82;2.4 GHz;frontdoor
+16;2;;;WiTre_Gast;ea:63:da:74:57:e3;-83;2.4 GHz;frontdoor
+17;2;;;uniwifi;e0:63:da:15:71:be;-83;2.4 GHz;frontdoor
+18;2;;;WiTre_IoT;e6:63:da:07:47:21;-83;2.4 GHz;frontdoor
+19;2;;;WiTre_Gast;ea:63:da:07:47:21;-83;2.4 GHz;frontdoor
+20;2;;;TP-Link_7104;90:9a:4a:07:71:04;-83;2.4 GHz;frontdoor
+21;3;;;Schirmakazie2;78:6a:1f:3a:95:ea;-70;Unknown;bedroom
+22;3;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-67;2.4 GHz;bedroom
+23;3;;;WiTre_IoT;e6:63:da:15:71:be;-83;2.4 GHz;bedroom
+24;3;;;Schirmakazie;24:65:11:8a:e8:9f;-79;2.4 GHz;bedroom
+25;3;;;WiTre_Gast;ea:63:da:15:71:be;-83;2.4 GHz;bedroom
+26;3;;;WiTre_IoT;e6:63:da:74:57:e3;-83;2.4 GHz;bedroom
+27;3;;;uniwifi;e0:63:da:74:57:e3;-82;2.4 GHz;bedroom
+28;3;;;WiTre_Gast;ea:63:da:74:57:e3;-83;2.4 GHz;bedroom
+29;3;;;uniwifi;e0:63:da:15:71:be;-83;2.4 GHz;bedroom
+30;3;;;WiTre_IoT;e6:63:da:07:47:21;-83;2.4 GHz;bedroom
+31;3;;;WiTre_Gast;ea:63:da:07:47:21;-83;2.4 GHz;bedroom
+32;3;;;TP-Link_7104;90:9a:4a:07:71:04;-83;2.4 GHz;bedroom
+33;3;;;Schirmakazie2;78:6a:1f:3a:95:e9;-57;2.4 GHz;bedroom
+34;3;;;WLAN-244575;30:b1:b5:09:d2:36;-83;2.4 GHz;bedroom
+35;3;;;WLAN-244575;30:b1:b5:09:d2:32;-79;Unknown;bedroom
+36;3;;;;30:b1:b5:09:d2:35;-79;Unknown;bedroom

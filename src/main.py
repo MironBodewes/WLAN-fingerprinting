@@ -55,7 +55,7 @@ if __name__ == "__main__":
     fingerprints = []
     while (True):
         befehl = input(
-            "Welchen Befehl wollen sie ausführen? Try f for fingerprint, l to locate or x for exit ")
+            "Welchen Befehl wollen sie ausführen? Try f for fingerprint, l to locate or x for exit... \n")
         if (befehl == "f" or befehl == "fingerprint"):
             # scan the WLAN (do a fingerprint)
             count = input("how many fingerprints do you want to make?")

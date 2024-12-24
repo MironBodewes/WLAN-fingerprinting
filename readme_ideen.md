@@ -24,7 +24,7 @@ Ergebnis: fast alle Beacons werden alle 102.4 ms gesendet, mit 10% varianz
 
 TODO:
 beacon frame timings aufzeichnen, um herauszufinden, warum einige verpasst werden.
-
+## AIRMON!!!!
 starting:
 airmon-ng check kill
 airmon-ng start wlp4s0
@@ -48,3 +48,14 @@ Zahlen Genauigkeit
 Recherchieren bezüglich iw
 wie funktioniert Netzwerkscan
 Schreiben
+
+
+
+# 24.12.2024:
+10 Räume fingerprinten
+# vorgehen scan auf wireshark ändern
+- scannen für ~5 sekunden oder so
+- accesspoints rausfinden über beaconframes
+- alle pakete die von aps gesendet wurden anschauen nach signal strength
+- dann vorgehen wie vorher
+- am besten mit rssi +- stddev + confidence interval oder so bzw. paketanzahl aufschreiben

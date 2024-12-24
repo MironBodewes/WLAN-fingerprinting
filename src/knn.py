@@ -14,6 +14,17 @@ INDEX_BSSID = 4
 INDEX_SIGNAL = 5
 INDEX_LOCATION = 7
 
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKCYAN = '\033[96m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
 
 def calculate_something():
     pass
@@ -179,7 +190,7 @@ def knn_func(path: str, fingerprint_count: int, verbose_level: int = 0):
 
     predict = knn.predict(x_test.reshape(1, -1))
     predict = int(predict[0])
-    print("predict=", predict, "location is ",
+    print(bcolors.WARNING,"predict=", predict, "location is ",
           fingerprint_location_map[predict])
     return "current location="+str(fingerprint_location_map[minindex])
 
