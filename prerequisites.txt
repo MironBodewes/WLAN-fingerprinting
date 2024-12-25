@@ -1,0 +1,6 @@
+Debian 12 "bookworm"
+tshark (Wireshark) 4.0.17
+linux 6.1
+WLAN card that supports monitor mode (eg. Intel Wireless 8260)
+
+for modules consult requirements.txt

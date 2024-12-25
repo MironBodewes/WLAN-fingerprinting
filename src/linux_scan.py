@@ -2,16 +2,16 @@ import subprocess
 import re
 import numpy as np
 import time
+from my_tshark import my_scan_function
 
 
-
-WLAN_INTERACE="wlp4s0"
-
-def get_frequency_band(freq):
+WLAN_INTERACE = "wlp4s0"
+ 
+def get_frequency_band(channel):
     # Define the channel ranges for 2.4 GHz and 5 GHz
-    if 2000 <= freq <= 3000:
+    if 1 <= channel <= 14:
         return "2.4 GHz"
-    elif 5000 <= freq <= 5200:
+    elif 32 <= channel <= 177:
         return "5 GHz"
     else:
         return "Unknown"
@@ -32,20 +32,11 @@ def scan_func(fingerprint_number: int, locate=True, debug=False) -> list:
     # changed to iw
     try:
         # Run the iw command to scan for wireless networks
-        result = subprocess.check_output(["sudo", "iw", "dev", WLAN_INTERACE, "scan"], universal_newlines=True)
+        channel_list, signal_strength_list, bssid_list, essid_list, = my_scan_function()
     except subprocess.CalledProcessError as e:
         print(f"Error: {e}")
-    # print(result)
-    # print("after scan",time.time()-start_time); start_time=time.time()
-    
 
-    # Extract ESSID, BSSID, signal strength, and channel using regular expressions
-    essid_list = re.findall(r"SSID: (.*)", result)
-    bssid_list = re.findall(r"BSS (\S+)\(", result)
-    signal_strength_list = re.findall(r"signal: (-\d+)", result)
-    #                                 r'signal: (-\d+) dBm'
-    channel_list = re.findall(r"freq: (\d+)", result)
-    if(debug):
+    if (debug):
         print(essid_list, bssid_list, signal_strength_list, channel_list, sep="\n")
     # print(len(essid_list),len(bssid_list),len(signal_strength_list),len(channel_list))
 

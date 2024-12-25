@@ -93,6 +93,8 @@ def knn_func(path: str, fingerprint_count: int, verbose_level: int = 0):
     # print(list_of_dicts)
     # for i in range(len(list_of_dicts)):
     #     print(list_of_dicts[i])
+    print("size=",len(current_pos_dict))
+    print(current_pos_dict)
     for i in range(len(list_of_dicts)):
         j = 0
         for key in current_pos_dict:
@@ -191,7 +193,7 @@ def knn_func(path: str, fingerprint_count: int, verbose_level: int = 0):
     predict = knn.predict(x_test.reshape(1, -1))
     predict = int(predict[0])
     print(bcolors.WARNING,"predict=", predict, "location is ",
-          fingerprint_location_map[predict])
+          fingerprint_location_map[predict], bcolors.ENDC)
     return "current location="+str(fingerprint_location_map[minindex])
 
 
