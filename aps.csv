@@ -181,3 +181,967 @@
 72;5;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-51;2.4 GHz;kitchen
 73;5;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-49;2.4 GHz;kitchen
 74;5;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-61;2.4 GHz;kitchen
+0;6;;;uniwifi;e0:63:da:15:71:be;-83;2.4 GHz;beforekitchen
+1;6;;;WiTre_IoT;e6:63:da:15:71:be;-84;2.4 GHz;beforekitchen
+2;6;;;WiTre_Gast;ea:63:da:15:71:be;-83;2.4 GHz;beforekitchen
+3;6;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-48;2.4 GHz;beforekitchen
+4;6;;;uniwifi;e0:63:da:74:57:e3;-91;2.4 GHz;beforekitchen
+5;6;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-42;2.4 GHz;beforekitchen
+6;6;;;Schirmakazie2;78:6a:1f:3a:95:e9;-42;2.4 GHz;beforekitchen
+7;6;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-41;2.4 GHz;beforekitchen
+8;6;;;uniwifi;e0:63:da:15:71:be;-86;2.4 GHz;beforekitchen
+9;6;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-48;2.4 GHz;beforekitchen
+10;6;;;uniwifi;e0:63:da:74:57:e3;-92;2.4 GHz;beforekitchen
+11;6;;;WiTre_Gast;ea:63:da:74:57:e3;-94;2.4 GHz;beforekitchen
+12;6;;;WiTre_IoT;e6:63:da:74:57:e3;-91;2.4 GHz;beforekitchen
+13;6;;;Schirmakazie2;78:6a:1f:3a:95:e9;-42;2.4 GHz;beforekitchen
+14;6;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-41;2.4 GHz;beforekitchen
+15;6;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-42;2.4 GHz;beforekitchen
+16;6;;;uniwifi;e0:63:da:15:71:be;-87;2.4 GHz;beforekitchen
+17;6;;;WiTre_IoT;e6:63:da:15:71:be;-88;2.4 GHz;beforekitchen
+18;6;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-50;2.4 GHz;beforekitchen
+19;6;;;uniwifi;e0:63:da:74:57:e3;-94;2.4 GHz;beforekitchen
+20;6;;;WiTre_Gast;ea:63:da:74:57:e3;-92;2.4 GHz;beforekitchen
+21;6;;;WiTre_IoT;e6:63:da:74:57:e3;-94;2.4 GHz;beforekitchen
+22;6;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-41;2.4 GHz;beforekitchen
+23;6;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-43;2.4 GHz;beforekitchen
+24;6;;;Schirmakazie2;78:6a:1f:3a:95:e9;-43;2.4 GHz;beforekitchen
+25;6;;;WiTre_Gast;ea:63:da:15:71:be;-86;2.4 GHz;beforekitchen
+26;6;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-49;2.4 GHz;beforekitchen
+27;6;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-43;2.4 GHz;beforekitchen
+28;6;;;Schirmakazie2;78:6a:1f:3a:95:e9;-43;2.4 GHz;beforekitchen
+29;6;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-43;2.4 GHz;beforekitchen
+30;6;;;uniwifi;e0:63:da:15:71:be;-85;2.4 GHz;beforekitchen
+31;6;;;WiTre_IoT;e6:63:da:15:71:be;-84;2.4 GHz;beforekitchen
+32;6;;;WiTre_Gast;ea:63:da:15:71:be;-84;2.4 GHz;beforekitchen
+33;6;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-48;2.4 GHz;beforekitchen
+34;6;;;Schirmakazie2;78:6a:1f:3a:95:e9;-42;2.4 GHz;beforekitchen
+35;6;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-43;2.4 GHz;beforekitchen
+36;6;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-44;2.4 GHz;beforekitchen
+37;6;;;uniwifi;e0:63:da:15:71:be;-85;2.4 GHz;beforekitchen
+38;6;;;WiTre_Gast;ea:63:da:15:71:be;-86;2.4 GHz;beforekitchen
+39;6;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-44;2.4 GHz;beforekitchen
+40;6;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-44;2.4 GHz;beforekitchen
+41;6;;;Schirmakazie2;78:6a:1f:3a:95:e9;-44;2.4 GHz;beforekitchen
+42;6;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-48;2.4 GHz;beforekitchen
+43;6;;;uniwifi;e0:63:da:15:71:be;-84;2.4 GHz;beforekitchen
+44;6;;;WiTre_IoT;e6:63:da:15:71:be;-85;2.4 GHz;beforekitchen
+45;6;;;WiTre_Gast;ea:63:da:15:71:be;-84;2.4 GHz;beforekitchen
+46;6;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-44;2.4 GHz;beforekitchen
+47;6;;;Schirmakazie2;78:6a:1f:3a:95:e9;-45;2.4 GHz;beforekitchen
+48;6;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-44;2.4 GHz;beforekitchen
+49;6;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-48;2.4 GHz;beforekitchen
+50;6;;;WiTre_IoT;e6:63:da:15:71:be;-84;2.4 GHz;beforekitchen
+51;6;;;Schirmakazie2;78:6a:1f:3a:95:e9;-44;2.4 GHz;beforekitchen
+52;6;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-44;2.4 GHz;beforekitchen
+53;6;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-44;2.4 GHz;beforekitchen
+54;6;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-42;2.4 GHz;beforekitchen
+55;6;;;Schirmakazie2;78:6a:1f:3a:95:e9;-42;2.4 GHz;beforekitchen
+56;6;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-43;2.4 GHz;beforekitchen
+57;6;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-43;2.4 GHz;beforekitchen
+58;6;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-42;2.4 GHz;beforekitchen
+59;6;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-43;2.4 GHz;beforekitchen
+60;6;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-42;2.4 GHz;beforekitchen
+61;6;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-50;2.4 GHz;beforekitchen
+62;7;;;Schirmakazie2;78:6a:1f:3a:95:e9;-52;2.4 GHz;bathroom
+63;7;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-52;2.4 GHz;bathroom
+64;7;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-53;2.4 GHz;bathroom
+65;7;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-51;2.4 GHz;bathroom
+66;7;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-51;2.4 GHz;bathroom
+67;7;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-52;2.4 GHz;bathroom
+68;7;;;Schirmakazie2;78:6a:1f:3a:95:e9;-52;2.4 GHz;bathroom
+69;7;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-52;2.4 GHz;bathroom
+70;7;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-51;2.4 GHz;bathroom
+71;7;;;Schirmakazie2;78:6a:1f:3a:95:e9;-51;2.4 GHz;bathroom
+72;7;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-51;2.4 GHz;bathroom
+73;7;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-52;2.4 GHz;bathroom
+74;7;;;Schirmakazie2;78:6a:1f:3a:95:e9;-50;2.4 GHz;bathroom
+75;7;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-50;2.4 GHz;bathroom
+76;7;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-50;2.4 GHz;bathroom
+77;7;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-51;2.4 GHz;bathroom
+78;7;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-50;2.4 GHz;bathroom
+79;7;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-51;2.4 GHz;bathroom
+80;7;;;Schirmakazie2;78:6a:1f:3a:95:e9;-51;2.4 GHz;bathroom
+81;7;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-51;2.4 GHz;bathroom
+82;7;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-51;2.4 GHz;bathroom
+83;7;;;Schirmakazie2;78:6a:1f:3a:95:e9;-51;2.4 GHz;bathroom
+84;7;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-50;2.4 GHz;bathroom
+85;7;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-51;2.4 GHz;bathroom
+86;7;;;Schirmakazie2;78:6a:1f:3a:95:e9;-51;2.4 GHz;bathroom
+87;7;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-50;2.4 GHz;bathroom
+88;7;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-51;2.4 GHz;bathroom
+89;7;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-52;2.4 GHz;bathroom
+90;7;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-50;2.4 GHz;bathroom
+91;7;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-51;2.4 GHz;bathroom
+92;7;;;Schirmakazie2;78:6a:1f:3a:95:e9;-51;2.4 GHz;bathroom
+93;7;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-51;2.4 GHz;bathroom
+94;7;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-56;2.4 GHz;bathroom
+95;7;;;Schirmakazie2;78:6a:1f:3a:95:e9;-54;2.4 GHz;bathroom
+96;7;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-54;2.4 GHz;bathroom
+97;7;;;Schirmakazie2;78:6a:1f:3a:95:e9;-55;2.4 GHz;bathroom
+98;7;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-55;2.4 GHz;bathroom
+99;7;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-55;2.4 GHz;bathroom
+100;7;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-54;2.4 GHz;bathroom
+101;7;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-54;2.4 GHz;bathroom
+102;7;;;Schirmakazie2;78:6a:1f:3a:95:e9;-54;2.4 GHz;bathroom
+103;7;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-52;2.4 GHz;bathroom
+104;7;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-52;2.4 GHz;bathroom
+105;7;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-55;2.4 GHz;bathroom
+106;7;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-53;2.4 GHz;bathroom
+107;7;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-54;2.4 GHz;bathroom
+108;7;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-54;2.4 GHz;bathroom
+109;7;;;Schirmakazie2;78:6a:1f:3a:95:e9;-53;2.4 GHz;bathroom
+110;8;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-30;2.4 GHz;keller
+111;8;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-25;2.4 GHz;keller
+112;8;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-27;2.4 GHz;keller
+113;8;;;Schirmakazie2;78:6a:1f:3a:95:e9;-26;2.4 GHz;keller
+114;8;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-32;2.4 GHz;keller
+115;8;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-27;2.4 GHz;keller
+116;8;;;Schirmakazie2;78:6a:1f:3a:95:e9;-27;2.4 GHz;keller
+117;8;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-27;2.4 GHz;keller
+118;8;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-30;2.4 GHz;keller
+119;8;;;Schirmakazie2;78:6a:1f:3a:95:e9;-26;2.4 GHz;keller
+120;8;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-26;2.4 GHz;keller
+121;8;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-27;2.4 GHz;keller
+122;8;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-31;2.4 GHz;keller
+123;8;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-26;2.4 GHz;keller
+124;8;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-27;2.4 GHz;keller
+125;8;;;Schirmakazie2;78:6a:1f:3a:95:e9;-26;2.4 GHz;keller
+126;8;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-26;2.4 GHz;keller
+127;8;;;Schirmakazie2;78:6a:1f:3a:95:e9;-27;2.4 GHz;keller
+128;8;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-27;2.4 GHz;keller
+129;8;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-31;2.4 GHz;keller
+130;8;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-30;2.4 GHz;keller
+131;8;;;Schirmakazie2;78:6a:1f:3a:95:e9;-26;2.4 GHz;keller
+132;8;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-26;2.4 GHz;keller
+133;8;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-27;2.4 GHz;keller
+134;8;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-26;2.4 GHz;keller
+135;8;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-26;2.4 GHz;keller
+136;8;;;Schirmakazie2;78:6a:1f:3a:95:e9;-26;2.4 GHz;keller
+137;8;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-32;2.4 GHz;keller
+138;8;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-31;2.4 GHz;keller
+139;8;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-26;2.4 GHz;keller
+140;8;;;Schirmakazie2;78:6a:1f:3a:95:e9;-27;2.4 GHz;keller
+141;8;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-26;2.4 GHz;keller
+142;8;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-32;2.4 GHz;keller
+143;8;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-28;2.4 GHz;keller
+144;8;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-30;2.4 GHz;keller
+145;8;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-29;2.4 GHz;keller
+0;9;;;WiTre_Gast;ea:63:da:74:57:e3;-84;2.4 GHz;sidedoor
+1;9;;;WiTre_IoT;e6:63:da:74:57:e3;-83;2.4 GHz;sidedoor
+2;9;;;Schirmakazie2;78:6a:1f:3a:95:e9;-59;2.4 GHz;sidedoor
+3;9;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-58;2.4 GHz;sidedoor
+4;9;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-59;2.4 GHz;sidedoor
+5;9;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-57;2.4 GHz;sidedoor
+6;9;;;uniwifi;e0:63:da:15:71:be;-83;2.4 GHz;sidedoor
+7;9;;;WiTre_IoT;e6:63:da:15:71:be;-84;2.4 GHz;sidedoor
+8;9;;;WiTre_Gast;ea:63:da:15:71:be;-82;2.4 GHz;sidedoor
+9;9;;;uniwifi;e0:63:da:74:57:e3;-84;2.4 GHz;sidedoor
+10;9;;;WiTre_Gast;ea:63:da:74:57:e3;-84;2.4 GHz;sidedoor
+11;9;;;WiTre_IoT;e6:63:da:74:57:e3;-86;2.4 GHz;sidedoor
+12;9;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-59;2.4 GHz;sidedoor
+13;9;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-60;2.4 GHz;sidedoor
+14;9;;;Schirmakazie2;78:6a:1f:3a:95:e9;-60;2.4 GHz;sidedoor
+15;9;;;uniwifi;e0:63:da:15:71:be;-83;2.4 GHz;sidedoor
+16;9;;;WiTre_IoT;e6:63:da:15:71:be;-82;2.4 GHz;sidedoor
+17;9;;;WiTre_Gast;ea:63:da:15:71:be;-83;2.4 GHz;sidedoor
+18;9;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-57;2.4 GHz;sidedoor
+19;9;;;uniwifi;e0:63:da:74:57:e3;-84;2.4 GHz;sidedoor
+20;9;;;WiTre_Gast;ea:63:da:74:57:e3;-85;2.4 GHz;sidedoor
+21;9;;;WiTre_IoT;e6:63:da:74:57:e3;-84;2.4 GHz;sidedoor
+22;9;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-60;2.4 GHz;sidedoor
+23;9;;;Schirmakazie2;78:6a:1f:3a:95:e9;-61;2.4 GHz;sidedoor
+24;9;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-60;2.4 GHz;sidedoor
+25;9;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-56;2.4 GHz;sidedoor
+26;9;;;uniwifi;e0:63:da:15:71:be;-82;2.4 GHz;sidedoor
+27;9;;;WiTre_Gast;ea:63:da:15:71:be;-81;2.4 GHz;sidedoor
+28;9;;;uniwifi;e0:63:da:74:57:e3;-84;2.4 GHz;sidedoor
+29;9;;;Schirmakazie2;78:6a:1f:3a:95:e9;-61;2.4 GHz;sidedoor
+30;9;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-60;2.4 GHz;sidedoor
+31;9;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-61;2.4 GHz;sidedoor
+32;9;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-55;2.4 GHz;sidedoor
+33;9;;;uniwifi;e0:63:da:15:71:be;-82;2.4 GHz;sidedoor
+34;9;;;WiTre_IoT;e6:63:da:15:71:be;-82;2.4 GHz;sidedoor
+35;9;;;WiTre_Gast;ea:63:da:15:71:be;-83;2.4 GHz;sidedoor
+36;9;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-60;2.4 GHz;sidedoor
+37;9;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-61;2.4 GHz;sidedoor
+38;9;;;Schirmakazie2;78:6a:1f:3a:95:e9;-61;2.4 GHz;sidedoor
+39;9;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-55;2.4 GHz;sidedoor
+40;9;;;uniwifi;e0:63:da:15:71:be;-82;2.4 GHz;sidedoor
+41;9;;;WiTre_IoT;e6:63:da:15:71:be;-84;2.4 GHz;sidedoor
+42;9;;;WiTre_Gast;ea:63:da:15:71:be;-82;2.4 GHz;sidedoor
+43;9;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-62;2.4 GHz;sidedoor
+44;9;;;Schirmakazie2;78:6a:1f:3a:95:e9;-60;2.4 GHz;sidedoor
+45;9;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-61;2.4 GHz;sidedoor
+46;9;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-56;2.4 GHz;sidedoor
+47;9;;;uniwifi;e0:63:da:15:71:be;-83;2.4 GHz;sidedoor
+48;9;;;WiTre_Gast;ea:63:da:15:71:be;-84;2.4 GHz;sidedoor
+49;9;;;Schirmakazie2;78:6a:1f:3a:95:e9;-61;2.4 GHz;sidedoor
+50;9;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-60;2.4 GHz;sidedoor
+51;9;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-61;2.4 GHz;sidedoor
+52;9;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-56;2.4 GHz;sidedoor
+53;9;;;uniwifi;e0:63:da:15:71:be;-82;2.4 GHz;sidedoor
+54;9;;;WiTre_IoT;e6:63:da:15:71:be;-82;2.4 GHz;sidedoor
+55;9;;;WiTre_Gast;ea:63:da:15:71:be;-83;2.4 GHz;sidedoor
+56;9;;;WiTre_Gast;ea:63:da:74:57:e3;-84;2.4 GHz;sidedoor
+57;9;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-57;2.4 GHz;sidedoor
+58;9;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-59;2.4 GHz;sidedoor
+59;9;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-67;2.4 GHz;sidedoor
+60;9;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-69;2.4 GHz;sidedoor
+61;10;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-71;2.4 GHz;stairs
+62;10;;;Schirmakazie2;78:6a:1f:3a:95:e9;-64;2.4 GHz;stairs
+63;10;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-64;2.4 GHz;stairs
+64;10;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-64;2.4 GHz;stairs
+65;10;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-70;2.4 GHz;stairs
+66;10;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-64;2.4 GHz;stairs
+67;10;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-65;2.4 GHz;stairs
+68;10;;;Schirmakazie2;78:6a:1f:3a:95:e9;-65;2.4 GHz;stairs
+69;10;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-91;2.4 GHz;stairs
+70;10;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-70;2.4 GHz;stairs
+71;10;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-64;2.4 GHz;stairs
+72;10;;;Schirmakazie2;78:6a:1f:3a:95:e9;-65;2.4 GHz;stairs
+73;10;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-64;2.4 GHz;stairs
+74;10;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-91;2.4 GHz;stairs
+75;10;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-69;2.4 GHz;stairs
+76;10;;;Schirmakazie2;78:6a:1f:3a:95:e9;-64;2.4 GHz;stairs
+77;10;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-64;2.4 GHz;stairs
+78;10;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-65;2.4 GHz;stairs
+79;10;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-70;2.4 GHz;stairs
+80;10;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-64;2.4 GHz;stairs
+81;10;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-65;2.4 GHz;stairs
+82;10;;;Schirmakazie2;78:6a:1f:3a:95:e9;-65;2.4 GHz;stairs
+83;10;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-92;2.4 GHz;stairs
+84;10;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-70;2.4 GHz;stairs
+85;10;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-63;2.4 GHz;stairs
+86;10;;;Schirmakazie2;78:6a:1f:3a:95:e9;-64;2.4 GHz;stairs
+87;10;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-64;2.4 GHz;stairs
+88;10;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-70;2.4 GHz;stairs
+89;10;;;Schirmakazie2;78:6a:1f:3a:95:e9;-64;2.4 GHz;stairs
+90;10;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-64;2.4 GHz;stairs
+91;10;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-64;2.4 GHz;stairs
+92;10;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-70;2.4 GHz;stairs
+93;10;;;Schirmakazie2;78:6a:1f:3a:95:e9;-64;2.4 GHz;stairs
+94;10;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-63;2.4 GHz;stairs
+95;10;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-63;2.4 GHz;stairs
+96;10;;;Schirmakazie2;78:6a:1f:3a:95:e9;-64;2.4 GHz;stairs
+97;11;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-68;2.4 GHz;workshop
+98;11;;;Schirmakazie2;78:6a:1f:3a:95:e9;-68;2.4 GHz;workshop
+99;11;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-69;2.4 GHz;workshop
+100;11;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-75;2.4 GHz;workshop
+101;11;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-86;2.4 GHz;workshop
+102;11;;;Schirmakazie2;78:6a:1f:3a:95:e9;-70;2.4 GHz;workshop
+103;11;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-68;2.4 GHz;workshop
+104;11;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-69;2.4 GHz;workshop
+105;11;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-88;2.4 GHz;workshop
+106;11;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-76;2.4 GHz;workshop
+107;11;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-68;2.4 GHz;workshop
+108;11;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-70;2.4 GHz;workshop
+109;11;;;Schirmakazie2;78:6a:1f:3a:95:e9;-70;2.4 GHz;workshop
+110;11;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-89;2.4 GHz;workshop
+111;11;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-76;2.4 GHz;workshop
+112;11;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-70;2.4 GHz;workshop
+113;11;;;Schirmakazie2;78:6a:1f:3a:95:e9;-70;2.4 GHz;workshop
+114;11;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-69;2.4 GHz;workshop
+115;11;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-76;2.4 GHz;workshop
+116;11;;;Schirmakazie2;78:6a:1f:3a:95:e9;-69;2.4 GHz;workshop
+117;11;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-69;2.4 GHz;workshop
+118;11;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-70;2.4 GHz;workshop
+119;11;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-88;2.4 GHz;workshop
+120;11;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-76;2.4 GHz;workshop
+121;11;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-69;2.4 GHz;workshop
+122;11;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-69;2.4 GHz;workshop
+123;11;;;Schirmakazie2;78:6a:1f:3a:95:e9;-68;2.4 GHz;workshop
+124;11;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-88;2.4 GHz;workshop
+125;11;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-76;2.4 GHz;workshop
+126;11;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-69;2.4 GHz;workshop
+127;11;;;Schirmakazie2;78:6a:1f:3a:95:e9;-70;2.4 GHz;workshop
+128;11;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-69;2.4 GHz;workshop
+129;11;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-76;2.4 GHz;workshop
+130;11;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-78;2.4 GHz;workshop
+131;11;;;Schirmakazie2;78:6a:1f:3a:95:e9;-69;2.4 GHz;workshop
+132;11;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-69;2.4 GHz;workshop
+133;11;;;Schirmakazie;24:65:11:8a:e8:9f;-80;2.4 GHz;workshop
+134;11;;;Schirmakazie;24:65:11:8a:e8:9f;-81;2.4 GHz;workshop
+135;12;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-83;2.4 GHz;marc
+136;12;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-83;2.4 GHz;marc
+137;12;;;Schirmakazie2;78:6a:1f:3a:95:e9;-83;2.4 GHz;marc
+138;12;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-80;2.4 GHz;marc
+139;12;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-91;2.4 GHz;marc
+140;12;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-80;2.4 GHz;marc
+141;12;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-86;2.4 GHz;marc
+142;12;;;Schirmakazie2;78:6a:1f:3a:95:e9;-85;2.4 GHz;marc
+143;12;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-84;2.4 GHz;marc
+144;12;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-87;2.4 GHz;marc
+145;12;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-80;2.4 GHz;marc
+146;12;;;Schirmakazie2;78:6a:1f:3a:95:e9;-84;2.4 GHz;marc
+147;12;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-84;2.4 GHz;marc
+148;12;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-85;2.4 GHz;marc
+149;12;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-90;2.4 GHz;marc
+150;12;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-81;2.4 GHz;marc
+151;12;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-82;2.4 GHz;marc
+152;12;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-83;2.4 GHz;marc
+153;12;;;Schirmakazie2;78:6a:1f:3a:95:e9;-84;2.4 GHz;marc
+154;12;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-88;2.4 GHz;marc
+155;12;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-80;2.4 GHz;marc
+156;12;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-84;2.4 GHz;marc
+157;12;;;Schirmakazie2;78:6a:1f:3a:95:e9;-82;2.4 GHz;marc
+158;12;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-84;2.4 GHz;marc
+159;12;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-90;2.4 GHz;marc
+160;12;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-80;2.4 GHz;marc
+161;12;;;Schirmakazie2;78:6a:1f:3a:95:e9;-85;2.4 GHz;marc
+162;12;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-84;2.4 GHz;marc
+163;12;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-83;2.4 GHz;marc
+164;12;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-88;2.4 GHz;marc
+165;12;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-80;2.4 GHz;marc
+166;12;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-82;2.4 GHz;marc
+167;12;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-84;2.4 GHz;marc
+168;12;;;Schirmakazie2;78:6a:1f:3a:95:e9;-84;2.4 GHz;marc
+169;12;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-88;2.4 GHz;marc
+170;12;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-79;2.4 GHz;marc
+171;12;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-81;2.4 GHz;marc
+172;12;;;Schirmakazie2;78:6a:1f:3a:95:e9;-83;2.4 GHz;marc
+173;12;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-91;2.4 GHz;marc
+174;12;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-86;2.4 GHz;marc
+175;12;;;Schirmakazie;24:65:11:8a:e8:9f;-82;2.4 GHz;marc
+176;13;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-90;2.4 GHz;miron
+177;13;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-79;2.4 GHz;miron
+178;13;;;WiTre_Gast;ea:63:da:15:71:be;-85;2.4 GHz;miron
+179;13;;;Schirmakazie2;78:6a:1f:3a:95:e9;-72;2.4 GHz;miron
+180;13;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-72;2.4 GHz;miron
+181;13;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-73;2.4 GHz;miron
+182;13;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-81;2.4 GHz;miron
+183;13;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-72;2.4 GHz;miron
+184;13;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-73;2.4 GHz;miron
+185;13;;;Schirmakazie2;78:6a:1f:3a:95:e9;-73;2.4 GHz;miron
+186;13;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-80;2.4 GHz;miron
+187;13;;;WiTre_IoT;e6:63:da:15:71:be;-86;2.4 GHz;miron
+188;13;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-73;2.4 GHz;miron
+189;13;;;Schirmakazie2;78:6a:1f:3a:95:e9;-73;2.4 GHz;miron
+190;13;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-72;2.4 GHz;miron
+191;13;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-82;2.4 GHz;miron
+192;13;;;Schirmakazie2;78:6a:1f:3a:95:e9;-73;2.4 GHz;miron
+193;13;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-73;2.4 GHz;miron
+194;13;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-73;2.4 GHz;miron
+195;13;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-81;2.4 GHz;miron
+196;13;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-73;2.4 GHz;miron
+197;13;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-73;2.4 GHz;miron
+198;13;;;Schirmakazie2;78:6a:1f:3a:95:e9;-73;2.4 GHz;miron
+199;13;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-81;2.4 GHz;miron
+200;13;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-73;2.4 GHz;miron
+201;13;;;Schirmakazie2;78:6a:1f:3a:95:e9;-74;2.4 GHz;miron
+202;13;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-72;2.4 GHz;miron
+203;13;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-81;2.4 GHz;miron
+204;13;;;Schirmakazie2;78:6a:1f:3a:95:e9;-72;2.4 GHz;miron
+205;13;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-73;2.4 GHz;miron
+206;13;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-73;2.4 GHz;miron
+207;13;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-83;2.4 GHz;miron
+208;13;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-74;2.4 GHz;miron
+209;14;;;Schirmakazie2;78:6a:1f:3a:95:e9;-82;2.4 GHz;clothes
+210;14;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-82;2.4 GHz;clothes
+211;14;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-81;2.4 GHz;clothes
+212;14;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-87;2.4 GHz;clothes
+213;14;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-71;2.4 GHz;clothes
+214;14;;;FRITZ!Box 7590 DX;dc:39:6f:a4:17:1c;-87;2.4 GHz;clothes
+215;14;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-87;2.4 GHz;clothes
+216;14;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-82;2.4 GHz;clothes
+217;14;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-83;2.4 GHz;clothes
+218;14;;;Schirmakazie2;78:6a:1f:3a:95:e9;-82;2.4 GHz;clothes
+219;14;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-86;2.4 GHz;clothes
+220;14;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-72;2.4 GHz;clothes
+221;14;;;FRITZ!Box 7590 DX;dc:39:6f:a4:17:1c;-87;2.4 GHz;clothes
+222;14;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-88;2.4 GHz;clothes
+223;14;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-83;2.4 GHz;clothes
+224;14;;;Schirmakazie2;78:6a:1f:3a:95:e9;-82;2.4 GHz;clothes
+225;14;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-82;2.4 GHz;clothes
+226;14;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-73;2.4 GHz;clothes
+227;14;;;FRITZ!Box 7590 DX;dc:39:6f:a4:17:1c;-88;2.4 GHz;clothes
+228;14;;;Schirmakazie2;78:6a:1f:3a:95:e9;-81;2.4 GHz;clothes
+229;14;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-82;2.4 GHz;clothes
+230;14;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-81;2.4 GHz;clothes
+231;14;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-74;2.4 GHz;clothes
+232;14;;;FRITZ!Box 7590 DX;dc:39:6f:a4:17:1c;-88;2.4 GHz;clothes
+233;14;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-81;2.4 GHz;clothes
+234;14;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-82;2.4 GHz;clothes
+235;14;;;Schirmakazie2;78:6a:1f:3a:95:e9;-84;2.4 GHz;clothes
+236;14;;;FRITZ!Box 7590 DX;dc:39:6f:a4:17:1c;-87;2.4 GHz;clothes
+237;14;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-80;2.4 GHz;clothes
+238;14;;;Schirmakazie2;78:6a:1f:3a:95:e9;-80;2.4 GHz;clothes
+239;14;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-82;2.4 GHz;clothes
+240;14;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-73;2.4 GHz;clothes
+241;14;;;FRITZ!Box 7590 DX;dc:39:6f:a4:17:1c;-87;2.4 GHz;clothes
+242;14;;;Schirmakazie2;78:6a:1f:3a:95:e9;-82;2.4 GHz;clothes
+243;14;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-81;2.4 GHz;clothes
+244;14;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-81;2.4 GHz;clothes
+245;14;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-73;2.4 GHz;clothes
+246;14;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-86;2.4 GHz;clothes
+247;14;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-83;2.4 GHz;clothes
+248;14;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-82;2.4 GHz;clothes
+249;14;;;Schirmakazie2;78:6a:1f:3a:95:e9;-82;2.4 GHz;clothes
+250;14;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-73;2.4 GHz;clothes
+251;14;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-82;2.4 GHz;clothes
+252;14;;;Schirmakazie2;78:6a:1f:3a:95:e9;-83;2.4 GHz;clothes
+253;14;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-82;2.4 GHz;clothes
+254;15;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-89;2.4 GHz;sideroom
+255;15;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-83;2.4 GHz;sideroom
+256;15;;;Schirmakazie2;78:6a:1f:3a:95:e9;-83;2.4 GHz;sideroom
+257;15;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-83;2.4 GHz;sideroom
+258;15;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-79;2.4 GHz;sideroom
+259;15;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-89;2.4 GHz;sideroom
+260;15;;;Schirmakazie2;78:6a:1f:3a:95:e9;-83;2.4 GHz;sideroom
+261;15;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-82;2.4 GHz;sideroom
+262;15;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-83;2.4 GHz;sideroom
+263;15;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-79;2.4 GHz;sideroom
+264;15;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-90;2.4 GHz;sideroom
+265;15;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-83;2.4 GHz;sideroom
+266;15;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-83;2.4 GHz;sideroom
+267;15;;;Schirmakazie2;78:6a:1f:3a:95:e9;-83;2.4 GHz;sideroom
+268;15;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-79;2.4 GHz;sideroom
+269;15;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-83;2.4 GHz;sideroom
+270;15;;;Schirmakazie2;78:6a:1f:3a:95:e9;-83;2.4 GHz;sideroom
+271;15;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-82;2.4 GHz;sideroom
+272;15;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-91;2.4 GHz;sideroom
+273;15;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-78;2.4 GHz;sideroom
+274;15;;;Schirmakazie2;78:6a:1f:3a:95:e9;-83;2.4 GHz;sideroom
+275;15;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-81;2.4 GHz;sideroom
+276;15;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-82;2.4 GHz;sideroom
+277;15;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-91;2.4 GHz;sideroom
+278;15;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-77;2.4 GHz;sideroom
+279;15;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-91;2.4 GHz;sideroom
+280;15;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-82;2.4 GHz;sideroom
+281;15;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-82;2.4 GHz;sideroom
+282;15;;;Schirmakazie2;78:6a:1f:3a:95:e9;-81;2.4 GHz;sideroom
+283;15;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-81;2.4 GHz;sideroom
+284;15;;;Schirmakazie2;78:6a:1f:3a:95:e9;-82;2.4 GHz;sideroom
+285;15;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-83;2.4 GHz;sideroom
+286;15;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-90;2.4 GHz;sideroom
+287;15;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-78;2.4 GHz;sideroom
+0;16;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-86;2.4 GHz;bathroomupstairs
+1;16;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-76;2.4 GHz;bathroomupstairs
+2;16;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-77;2.4 GHz;bathroomupstairs
+3;16;;;Schirmakazie2;78:6a:1f:3a:95:e9;-77;2.4 GHz;bathroomupstairs
+4;16;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-73;2.4 GHz;bathroomupstairs
+5;16;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-88;2.4 GHz;bathroomupstairs
+6;16;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-87;2.4 GHz;bathroomupstairs
+7;16;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-75;2.4 GHz;bathroomupstairs
+8;16;;;Schirmakazie2;78:6a:1f:3a:95:e9;-76;2.4 GHz;bathroomupstairs
+9;16;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-76;2.4 GHz;bathroomupstairs
+10;16;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-73;2.4 GHz;bathroomupstairs
+11;16;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-88;2.4 GHz;bathroomupstairs
+12;16;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-88;2.4 GHz;bathroomupstairs
+13;16;;;Schirmakazie2;78:6a:1f:3a:95:e9;-76;2.4 GHz;bathroomupstairs
+14;16;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-75;2.4 GHz;bathroomupstairs
+15;16;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-76;2.4 GHz;bathroomupstairs
+16;16;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-73;2.4 GHz;bathroomupstairs
+17;16;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-88;2.4 GHz;bathroomupstairs
+18;16;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-87;2.4 GHz;bathroomupstairs
+19;16;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-76;2.4 GHz;bathroomupstairs
+20;16;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-77;2.4 GHz;bathroomupstairs
+21;16;;;Schirmakazie2;78:6a:1f:3a:95:e9;-76;2.4 GHz;bathroomupstairs
+22;16;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-73;2.4 GHz;bathroomupstairs
+23;16;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-89;2.4 GHz;bathroomupstairs
+24;16;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-88;2.4 GHz;bathroomupstairs
+25;16;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-76;2.4 GHz;bathroomupstairs
+26;16;;;Schirmakazie2;78:6a:1f:3a:95:e9;-76;2.4 GHz;bathroomupstairs
+27;16;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-76;2.4 GHz;bathroomupstairs
+28;16;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-72;2.4 GHz;bathroomupstairs
+29;16;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-89;2.4 GHz;bathroomupstairs
+30;16;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-87;2.4 GHz;bathroomupstairs
+31;16;;;Schirmakazie2;78:6a:1f:3a:95:e9;-77;2.4 GHz;bathroomupstairs
+32;16;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-76;2.4 GHz;bathroomupstairs
+33;16;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-76;2.4 GHz;bathroomupstairs
+34;16;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-74;2.4 GHz;bathroomupstairs
+35;16;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-88;2.4 GHz;bathroomupstairs
+36;16;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-87;2.4 GHz;bathroomupstairs
+37;16;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-75;2.4 GHz;bathroomupstairs
+38;16;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-75;2.4 GHz;bathroomupstairs
+39;16;;;Schirmakazie2;78:6a:1f:3a:95:e9;-77;2.4 GHz;bathroomupstairs
+40;16;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-73;2.4 GHz;bathroomupstairs
+41;16;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-88;2.4 GHz;bathroomupstairs
+42;16;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-76;2.4 GHz;bathroomupstairs
+43;16;;;Schirmakazie2;78:6a:1f:3a:95:e9;-77;2.4 GHz;bathroomupstairs
+44;16;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-77;2.4 GHz;bathroomupstairs
+45;16;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-72;2.4 GHz;bathroomupstairs
+46;16;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-89;2.4 GHz;bathroomupstairs
+47;16;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-85;2.4 GHz;bathroomupstairs
+48;16;;;Schirmakazie2;78:6a:1f:3a:95:e9;-76;2.4 GHz;bathroomupstairs
+49;16;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-76;2.4 GHz;bathroomupstairs
+50;16;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-77;2.4 GHz;bathroomupstairs
+51;16;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-88;2.4 GHz;bathroomupstairs
+52;16;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-73;2.4 GHz;bathroomupstairs
+53;16;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-76;2.4 GHz;bathroomupstairs
+54;16;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-77;2.4 GHz;bathroomupstairs
+55;16;;;Schirmakazie2;78:6a:1f:3a:95:e9;-77;2.4 GHz;bathroomupstairs
+56;16;;;Schirmakazie2;78:6a:1f:3a:95:e9;-75;2.4 GHz;bathroomupstairs
+57;16;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-75;2.4 GHz;bathroomupstairs
+58;16;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-76;2.4 GHz;bathroomupstairs
+59;16;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-74;2.4 GHz;bathroomupstairs
+60;16;;;Schirmakazie;24:65:11:8a:e8:9f;-88;2.4 GHz;bathroomupstairs
+61;16;;;Schirmakazie;24:65:11:8a:e8:9f;-87;2.4 GHz;bathroomupstairs
+62;16;;;Schirmakazie;24:65:11:8a:e8:9f;-86;2.4 GHz;bathroomupstairs
+63;16;;;Schirmakazie;24:65:11:8a:e8:9f;-85;2.4 GHz;bathroomupstairs
+64;16;;;Schirmakazie;24:65:11:8a:e8:9f;-86;2.4 GHz;bathroomupstairs
+0;17;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-79;2.4 GHz;marc
+1;17;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-88;2.4 GHz;marc
+2;17;;;Schirmakazie2;78:6a:1f:3a:95:e9;-88;2.4 GHz;marc
+3;17;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-87;2.4 GHz;marc
+4;17;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-79;2.4 GHz;marc
+5;17;;;Schirmakazie2;78:6a:1f:3a:95:e9;-87;2.4 GHz;marc
+6;17;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-88;2.4 GHz;marc
+7;17;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-88;2.4 GHz;marc
+8;17;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-81;2.4 GHz;marc
+9;17;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-89;2.4 GHz;marc
+10;17;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-88;2.4 GHz;marc
+11;17;;;Schirmakazie2;78:6a:1f:3a:95:e9;-87;2.4 GHz;marc
+12;17;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-81;2.4 GHz;marc
+13;17;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-86;2.4 GHz;marc
+14;17;;;Schirmakazie2;78:6a:1f:3a:95:e9;-86;2.4 GHz;marc
+15;17;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-86;2.4 GHz;marc
+16;17;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-84;2.4 GHz;marc
+17;17;;;Schirmakazie2;78:6a:1f:3a:95:e9;-85;2.4 GHz;marc
+18;17;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-84;2.4 GHz;marc
+19;17;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-86;2.4 GHz;marc
+20;17;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-85;2.4 GHz;marc
+21;17;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-85;2.4 GHz;marc
+22;17;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-83;2.4 GHz;marc
+23;17;;;Schirmakazie2;78:6a:1f:3a:95:e9;-84;2.4 GHz;marc
+24;17;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-83;2.4 GHz;marc
+25;17;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-84;2.4 GHz;marc
+26;17;;;Schirmakazie2;78:6a:1f:3a:95:e9;-84;2.4 GHz;marc
+27;17;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-83;2.4 GHz;marc
+28;17;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-85;2.4 GHz;marc
+29;17;;;Schirmakazie2;78:6a:1f:3a:95:e9;-84;2.4 GHz;marc
+30;17;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-85;2.4 GHz;marc
+31;17;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-85;2.4 GHz;marc
+32;17;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-84;2.4 GHz;marc
+33;17;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-84;2.4 GHz;marc
+34;17;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-84;2.4 GHz;marc
+35;17;;;Schirmakazie2;78:6a:1f:3a:95:e9;-85;2.4 GHz;marc
+36;17;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-83;2.4 GHz;marc
+37;17;;;Schirmakazie2;78:6a:1f:3a:95:e9;-82;2.4 GHz;marc
+38;17;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-82;2.4 GHz;marc
+39;17;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-83;2.4 GHz;marc
+40;17;;;Schirmakazie;24:65:11:8a:e8:9f;-84;2.4 GHz;marc
+41;17;;;Schirmakazie;24:65:11:8a:e8:9f;-85;2.4 GHz;marc
+42;17;;;Schirmakazie;24:65:11:8a:e8:9f;-86;2.4 GHz;marc
+43;17;;;Schirmakazie;24:65:11:8a:e8:9f;-86;2.4 GHz;marc
+44;17;;;Schirmakazie;24:65:11:8a:e8:9f;-86;2.4 GHz;marc
+45;17;;;Schirmakazie;24:65:11:8a:e8:9f;-85;2.4 GHz;marc
+46;17;;;Schirmakazie2;78:6a:1f:3a:95:e9;-77;2.4 GHz;marc
+47;17;;;Schirmakazie;24:65:11:8a:e8:9f;-86;2.4 GHz;marc
+48;17;;;Schirmakazie2;78:6a:1f:3a:95:e9;-77;2.4 GHz;marc
+0;18;;;Schirmakazie2;78:6a:1f:3a:95:e9;-77;2.4 GHz;clothes
+1;18;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-77;2.4 GHz;clothes
+2;18;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-78;2.4 GHz;clothes
+3;18;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-91;2.4 GHz;clothes
+4;18;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-73;2.4 GHz;clothes
+5;18;;;FRITZ!Box 7590 DX;dc:39:6f:a4:17:1c;-92;2.4 GHz;clothes
+6;18;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-77;2.4 GHz;clothes
+7;18;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-77;2.4 GHz;clothes
+8;18;;;Schirmakazie2;78:6a:1f:3a:95:e9;-78;2.4 GHz;clothes
+9;18;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-90;2.4 GHz;clothes
+10;18;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-73;2.4 GHz;clothes
+11;18;;;FRITZ!Box 7590 DX;dc:39:6f:a4:17:1c;-91;2.4 GHz;clothes
+12;18;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-78;2.4 GHz;clothes
+13;18;;;Schirmakazie2;78:6a:1f:3a:95:e9;-78;2.4 GHz;clothes
+14;18;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-77;2.4 GHz;clothes
+15;18;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-90;2.4 GHz;clothes
+16;18;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-73;2.4 GHz;clothes
+17;18;;;FRITZ!Box 7590 DX;dc:39:6f:a4:17:1c;-88;2.4 GHz;clothes
+18;18;;;Schirmakazie2;78:6a:1f:3a:95:e9;-78;2.4 GHz;clothes
+19;18;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-78;2.4 GHz;clothes
+20;18;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-78;2.4 GHz;clothes
+21;18;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-90;2.4 GHz;clothes
+22;18;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-73;2.4 GHz;clothes
+23;18;;;FRITZ!Box 7590 DX;dc:39:6f:a4:17:1c;-88;2.4 GHz;clothes
+24;18;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-77;2.4 GHz;clothes
+25;18;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-79;2.4 GHz;clothes
+26;18;;;Schirmakazie2;78:6a:1f:3a:95:e9;-79;2.4 GHz;clothes
+27;18;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-90;2.4 GHz;clothes
+28;18;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-74;2.4 GHz;clothes
+29;18;;;FRITZ!Box 7590 DX;dc:39:6f:a4:17:1c;-90;2.4 GHz;clothes
+30;18;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-79;2.4 GHz;clothes
+31;18;;;Schirmakazie2;78:6a:1f:3a:95:e9;-79;2.4 GHz;clothes
+32;18;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-78;2.4 GHz;clothes
+33;18;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-91;2.4 GHz;clothes
+34;18;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-74;2.4 GHz;clothes
+35;18;;;FRITZ!Box 7590 DX;dc:39:6f:a4:17:1c;-90;2.4 GHz;clothes
+36;18;;;Schirmakazie2;78:6a:1f:3a:95:e9;-80;2.4 GHz;clothes
+37;18;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-80;2.4 GHz;clothes
+38;18;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-80;2.4 GHz;clothes
+39;18;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-91;2.4 GHz;clothes
+40;18;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-74;2.4 GHz;clothes
+41;18;;;FRITZ!Box 7590 DX;dc:39:6f:a4:17:1c;-90;2.4 GHz;clothes
+42;18;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-79;2.4 GHz;clothes
+43;18;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-81;2.4 GHz;clothes
+44;18;;;Schirmakazie2;78:6a:1f:3a:95:e9;-81;2.4 GHz;clothes
+45;18;;;uniwifi;e0:63:da:74:57:e3;-95;2.4 GHz;clothes
+46;18;;;WiTre_Gast;ea:63:da:74:57:e3;-95;2.4 GHz;clothes
+47;18;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-90;2.4 GHz;clothes
+48;18;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-74;2.4 GHz;clothes
+49;18;;;FRITZ!Box 7590 DX;dc:39:6f:a4:17:1c;-90;2.4 GHz;clothes
+50;18;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-81;2.4 GHz;clothes
+51;18;;;Schirmakazie2;78:6a:1f:3a:95:e9;-82;2.4 GHz;clothes
+52;18;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-81;2.4 GHz;clothes
+53;18;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-93;2.4 GHz;clothes
+54;18;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-75;2.4 GHz;clothes
+55;18;;;FRITZ!Box 7590 DX;dc:39:6f:a4:17:1c;-90;2.4 GHz;clothes
+56;18;;;Schirmakazie2;78:6a:1f:3a:95:e9;-81;2.4 GHz;clothes
+57;18;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-82;2.4 GHz;clothes
+58;18;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-82;2.4 GHz;clothes
+59;18;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-92;2.4 GHz;clothes
+60;18;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-75;2.4 GHz;clothes
+61;18;;;FRITZ!Box 7590 DX;dc:39:6f:a4:17:1c;-90;2.4 GHz;clothes
+62;18;;;Schirmakazie2;78:6a:1f:3a:95:e9;-81;2.4 GHz;clothes
+63;18;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-81;2.4 GHz;clothes
+64;18;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-80;2.4 GHz;clothes
+65;18;;;Schirmakazie2;78:6a:1f:3a:95:e9;-81;2.4 GHz;clothes
+66;18;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-80;2.4 GHz;clothes
+67;18;;;Schirmakazie2;78:6a:1f:3a:95:e9;-80;2.4 GHz;clothes
+68;18;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-80;2.4 GHz;clothes
+69;18;;;Schirmakazie2;78:6a:1f:3a:95:e9;-81;2.4 GHz;clothes
+70;18;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-81;2.4 GHz;clothes
+71;18;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-82;2.4 GHz;clothes
+72;18;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-83;2.4 GHz;clothes
+0;19;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-83;2.4 GHz;l
+1;19;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-85;2.4 GHz;l
+2;19;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-85;2.4 GHz;l
+3;19;;;Schirmakazie2;78:6a:1f:3a:95:e9;-85;2.4 GHz;l
+4;19;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-92;2.4 GHz;l
+5;19;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-84;2.4 GHz;l
+6;19;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-87;2.4 GHz;l
+7;19;;;Schirmakazie2;78:6a:1f:3a:95:e9;-85;2.4 GHz;l
+8;19;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-86;2.4 GHz;l
+9;19;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-93;2.4 GHz;l
+10;19;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-83;2.4 GHz;l
+11;19;;;Schirmakazie2;78:6a:1f:3a:95:e9;-85;2.4 GHz;l
+12;19;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-86;2.4 GHz;l
+13;19;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-86;2.4 GHz;l
+14;19;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-94;2.4 GHz;l
+15;19;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-82;2.4 GHz;l
+16;19;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-87;2.4 GHz;l
+17;19;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-85;2.4 GHz;l
+18;19;;;Schirmakazie2;78:6a:1f:3a:95:e9;-86;2.4 GHz;l
+19;19;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-81;2.4 GHz;l
+20;19;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-86;2.4 GHz;l
+21;19;;;Schirmakazie2;78:6a:1f:3a:95:e9;-88;2.4 GHz;l
+22;19;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-85;2.4 GHz;l
+23;19;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-82;2.4 GHz;l
+24;19;;;Schirmakazie2;78:6a:1f:3a:95:e9;-85;2.4 GHz;l
+25;19;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-85;2.4 GHz;l
+26;19;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-85;2.4 GHz;l
+27;19;;;FRITZ!Box 7590 DX;2c:91:ab:d2:b8:4c;-95;2.4 GHz;l
+28;19;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-82;2.4 GHz;l
+29;19;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-86;2.4 GHz;l
+30;19;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-86;2.4 GHz;l
+31;19;;;Schirmakazie2;78:6a:1f:3a:95:e9;-86;2.4 GHz;l
+32;19;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-83;2.4 GHz;l
+33;19;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-87;2.4 GHz;l
+34;19;;;Schirmakazie2;78:6a:1f:3a:95:e9;-85;2.4 GHz;l
+35;19;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-86;2.4 GHz;l
+36;19;;;Schirmakazie;24:65:11:8a:e8:9f;-92;2.4 GHz;l
+0;20;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-77;2.4 GHz;miron
+1;20;;;Schirmakazie2;78:6a:1f:3a:95:e9;-77;2.4 GHz;miron
+2;20;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-76;2.4 GHz;miron
+3;20;;;WiTre_Gast;ea:63:da:74:57:e3;-91;2.4 GHz;miron
+4;20;;;WiTre_IoT;e6:63:da:74:57:e3;-91;2.4 GHz;miron
+5;20;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-94;2.4 GHz;miron
+6;20;;;Schirmakazie2;78:6a:1f:3a:95:e9;-76;2.4 GHz;miron
+7;20;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-76;2.4 GHz;miron
+8;20;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-77;2.4 GHz;miron
+9;20;;;WiTre_Gast;ea:63:da:74:57:e3;-90;2.4 GHz;miron
+10;20;;;WiTre_IoT;e6:63:da:74:57:e3;-89;2.4 GHz;miron
+11;20;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-94;2.4 GHz;miron
+12;20;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-75;2.4 GHz;miron
+13;20;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-76;2.4 GHz;miron
+14;20;;;Schirmakazie2;78:6a:1f:3a:95:e9;-76;2.4 GHz;miron
+15;20;;;WiTre_Gast;ea:63:da:74:57:e3;-89;2.4 GHz;miron
+16;20;;;WiTre_IoT;e6:63:da:74:57:e3;-91;2.4 GHz;miron
+17;20;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-91;2.4 GHz;miron
+18;20;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-76;2.4 GHz;miron
+19;20;;;Schirmakazie2;78:6a:1f:3a:95:e9;-77;2.4 GHz;miron
+20;20;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-77;2.4 GHz;miron
+21;20;;;WiTre_Gast;ea:63:da:74:57:e3;-90;2.4 GHz;miron
+22;20;;;WiTre_IoT;e6:63:da:74:57:e3;-89;2.4 GHz;miron
+23;20;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-92;2.4 GHz;miron
+24;20;;;Schirmakazie2;78:6a:1f:3a:95:e9;-77;2.4 GHz;miron
+25;20;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-78;2.4 GHz;miron
+26;20;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-78;2.4 GHz;miron
+27;20;;;uniwifi;e0:63:da:74:57:e3;-90;2.4 GHz;miron
+28;20;;;WiTre_Gast;ea:63:da:74:57:e3;-91;2.4 GHz;miron
+29;20;;;WiTre_IoT;e6:63:da:74:57:e3;-89;2.4 GHz;miron
+30;20;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-90;2.4 GHz;miron
+31;20;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-77;2.4 GHz;miron
+32;20;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-79;2.4 GHz;miron
+33;20;;;Schirmakazie2;78:6a:1f:3a:95:e9;-79;2.4 GHz;miron
+34;20;;;WiTre_Gast;ea:63:da:74:57:e3;-91;2.4 GHz;miron
+35;20;;;WiTre_IoT;e6:63:da:74:57:e3;-91;2.4 GHz;miron
+36;20;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-91;2.4 GHz;miron
+37;20;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-78;2.4 GHz;miron
+38;20;;;Schirmakazie2;78:6a:1f:3a:95:e9;-79;2.4 GHz;miron
+39;20;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-78;2.4 GHz;miron
+40;20;;;WiTre_Gast;ea:63:da:74:57:e3;-89;2.4 GHz;miron
+41;20;;;WiTre_IoT;e6:63:da:74:57:e3;-89;2.4 GHz;miron
+42;20;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-91;2.4 GHz;miron
+43;20;;;Schirmakazie2;78:6a:1f:3a:95:e9;-78;2.4 GHz;miron
+44;20;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-77;2.4 GHz;miron
+45;20;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-77;2.4 GHz;miron
+46;20;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-88;2.4 GHz;miron
+47;20;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-78;2.4 GHz;miron
+48;20;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-78;2.4 GHz;miron
+49;20;;;Schirmakazie2;78:6a:1f:3a:95:e9;-77;2.4 GHz;miron
+50;20;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-87;2.4 GHz;miron
+51;20;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-79;2.4 GHz;miron
+52;20;;;Schirmakazie2;78:6a:1f:3a:95:e9;-78;2.4 GHz;miron
+53;20;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-77;2.4 GHz;miron
+54;20;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-85;2.4 GHz;miron
+55;20;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-86;2.4 GHz;miron
+56;20;;;Schirmakazie;24:65:11:8a:e8:9f;-86;2.4 GHz;miron
+57;20;;;Schirmakazie;24:65:11:8a:e8:9f;-88;2.4 GHz;miron
+0;21;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-59;2.4 GHz;stairs
+1;21;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-61;2.4 GHz;stairs
+2;21;;;Schirmakazie2;78:6a:1f:3a:95:e9;-61;2.4 GHz;stairs
+3;21;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-62;2.4 GHz;stairs
+4;21;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-61;2.4 GHz;stairs
+5;21;;;Schirmakazie2;78:6a:1f:3a:95:e9;-61;2.4 GHz;stairs
+6;21;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-61;2.4 GHz;stairs
+7;21;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-61;2.4 GHz;stairs
+8;21;;;Schirmakazie2;78:6a:1f:3a:95:e9;-62;2.4 GHz;stairs
+9;21;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-61;2.4 GHz;stairs
+10;21;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-62;2.4 GHz;stairs
+11;21;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-62;2.4 GHz;stairs
+12;21;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-61;2.4 GHz;stairs
+13;21;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-61;2.4 GHz;stairs
+14;21;;;Schirmakazie2;78:6a:1f:3a:95:e9;-62;2.4 GHz;stairs
+15;21;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-62;2.4 GHz;stairs
+16;21;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-61;2.4 GHz;stairs
+17;21;;;Schirmakazie2;78:6a:1f:3a:95:e9;-62;2.4 GHz;stairs
+18;21;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-61;2.4 GHz;stairs
+19;21;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-63;2.4 GHz;stairs
+20;21;;;Schirmakazie2;78:6a:1f:3a:95:e9;-60;2.4 GHz;stairs
+21;21;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-61;2.4 GHz;stairs
+22;21;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-61;2.4 GHz;stairs
+23;21;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-60;2.4 GHz;stairs
+24;21;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-61;2.4 GHz;stairs
+25;21;;;Schirmakazie2;78:6a:1f:3a:95:e9;-61;2.4 GHz;stairs
+26;21;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-63;2.4 GHz;stairs
+27;21;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-62;2.4 GHz;stairs
+28;21;;;Schirmakazie2;78:6a:1f:3a:95:e9;-62;2.4 GHz;stairs
+29;21;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-62;2.4 GHz;stairs
+30;21;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-63;2.4 GHz;stairs
+31;21;;;Schirmakazie2;78:6a:1f:3a:95:e9;-65;2.4 GHz;stairs
+32;21;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-65;2.4 GHz;stairs
+33;21;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-66;2.4 GHz;stairs
+34;21;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-64;2.4 GHz;stairs
+35;21;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-70;2.4 GHz;stairs
+36;21;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-70;2.4 GHz;stairs
+37;21;;;Schirmakazie2;78:6a:1f:3a:95:e9;-70;2.4 GHz;stairs
+38;21;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-63;2.4 GHz;stairs
+39;21;;;Schirmakazie2;78:6a:1f:3a:95:e9;-61;2.4 GHz;stairs
+0;22;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-57;2.4 GHz;frontdoor
+1;22;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-58;2.4 GHz;frontdoor
+2;22;;;Schirmakazie2;78:6a:1f:3a:95:e9;-58;2.4 GHz;frontdoor
+3;22;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-58;2.4 GHz;frontdoor
+4;22;;;uniwifi;e0:63:da:15:71:be;-86;2.4 GHz;frontdoor
+5;22;;;WiTre_IoT;e6:63:da:15:71:be;-86;2.4 GHz;frontdoor
+6;22;;;WiTre_Gast;ea:63:da:15:71:be;-90;2.4 GHz;frontdoor
+7;22;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-56;2.4 GHz;frontdoor
+8;22;;;Schirmakazie2;78:6a:1f:3a:95:e9;-56;2.4 GHz;frontdoor
+9;22;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-56;2.4 GHz;frontdoor
+10;22;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-57;2.4 GHz;frontdoor
+11;22;;;WiTre_IoT;e6:63:da:15:71:be;-88;2.4 GHz;frontdoor
+12;22;;;WiTre_Gast;ea:63:da:15:71:be;-89;2.4 GHz;frontdoor
+13;22;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-56;2.4 GHz;frontdoor
+14;22;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-56;2.4 GHz;frontdoor
+15;22;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-57;2.4 GHz;frontdoor
+16;22;;;Schirmakazie2;78:6a:1f:3a:95:e9;-57;2.4 GHz;frontdoor
+17;22;;;uniwifi;e0:63:da:15:71:be;-89;2.4 GHz;frontdoor
+18;22;;;WiTre_IoT;e6:63:da:15:71:be;-89;2.4 GHz;frontdoor
+19;22;;;WiTre_Gast;ea:63:da:15:71:be;-89;2.4 GHz;frontdoor
+20;22;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-56;2.4 GHz;frontdoor
+21;22;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-57;2.4 GHz;frontdoor
+22;22;;;Schirmakazie2;78:6a:1f:3a:95:e9;-57;2.4 GHz;frontdoor
+23;22;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-56;2.4 GHz;frontdoor
+24;22;;;uniwifi;e0:63:da:15:71:be;-87;2.4 GHz;frontdoor
+25;22;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-57;2.4 GHz;frontdoor
+26;22;;;Schirmakazie2;78:6a:1f:3a:95:e9;-58;2.4 GHz;frontdoor
+27;22;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-57;2.4 GHz;frontdoor
+28;22;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-58;2.4 GHz;frontdoor
+29;22;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-56;2.4 GHz;frontdoor
+30;22;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-58;2.4 GHz;frontdoor
+31;22;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-58;2.4 GHz;frontdoor
+32;22;;;Schirmakazie2;78:6a:1f:3a:95:e9;-58;2.4 GHz;frontdoor
+33;22;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-56;2.4 GHz;frontdoor
+34;22;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-57;2.4 GHz;frontdoor
+35;22;;;Schirmakazie2;78:6a:1f:3a:95:e9;-59;2.4 GHz;frontdoor
+36;22;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-58;2.4 GHz;frontdoor
+37;22;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-57;2.4 GHz;frontdoor
+38;22;;;Schirmakazie2;78:6a:1f:3a:95:e9;-58;2.4 GHz;frontdoor
+39;22;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-58;2.4 GHz;frontdoor
+40;22;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-58;2.4 GHz;frontdoor
+41;22;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-58;2.4 GHz;frontdoor
+42;22;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-58;2.4 GHz;frontdoor
+43;22;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-58;2.4 GHz;frontdoor
+44;22;;;Schirmakazie2;78:6a:1f:3a:95:e9;-58;2.4 GHz;frontdoor
+45;22;;;uniwifi;e0:63:da:15:71:be;-88;2.4 GHz;frontdoor
+46;22;;;WiTre_IoT;e6:63:da:15:71:be;-89;2.4 GHz;frontdoor
+47;22;;;WiTre_Gast;ea:63:da:15:71:be;-87;2.4 GHz;frontdoor
+48;22;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-57;2.4 GHz;frontdoor
+49;22;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-57;2.4 GHz;frontdoor
+50;22;;;Schirmakazie2;78:6a:1f:3a:95:e9;-57;2.4 GHz;frontdoor
+51;22;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-57;2.4 GHz;frontdoor
+52;22;;;Schirmakazie2;78:6a:1f:3a:95:e9;-55;2.4 GHz;frontdoor
+53;22;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-55;2.4 GHz;frontdoor
+0;23;;;WiTre_IoT;e6:63:da:07:47:21;-93;2.4 GHz;frontdoor
+1;23;;;WiTre_Gast;ea:63:da:07:47:21;-94;2.4 GHz;frontdoor
+2;23;;;uniwifi;e0:63:da:15:71:be;-88;2.4 GHz;frontdoor
+3;23;;;WiTre_IoT;e6:63:da:15:71:be;-90;2.4 GHz;frontdoor
+4;23;;;WiTre_Gast;ea:63:da:15:71:be;-89;2.4 GHz;frontdoor
+5;23;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-56;2.4 GHz;frontdoor
+6;23;;;Schirmakazie2;78:6a:1f:3a:95:e9;-56;2.4 GHz;frontdoor
+7;23;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-56;2.4 GHz;frontdoor
+8;23;;;WiTre_Gast;ea:63:da:74:57:e3;-90;2.4 GHz;frontdoor
+9;23;;;WiTre_IoT;e6:63:da:74:57:e3;-92;2.4 GHz;frontdoor
+10;23;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-93;2.4 GHz;frontdoor
+11;23;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-58;2.4 GHz;frontdoor
+12;23;;;WiTre_Gast;ea:63:da:07:47:21;-93;2.4 GHz;frontdoor
+13;23;;;uniwifi;e0:63:da:15:71:be;-91;2.4 GHz;frontdoor
+14;23;;;WiTre_IoT;e6:63:da:15:71:be;-90;2.4 GHz;frontdoor
+15;23;;;WiTre_Gast;ea:63:da:15:71:be;-89;2.4 GHz;frontdoor
+16;23;;;Schirmakazie2;78:6a:1f:3a:95:e9;-55;2.4 GHz;frontdoor
+17;23;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-55;2.4 GHz;frontdoor
+18;23;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-55;2.4 GHz;frontdoor
+19;23;;;WiTre_Gast;ea:63:da:74:57:e3;-92;2.4 GHz;frontdoor
+20;23;;;WiTre_IoT;e6:63:da:74:57:e3;-92;2.4 GHz;frontdoor
+21;23;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-91;2.4 GHz;frontdoor
+22;23;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-60;2.4 GHz;frontdoor
+23;23;;;WiTre_Gast;ea:63:da:15:71:be;-91;2.4 GHz;frontdoor
+24;23;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-54;2.4 GHz;frontdoor
+25;23;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-55;2.4 GHz;frontdoor
+26;23;;;Schirmakazie2;78:6a:1f:3a:95:e9;-54;2.4 GHz;frontdoor
+27;23;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-59;2.4 GHz;frontdoor
+28;23;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-54;2.4 GHz;frontdoor
+29;23;;;Schirmakazie2;78:6a:1f:3a:95:e9;-54;2.4 GHz;frontdoor
+30;23;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-54;2.4 GHz;frontdoor
+31;23;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-59;2.4 GHz;frontdoor
+32;23;;;Schirmakazie2;78:6a:1f:3a:95:e9;-55;2.4 GHz;frontdoor
+33;23;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-55;2.4 GHz;frontdoor
+34;23;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-55;2.4 GHz;frontdoor
+35;23;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-60;2.4 GHz;frontdoor
+36;23;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-57;2.4 GHz;frontdoor
+37;23;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-58;2.4 GHz;frontdoor
+38;23;;;Schirmakazie2;78:6a:1f:3a:95:e9;-57;2.4 GHz;frontdoor
+39;23;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-61;2.4 GHz;frontdoor
+40;23;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-61;2.4 GHz;frontdoor
+41;23;;;Schirmakazie2;78:6a:1f:3a:95:e9;-61;2.4 GHz;frontdoor
+42;23;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-60;2.4 GHz;frontdoor
+43;23;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-61;2.4 GHz;frontdoor
+44;23;;;Schirmakazie2;78:6a:1f:3a:95:e9;-61;2.4 GHz;frontdoor
+45;23;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-60;2.4 GHz;frontdoor
+46;23;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-60;2.4 GHz;frontdoor
+47;23;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-61;2.4 GHz;frontdoor
+48;23;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-59;2.4 GHz;frontdoor
+49;23;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-58;2.4 GHz;frontdoor
+50;23;;;Schirmakazie2;78:6a:1f:3a:95:e9;-60;2.4 GHz;frontdoor
+51;23;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-60;2.4 GHz;frontdoor
+52;23;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-60;2.4 GHz;frontdoor
+53;23;;;Schirmakazie2;78:6a:1f:3a:95:e9;-58;2.4 GHz;frontdoor
+54;23;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-59;2.4 GHz;frontdoor
+55;23;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-60;2.4 GHz;frontdoor
+0;24;;;WiTre_IoT;e6:63:da:15:71:be;-89;2.4 GHz;kitchen
+1;24;;;WiTre_Gast;ea:63:da:15:71:be;-90;2.4 GHz;kitchen
+2;24;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-55;2.4 GHz;kitchen
+3;24;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-56;2.4 GHz;kitchen
+4;24;;;Schirmakazie2;78:6a:1f:3a:95:e9;-55;2.4 GHz;kitchen
+5;24;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-55;2.4 GHz;kitchen
+6;24;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-87;2.4 GHz;kitchen
+7;24;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-58;2.4 GHz;kitchen
+8;24;;;Schirmakazie2;78:6a:1f:3a:95:e9;-54;2.4 GHz;kitchen
+9;24;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-54;2.4 GHz;kitchen
+10;24;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-54;2.4 GHz;kitchen
+11;24;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-86;2.4 GHz;kitchen
+12;24;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-58;2.4 GHz;kitchen
+13;24;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-54;2.4 GHz;kitchen
+14;24;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-55;2.4 GHz;kitchen
+15;24;;;Schirmakazie2;78:6a:1f:3a:95:e9;-55;2.4 GHz;kitchen
+16;24;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-91;2.4 GHz;kitchen
+17;24;;;WiTre_IoT;e6:63:da:15:71:be;-92;2.4 GHz;kitchen
+18;24;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-58;2.4 GHz;kitchen
+19;24;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-56;2.4 GHz;kitchen
+20;24;;;Schirmakazie2;78:6a:1f:3a:95:e9;-55;2.4 GHz;kitchen
+21;24;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-55;2.4 GHz;kitchen
+22;24;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-86;2.4 GHz;kitchen
+23;24;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-59;2.4 GHz;kitchen
+24;24;;;Schirmakazie2;78:6a:1f:3a:95:e9;-54;2.4 GHz;kitchen
+25;24;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-54;2.4 GHz;kitchen
+26;24;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-55;2.4 GHz;kitchen
+27;24;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-86;2.4 GHz;kitchen
+28;24;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-60;2.4 GHz;kitchen
+29;24;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-56;2.4 GHz;kitchen
+30;24;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-55;2.4 GHz;kitchen
+31;24;;;Schirmakazie2;78:6a:1f:3a:95:e9;-55;2.4 GHz;kitchen
+32;24;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-87;2.4 GHz;kitchen
+33;24;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-61;2.4 GHz;kitchen
+34;24;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-55;2.4 GHz;kitchen
+35;24;;;Schirmakazie2;78:6a:1f:3a:95:e9;-55;2.4 GHz;kitchen
+36;24;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-54;2.4 GHz;kitchen
+37;24;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-87;2.4 GHz;kitchen
+38;24;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-61;2.4 GHz;kitchen
+39;24;;;Schirmakazie2;78:6a:1f:3a:95:e9;-55;2.4 GHz;kitchen
+40;24;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-54;2.4 GHz;kitchen
+41;24;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-54;2.4 GHz;kitchen
+42;24;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-89;2.4 GHz;kitchen
+43;24;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-88;2.4 GHz;kitchen
+44;24;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-61;2.4 GHz;kitchen
+45;24;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-90;2.4 GHz;kitchen
+46;24;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-61;2.4 GHz;kitchen
+47;24;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-88;2.4 GHz;kitchen
+0;25;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-50;2.4 GHz;kitchen
+1;25;;;Schirmakazie2;78:6a:1f:3a:95:e9;-50;2.4 GHz;kitchen
+2;25;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-51;2.4 GHz;kitchen
+3;25;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-92;2.4 GHz;kitchen
+4;25;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-62;2.4 GHz;kitchen
+5;25;;;Schirmakazie2;78:6a:1f:3a:95:e9;-50;2.4 GHz;kitchen
+6;25;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-49;2.4 GHz;kitchen
+7;25;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-50;2.4 GHz;kitchen
+8;25;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-88;2.4 GHz;kitchen
+9;25;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-62;2.4 GHz;kitchen
+10;25;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-50;2.4 GHz;kitchen
+11;25;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-50;2.4 GHz;kitchen
+12;25;;;Schirmakazie2;78:6a:1f:3a:95:e9;-50;2.4 GHz;kitchen
+13;25;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-90;2.4 GHz;kitchen
+14;25;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-59;2.4 GHz;kitchen
+15;25;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-49;2.4 GHz;kitchen
+16;25;;;Schirmakazie2;78:6a:1f:3a:95:e9;-49;2.4 GHz;kitchen
+17;25;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-49;2.4 GHz;kitchen
+18;25;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-91;2.4 GHz;kitchen
+19;25;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-61;2.4 GHz;kitchen
+20;25;;;Schirmakazie2;78:6a:1f:3a:95:e9;-48;2.4 GHz;kitchen
+21;25;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-48;2.4 GHz;kitchen
+22;25;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-49;2.4 GHz;kitchen
+23;25;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-91;2.4 GHz;kitchen
+24;25;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-63;2.4 GHz;kitchen
+25;25;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-51;2.4 GHz;kitchen
+26;25;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-51;2.4 GHz;kitchen
+27;25;;;Schirmakazie2;78:6a:1f:3a:95:e9;-51;2.4 GHz;kitchen
+28;25;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-93;2.4 GHz;kitchen
+29;25;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-58;2.4 GHz;kitchen
+30;25;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-47;2.4 GHz;kitchen
+31;25;;;Schirmakazie2;78:6a:1f:3a:95:e9;-48;2.4 GHz;kitchen
+32;25;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-48;2.4 GHz;kitchen
+33;25;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-92;2.4 GHz;kitchen
+34;25;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-59;2.4 GHz;kitchen
+35;25;;;Schirmakazie2;78:6a:1f:3a:95:e9;-49;2.4 GHz;kitchen
+36;25;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-48;2.4 GHz;kitchen
+37;25;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-48;2.4 GHz;kitchen
+38;25;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-91;2.4 GHz;kitchen
+39;25;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-67;2.4 GHz;kitchen
+40;25;;;FRITZ!Box Fon WLAN 7270;c0:25:06:0d:4b:7d;-92;2.4 GHz;kitchen
+41;25;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-65;2.4 GHz;kitchen
+42;25;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-51;2.4 GHz;kitchen
+43;25;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-51;2.4 GHz;kitchen
+44;25;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-50;2.4 GHz;kitchen
+45;25;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-69;2.4 GHz;kitchen
+46;25;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-65;2.4 GHz;kitchen
+47;25;;;Vodafone Hotspot;7a:6a:1f:3a:95:99;-48;2.4 GHz;kitchen
+48;25;;;Vodafone Homespot;7a:6a:1f:3a:95:b9;-47;2.4 GHz;kitchen
+49;25;;;XR18-25-45-AD;00:1e:c0:25:45:ad;-64;2.4 GHz;kitchen
