@@ -26,7 +26,7 @@ def my_scan_function():
     os.system("sudo airmon-ng start " + WLAN_INTERFACE + " 1> /dev/null")
     for index in range(1, CHANNELS+1):
         os.system("sudo airmon-ng start "+WLAN_INTERFACEMON+" " + str(index) + " 1> /dev/null")
-        os.system("tshark -i " + WLAN_INTERFACEMON + " -w " + FILEPATH+str(index)+ENDING + " -a duration:1 2> /dev/null")
+        os.system("tshark -i " + WLAN_INTERFACEMON + " -w " + FILEPATH+str(index)+ENDING + " -a duration:1.6 2> /dev/null")
 
     # analyse output
     for index in range(1, CHANNELS+1):
@@ -43,7 +43,13 @@ def my_scan_function():
             signal_strength = parts[1]
             bssid = parts[2]
             essid = parts[3]
-            essid=bytearray.fromhex(essid).decode()
+            if (essid=="<MISSING>"):
+                # print("das war hier schon")
+                #essid=None
+                # essid="MISSING"
+                continue
+            else:
+                essid=bytearray.fromhex(essid).decode()
             radio_channel_list.append(radio_channel)
             signal_strength_list.append(signal_strength)
             bssid_list.append(bssid)
@@ -56,6 +62,6 @@ def my_scan_function():
     # os.system("systemctl start NetworkManager")
     return radio_channel_list, signal_strength_list, bssid_list, essid_list
 
-
+#debug by starting this file isolated
 if __name__ == "__main__":
     my_scan_function()
