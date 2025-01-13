@@ -87,22 +87,22 @@ def scan_func(fingerprint_number: int, locate=True, debug=False) -> list:
             # print("new=", ap_to_change.signal_strength)
     
     #converting from classes to a lists
-    for k, v in bssid_object_map.items():
+    for bssid, ap_c in bssid_object_map.items():
         accesspoint = []
-        accesspoint.append(v.fingerprint_number)
-        accesspoint.append(v.x_coordinate)  # x-pos (relative to something...)
-        accesspoint.append(v.y_coordinate)  # y-pos
-        accesspoint.append(v.essid)
-        accesspoint.append(v.bssid)
-        accesspoint.append(v.signal_strength)
-        accesspoint.append(v.frequency_band)
+        accesspoint.append(ap_c.fingerprint_number)
+        accesspoint.append(ap_c.x_coordinate)  # x-pos (relative to something...)
+        accesspoint.append(ap_c.y_coordinate)  # y-pos
+        accesspoint.append(ap_c.essid)
+        accesspoint.append(ap_c.bssid)
+        accesspoint.append(ap_c.signal_strength)
+        accesspoint.append(ap_c.frequency_band)
         accesspoint.append(location_name)
         fingerprint.append(accesspoint)
 
 
 
     print(len(fingerprint), "accesspoints found")
-    for ap in my_accesspoints:
+    for ap_c in my_accesspoints:
 
         continue
         # for thing in accesspoint:
