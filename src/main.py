@@ -15,6 +15,8 @@ fingerprints_path = fingerprints_base
 FID = 'fingerprint_id'
 COLUMNS = ['fingerprint',
            'x-pos', 'y-pos', 'ssid', 'bssidd', 'signal_strength', 'frequency_standard', 'location_name']
+dataset_id=0
+DATASET="dataset"
 
 
 class Accesspoint:
@@ -45,6 +47,8 @@ if __name__ == "__main__":
         # print(type(config_df))
         config_df.head()
         fingerprint_count = config_df.loc[:, FID][0]
+        dataset_id=config_df.loc[:,DATASET]
+        fingerprints_path=fingerprints_base+str(config_df.loc[:, DATASET][0])
         # print(type(fingerprint_number))
         # print(fingerprint_number)
     except FileNotFoundError:
@@ -56,10 +60,12 @@ if __name__ == "__main__":
         fingerprint_count = int(0)
         mylist = []  # I only know how to make a df out of a list # TODO
         mylist.append(0)
+        mylist.append(0)
         Path("./data").mkdir(parents=True, exist_ok=True)
-        config_df = pd.DataFrame(mylist, columns=[FID])
+        config_df = pd.DataFrame([0,0], columns=[FID,DATASET])
         config_df.to_csv(CONFIG_PATH)
         mylist.clear()
+
 
     fingerprints = []
     while (True):
@@ -119,14 +125,24 @@ if __name__ == "__main__":
         elif befehl == "c" or befehl == "choose save":
             user_input = get_integer_input()
             fingerprints_path = fingerprints_base+str(user_input)
+            dataset_id=user_input
+            fingerprint_count=0
+        elif befehl == "fix": #fix the fingerprint_count in the config (should do this on load tbh)
+            mylist = []  # I only know how to make a df out of a list # TODO
+            my_df=pd.read_pickle(fingerprints_path)
+            print("##################")
+            print(my_df.head())
+            helper=my_df.loc[:,"fingerprint"]
+            fingerprint_count=helper.max()
+            config_df = pd.DataFrame(np.array([[fingerprint_count,dataset_id]]), columns=[FID,DATASET])
+            config_df.to_csv(CONFIG_PATH)
+
         else:
             print(
                 "Befehl wurde nicht erkannt. Try f for fingerprint, l to locate or x for exit")
 
     # cleanup
-    mylist = []  # I only know how to make a df out of a list # TODO
-    mylist.append(fingerprint_count)
     print("fingerprint_count=", fingerprint_count)
-    config_df = pd.DataFrame(mylist, columns=[FID])
+    config_df = pd.DataFrame(np.array([[fingerprint_count,dataset_id]]), columns=[FID,DATASET])
     config_df.to_csv(CONFIG_PATH)
 

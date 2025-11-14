@@ -30,7 +30,9 @@ def calculate_something():
     pass
 
 
-def knn_func2(path: str, amount_of_fingerprints: int):
+def knn_func2(path: str, path2: str, amount_of_fingerprints: int):
+    df = pd.read_pickle(path)
+    df_len = len(df)
     pass
 
 
