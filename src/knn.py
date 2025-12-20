@@ -14,6 +14,7 @@ INDEX_BSSID = 4
 INDEX_SIGNAL = 5
 INDEX_LOCATION = 7
 
+
 class bcolors:
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
@@ -31,8 +32,59 @@ def calculate_something():
 
 
 def knn_func2(path: str, path2: str, amount_of_fingerprints: int):
+    HIGHEST_AMOUNT_OF_ACCESSPOINTS_IN_A_FINGERPRINT = 100  # TODO
+    HIGH = HIGHEST_AMOUNT_OF_ACCESSPOINTS_IN_A_FINGERPRINT
+    UNIQUE_APS_TOTAL = 120  # TODO remove magic numbers
     df = pd.read_pickle(path)
-    df_len = len(df)
+    bssid_map = {}
+    """bssid_map key: bssid, value: index of that bssid
+    """
+    fingerprint_count = df.loc[:, "fingerprint"].max()+1
+    print(fingerprint_count)
+    x_train = np.zeros((fingerprint_count, 100))
+    y_train = np.zeros(fingerprint_count)
+    x_test = np.zeros((fingerprint_count, 100))
+    y_test = np.zeros(fingerprint_count)
+
+    # train
+    fingerprint_location_map = {}
+    for i in range(len(df)):
+        fingerprint_location_map[df.iloc[i, INDEX_FINGERPRINT]] = df.iloc[i, INDEX_XPOS], df.iloc[i, INDEX_YPOS], df.iloc[i, INDEX_LOCATION]
+        bssid = df.iloc[i, INDEX_BSSID]
+        if bssid not in bssid_map:
+            # TODO lookup table should be faster than a map? idk
+            bssid_map[bssid] = len(bssid_map)
+        signal = df.iloc[i, INDEX_SIGNAL]
+        fingerprint_id = df.iloc[i, INDEX_FINGERPRINT]
+        location = df.iloc[i, INDEX_LOCATION]
+        x_train[fingerprint_id, bssid_map[bssid]] = signal
+        y_train[fingerprint_id] = fingerprint_id
+
+    # test
+    df2 = pd.read_pickle(path2)
+    print("shapes=", x_train.shape,
+          y_train.shape, x_test.shape)
+    for i in range(len(df2)):
+        bssid = df2.iloc[i, INDEX_BSSID]
+        if bssid not in bssid_map:
+            # TODO lookup table should be faster than a map? idk
+            continue
+        signal = df2.iloc[i, INDEX_SIGNAL]
+        fingerprint_id = df2.iloc[i, INDEX_FINGERPRINT]
+        location = df2.iloc[i, INDEX_LOCATION]
+        x_test[fingerprint_id, bssid_map[bssid]] = signal
+        y_test[fingerprint_id] = fingerprint_id
+
+    knn: neighbors.KNeighborsClassifier = neighbors.KNeighborsClassifier(
+        n_neighbors=1).fit(x_train, y_train)
+    predict = knn.predict(x_test)
+    print(predict, type(predict))
+    for i in predict:
+        print(bcolors.WARNING, "predict=", i, "location is ",
+              fingerprint_location_map[i], bcolors.ENDC)
+    # print(bcolors.WARNING,"predict=", predict, "location is ",
+    #       fingerprint_location_map[predict], bcolors.ENDC)
+    # return "current location="+str(fingerprint_location_map[minindex])
     pass
 
 
@@ -95,7 +147,7 @@ def knn_func(path: str, fingerprint_count: int, verbose_level: int = 0):
     # print(list_of_dicts)
     # for i in range(len(list_of_dicts)):
     #     print(list_of_dicts[i])
-    print("size=",len(current_pos_dict))
+    print("size=", len(current_pos_dict))
     print(current_pos_dict)
     for i in range(len(list_of_dicts)):
         j = 0
@@ -194,7 +246,7 @@ def knn_func(path: str, fingerprint_count: int, verbose_level: int = 0):
 
     predict = knn.predict(x_test.reshape(1, -1))
     predict = int(predict[0])
-    print(bcolors.WARNING,"predict=", predict, "location is ",
+    print(bcolors.WARNING, "predict=", predict, "location is ",
           fingerprint_location_map[predict], bcolors.ENDC)
     return "current location="+str(fingerprint_location_map[minindex])
 
@@ -204,4 +256,4 @@ if __name__ == "__main__":
     # fingerprint_count formerly fingerprint_number is the count of
     # fingerprints. fingerprint_id should be the individual id of a fingerprint
     amount_of_fingerprints = config_df.loc[:, 'fingerprint_id'][0]
-    knn_func("data/accesspoints.pkl", amount_of_fingerprints)
+    knn_func2("data/accesspoints.pkl0", "data/accesspoints.pkl2", amount_of_fingerprints)
