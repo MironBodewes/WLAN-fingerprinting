@@ -14,3 +14,5 @@ __pycache__/knn.cpython-311.pyc
 airdumps/
 channel*.txt
 *.txt
+channel9.txt
+channel10.txt

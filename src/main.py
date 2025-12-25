@@ -106,7 +106,7 @@ if __name__ == "__main__":
             # cleanup
             mylist = []  # I only know how to make a df out of a list # TODO
             mylist.append(fingerprint_count)
-            print("fingerprint_number=", fingerprint_count)
+            print("DEBUG:dataset=",dataset_id,"\nfingerprint_number=", fingerprint_count)
             config_df = pd.DataFrame(mylist, columns=[FID])
             config_df.to_csv(CONFIG_PATH)
         elif befehl == "ssss" or befehl == "save":

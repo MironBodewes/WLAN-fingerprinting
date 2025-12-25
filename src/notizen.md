@@ -1,0 +1,3 @@
+- 5g wieder mitreinnehmen
+- rssi in dbm ist eine logarithmische skala und die standardabweichung sind in die eine Richtung größer. 
+- standardabweichung    

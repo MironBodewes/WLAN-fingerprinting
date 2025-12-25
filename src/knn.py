@@ -81,8 +81,9 @@ def knn_func2(path: str, path2: str, amount_of_fingerprints: int):
     knn: neighbors.KNeighborsClassifier = neighbors.KNeighborsClassifier(
         n_neighbors=1).fit(x_train, y_train)
     predict = knn.predict(x_test)
-    print(x_test)
+    print("Testdaten (nicht Traningsdaten) Signalwerte (ersten 10):\n",x_test[:,:10])
     print(predict, type(predict))
+    
     j=0
     for i in predict:
         print(bcolors.WARNING, "predict=", i, "predicted location is ",
