@@ -36,15 +36,17 @@ def knn_func2(path: str, path2: str, amount_of_fingerprints: int):
     HIGH = HIGHEST_AMOUNT_OF_ACCESSPOINTS_IN_A_FINGERPRINT
     UNIQUE_APS_TOTAL = 120  # TODO remove magic numbers
     df = pd.read_pickle(path)
+    df2 = pd.read_pickle(path2)
     bssid_map = {}
     """bssid_map key: bssid, value: index of that bssid
     """
     fingerprint_count = df.loc[:, "fingerprint"].max()+1
+    fingerprint_count2 = df2.loc[:, "fingerprint"].max()+1
     print(fingerprint_count)
     x_train = np.zeros((fingerprint_count, 100))
     y_train = np.zeros(fingerprint_count)
-    x_test = np.zeros((fingerprint_count, 100))
-    y_test = np.zeros(fingerprint_count)
+    x_test = np.zeros((fingerprint_count2, 100))
+    y_test = np.zeros(fingerprint_count2)
 
     # train
     fingerprint_location_map = {}
@@ -52,7 +54,7 @@ def knn_func2(path: str, path2: str, amount_of_fingerprints: int):
         fingerprint_location_map[df.iloc[i, INDEX_FINGERPRINT]] = df.iloc[i, INDEX_XPOS], df.iloc[i, INDEX_YPOS], df.iloc[i, INDEX_LOCATION]
         bssid = df.iloc[i, INDEX_BSSID]
         if bssid not in bssid_map:
-            # TODO lookup table should be faster than a map? idk
+            # TODO lookup table [O(1)] should be faster than a map [O(log n)] ? idk
             bssid_map[bssid] = len(bssid_map)
         signal = df.iloc[i, INDEX_SIGNAL]
         fingerprint_id = df.iloc[i, INDEX_FINGERPRINT]
@@ -61,10 +63,11 @@ def knn_func2(path: str, path2: str, amount_of_fingerprints: int):
         y_train[fingerprint_id] = fingerprint_id
 
     # test
-    df2 = pd.read_pickle(path2)
     print("shapes=", x_train.shape,
           y_train.shape, x_test.shape)
+    fingerprint_location_map_test = {}
     for i in range(len(df2)):
+        fingerprint_location_map_test[df2.iloc[i, INDEX_FINGERPRINT]] = df2.iloc[i, INDEX_XPOS], df2.iloc[i, INDEX_YPOS], df2.iloc[i, INDEX_LOCATION]
         bssid = df2.iloc[i, INDEX_BSSID]
         if bssid not in bssid_map:
             # TODO lookup table should be faster than a map? idk
@@ -78,10 +81,13 @@ def knn_func2(path: str, path2: str, amount_of_fingerprints: int):
     knn: neighbors.KNeighborsClassifier = neighbors.KNeighborsClassifier(
         n_neighbors=1).fit(x_train, y_train)
     predict = knn.predict(x_test)
+    print(x_test)
     print(predict, type(predict))
+    j=0
     for i in predict:
-        print(bcolors.WARNING, "predict=", i, "location is ",
-              fingerprint_location_map[i], bcolors.ENDC)
+        print(bcolors.WARNING, "predict=", i, "predicted location is ",
+              fingerprint_location_map[i][2], bcolors.ENDC, "real location is ", fingerprint_location_map_test[j][2])
+        j+=1
     # print(bcolors.WARNING,"predict=", predict, "location is ",
     #       fingerprint_location_map[predict], bcolors.ENDC)
     # return "current location="+str(fingerprint_location_map[minindex])

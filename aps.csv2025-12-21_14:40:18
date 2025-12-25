@@ -1,0 +1,45 @@
+,fingerprint,x-pos,y-pos,ssid,bssidd,signal_strength,frequency_standard,location_name
+0,0,,,Vodafone Homespot,7a:6a:1f:3a:95:b9,-60.75,2.4 GHz,vorne
+1,0,,,Schirmakazie2,78:6a:1f:3a:95:e9,-60.55555555555556,2.4 GHz,vorne
+2,0,,,Vodafone Hotspot,7a:6a:1f:3a:95:99,-60.125,2.4 GHz,vorne
+3,0,,,Schirmakazie,24:65:11:8a:e8:9f,-69.91666666666667,2.4 GHz,vorne
+4,0,,,TP-Link_7104,90:9a:4a:07:71:04,-90.28571428571429,2.4 GHz,vorne
+5,0,,,WiTre_IoT,e6:63:da:74:57:e3,-89.33333333333333,2.4 GHz,vorne
+6,0,,,WiTre_Gast,ea:63:da:74:57:e3,-89.0,2.4 GHz,vorne
+7,0,,,WiTre_IoT,e6:63:da:07:47:21,-89.33333333333333,2.4 GHz,vorne
+8,0,,,uniwifi,e0:63:da:07:47:21,-90.0,2.4 GHz,vorne
+9,0,,,WiTre_Gast,ea:63:da:07:47:21,-89.33333333333333,2.4 GHz,vorne
+10,0,,,uniwifi,e0:63:da:74:57:e3,-90.0,2.4 GHz,vorne
+11,0,,,942A6F7AEE6E,94:2a:6f:7a:ee:6f,-92.4,2.4 GHz,vorne
+0,1,,,Vodafone Homespot,7a:6a:1f:3a:95:b9,-55.7,2.4 GHz,hinten
+1,1,,,Schirmakazie2,78:6a:1f:3a:95:e9,-55.27272727272727,2.4 GHz,hinten
+2,1,,,Vodafone Hotspot,7a:6a:1f:3a:95:99,-54.22222222222222,2.4 GHz,hinten
+3,1,,,TP-Link_7104,90:9a:4a:07:71:04,-93.0,2.4 GHz,hinten
+4,1,,,WiTre_IoT,e6:63:da:74:57:e3,-92.0,2.4 GHz,hinten
+5,1,,,WiTre_Gast,ea:63:da:74:57:e3,-91.25,2.4 GHz,hinten
+6,1,,,WiTre_IoT,e6:63:da:07:47:21,-90.0,2.4 GHz,hinten
+7,1,,,uniwifi,e0:63:da:07:47:21,-86.5,2.4 GHz,hinten
+8,1,,,WiTre_Gast,ea:63:da:07:47:21,-85.66666666666667,2.4 GHz,hinten
+9,1,,,WiTre_Gast,ea:63:da:15:71:be,-92.5,2.4 GHz,hinten
+10,1,,,WiTre_IoT,e6:63:da:15:71:be,-91.5,2.4 GHz,hinten
+11,1,,,Schirmakazie,24:65:11:8a:e8:9f,-73.28571428571429,2.4 GHz,hinten
+12,1,,,WLAN-343813,cc:d4:2e:20:fe:ea,-92.0,2.4 GHz,hinten
+0,2,,,Vodafone Homespot,7a:6a:1f:3a:95:b9,-60.2,2.4 GHz,herd
+1,2,,,Schirmakazie2,78:6a:1f:3a:95:e9,-60.1,2.4 GHz,herd
+2,2,,,Vodafone Hotspot,7a:6a:1f:3a:95:99,-60.0,2.4 GHz,herd
+3,2,,,FRITZ!Box 7590 DX,2c:91:ab:d2:b8:4c,-89.2,2.4 GHz,herd
+4,2,,,W-33YA182,be:ff:4d:f1:45:fa,-94.66666666666667,2.4 GHz,herd
+5,2,,,TP-Link_7104,90:9a:4a:07:71:04,-82.57142857142857,2.4 GHz,herd
+6,2,,,FRITZ!Box 7430 NH,7c:ff:4d:58:dc:d8,-91.0,2.4 GHz,herd
+7,2,,,Schirmakazie,24:65:11:8a:e8:9f,-71.9,2.4 GHz,herd
+8,3,,,Schirmakazie2,78:6a:1f:3a:95:e9,-56.0,2.4 GHz,sofa
+9,3,,,Vodafone Hotspot,7a:6a:1f:3a:95:99,-56.15384615384615,2.4 GHz,sofa
+10,3,,,Vodafone Homespot,7a:6a:1f:3a:95:b9,-55.5,2.4 GHz,sofa
+11,3,,,FRITZ!Box 7590 DX,2c:91:ab:d2:b8:4c,-91.0,2.4 GHz,sofa
+12,3,,,TP-Link_7104,90:9a:4a:07:71:04,-91.0,2.4 GHz,sofa
+13,3,,,WiTre_IoT,e6:63:da:07:47:21,-83.0,2.4 GHz,sofa
+14,3,,,WiTre_Gast,ea:63:da:07:47:21,-83.0,2.4 GHz,sofa
+15,3,,,uniwifi,e0:63:da:07:47:21,-83.4,2.4 GHz,sofa
+16,3,,,Schirmakazie,24:65:11:8a:e8:9f,-60.7,2.4 GHz,sofa
+17,3,,,942A6F7AEE6E,94:2a:6f:7a:ee:6f,-91.0,2.4 GHz,sofa
+18,3,,,FRITZ!Box 6690 EQ,60:b5:8d:d3:6e:6c,-90.8,2.4 GHz,sofa

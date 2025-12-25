@@ -21,7 +21,9 @@ def my_scan_function():
     bssid_list = []
     essid_list = []
 
-    os.system("sudo airmon-ng check kill 1> /dev/null")
+    # os.system("sudo airmon-ng check kill 1> /dev/null")
+    #ahhhhhhhhhhhhh
+    os.system("nmcli device set " + WLAN_INTERFACE+" managed no")
     Path("./airdumps").mkdir(parents=True, exist_ok=True)
     os.system("sudo airmon-ng start " + WLAN_INTERFACE + " 1> /dev/null")
     for index in range(1, CHANNELS+1):

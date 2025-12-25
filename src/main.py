@@ -120,6 +120,7 @@ if __name__ == "__main__":
             print("locating with fingerprints=", fingerprint_count)
             knn_func(fingerprints_path, fingerprint_count, verbose_level=1)
         elif befehl == "x" or befehl == "exit":
+            os.system("nmcli device set wlp4s0 managed yes")
             print("exiting...")
             break
         elif befehl == "r":  # remove
@@ -146,6 +147,10 @@ if __name__ == "__main__":
             print(my_array)
             config_df = pd.DataFrame(my_array, columns=[FID, DATASET])
             config_df.to_csv(CONFIG_PATH)
+            from time import gmtime, strftime
+            datetime=strftime("%Y-%m-%d_%H:%M:%S", gmtime())
+            print(datetime)
+            my_df.to_csv("aps.csv"+datetime)
 
         else:
             print(
