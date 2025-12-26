@@ -1,10 +1,14 @@
 import copy
+from matplotlib import pyplot as plt
 import numpy as np
-from sklearn import neighbors
+from sklearn import neighbors, tree
 import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.model_selection import train_test_split
 import sklearn.preprocessing as oh
 from linux_scan import scan_func
+from airdump import my_scan_function
 #########
 INDEX = 0
 INDEX_FINGERPRINT = 0
@@ -25,6 +29,58 @@ class bcolors:
     ENDC = '\033[0m'
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
+
+
+def compute_decisiontree_classifier(x_train, y_train, x_test, y_test, max_depth=None, random_state=23):
+    clf = tree.DecisionTreeClassifier(max_depth=max_depth, random_state=random_state)
+    clf.fit(x_train, y_train)
+    y_prediction_train = clf.predict(x_train)
+    y_prediction_test = clf.predict(x_test)
+    # End of your Code
+
+    train_accu = 100*clf.score(x_train, y_train)
+    test_accu = 100*clf.score(x_test, y_test)
+
+    print("train accuracy: {} %".format(train_accu))
+    print("test accuracy: {} %".format(test_accu))
+
+    cm = confusion_matrix(y_test, y_prediction_test)
+    print(cm)
+    plt.show()
+    return clf, train_accu, test_accu
+
+def compute_randomforest_classifier(x_train, y_train, x_test, y_test, n_estimators=100, max_depth=None, random_state=56, plot_decisionboundary=True):
+    clf = RandomForestClassifier(
+        n_estimators=n_estimators, max_depth=max_depth, random_state=random_state)
+    clf.fit(x_train, y_train)
+
+    train_accu = 100*clf.score(x_train, y_train)
+    test_accu = 100*clf.score(x_test, y_test)
+
+    print("train accuracy: {} %".format(train_accu))
+    print("test accuracy: {} %".format(test_accu))
+
+    return clf, train_accu, test_accu
+
+def compute_all_small_data(x_train, y_train, x_test, y_test):
+    # print(x_train.shape)
+    print("randomforest")
+    compute_randomforest_classifier(x_train, y_train, x_test, y_test, n_estimators=100, max_depth=None, random_state=56, plot_decisionboundary=True)
+
+    print("decision_tree")
+    compute_decisiontree_classifier(x_train, y_train, x_test, y_test)
+    print("naive_bayes")
+    # compute_naive_bayes()
+    # print("svm")
+    # compute_svm()
+    # print("nearest_neighbors")
+    # compute_nearest_neighbors()
+    # print("nearest_centroid")
+    # compute_nearest_centroid()
+    # print("perceptron")
+    # compute_perceptron()
+    # compute_mlp()
+# compute_all_small_data()
 
 
 def calculate_something():
@@ -81,17 +137,18 @@ def knn_func2(path: str, path2: str, amount_of_fingerprints: int):
     knn: neighbors.KNeighborsClassifier = neighbors.KNeighborsClassifier(
         n_neighbors=1).fit(x_train, y_train)
     predict = knn.predict(x_test)
-    print("Testdaten (nicht Traningsdaten) Signalwerte (ersten 10):\n",x_test[:,:10])
+    print("Testdaten (nicht Traningsdaten) Signalwerte (ersten 10):\n", x_test[:, :10])
     print(predict, type(predict))
-    
-    j=0
+
+    j = 0
     for i in predict:
         print(bcolors.WARNING, "predict=", i, "predicted location is ",
               fingerprint_location_map[i][2], bcolors.ENDC, "real location is ", fingerprint_location_map_test[j][2])
-        j+=1
-    # print(bcolors.WARNING,"predict=", predict, "location is ",
-    #       fingerprint_location_map[predict], bcolors.ENDC)
+        j += 1
+    compute_all_small_data(x_train,y_train,x_test,y_test)
+    compute_decisiontree_classifier(x_train,y_train,x_test,y_test,max_depth=20)
     # return "current location="+str(fingerprint_location_map[minindex])
+
     pass
 
 
@@ -105,7 +162,7 @@ def knn_func(path: str, fingerprint_count: int, verbose_level: int = 0):
     df_len = len(df)
     # print("df.head()=\n", df.head(11))
     twenty_percent = int(0.2*df_len)
-    current_position_scan = scan_func(fingerprint_count, locate=True)
+    current_position_scan = my_scan_function(fingerprint_count, locate=True)
     current_pos_dict = {}
     for ap in current_position_scan:
         current_pos_dict[ap[INDEX_BSSID]] = ap[INDEX_SIGNAL]

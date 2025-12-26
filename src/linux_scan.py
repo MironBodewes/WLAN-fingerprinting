@@ -35,6 +35,9 @@ def get_frequency_band(channel):
     else:
         return "Unknown"
 
+# def scan_func2(fingerprint_number: int) -> list:
+    
+
 
 def scan_func(fingerprint_number: int, locate=True, debug=False) -> list:
     start_time = time.time()

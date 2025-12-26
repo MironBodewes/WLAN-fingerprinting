@@ -46,7 +46,9 @@ def scan_func(fingerprint_number: int, locate=True, debug=False) -> list:
     # changed to iw
     try:
         # Run the iw command to scan for wireless networks
+        subprocess.run("sudo iw dev ",WLAN_INTERACE," set power_save off")
         result = subprocess.check_output(["sudo", "iw", "dev", WLAN_INTERACE, "scan"], universal_newlines=True)
+        subprocess.run("sudo iw dev ",WLAN_INTERACE," set power_save on")
     except subprocess.CalledProcessError as e:
         print(f"Error: {e}")
     # print(result)

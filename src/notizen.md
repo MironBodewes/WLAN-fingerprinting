@@ -1,3 +1,5 @@
 - 5g wieder mitreinnehmen
 - rssi in dbm ist eine logarithmische skala und die standardabweichung sind in die eine Richtung größer. 
 - standardabweichung    
+- Netzwerke vom selben AP zu einem zusammenfassen, da sie wahrscheinlich von der selben Antenne aus gesendet werden -> mehr datenpunkte und weniger varianz
+- 
