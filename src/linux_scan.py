@@ -2,7 +2,7 @@ import subprocess
 import re
 import numpy as np
 import time
-from my_tshark import my_scan_function
+from airodump import my_scan_function
 
 
 WLAN_INTERACE = "wlp4s0"

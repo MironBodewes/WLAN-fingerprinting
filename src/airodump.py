@@ -2,12 +2,16 @@
 
 import os
 from pathlib import Path
+import re
+import signal
 import subprocess
+import sys
 import time
 from time import gmtime, strftime
 
+if not os.geteuid() == 0:
+    sys.exit('Script must be run as root.')
 
-CHANNELS = 13
 WLAN_INTERFACE = "wlp4s0"
 WLAN_INTERFACEMON = WLAN_INTERFACE+"mon"
 FILTER = ""
@@ -30,30 +34,52 @@ def my_scan_function():
     # ahhhhhhhhhhhhh
     os.system("nmcli device set " + WLAN_INTERFACE+" managed no")
     Path("./airdumps").mkdir(parents=True, exist_ok=True)
-    os.system("sudo airmon-ng start " + WLAN_INTERFACE + " 1> /dev/null")
-    os.system("sudo airodump-ng -f 1600 -w airodump" + datetime+" --channel 1,3,6,9,11 wlp6s0mon")
+    try:
+        os.system("sudo airmon-ng start " + WLAN_INTERFACE + " 1> /dev/null")
+    except:
+        pass
+    filename = "airodump"+datetime
+    cmd = "sudo airodump-ng -f 1600 -w " + filename + " --channel 1,3,6,9,11 --output-format csv --write-interval 2 "+WLAN_INTERFACEMON
+    try:
+        p = subprocess.Popen(cmd, shell=True, start_new_session=True)
+        p.wait(timeout=20)
+    except subprocess.TimeoutExpired:
+        print('Terminating the whole process group...', file=sys.stderr)
+        os.killpg(os.getpgid(p.pid), signal.SIGTERM)
 
+    os.system("sudo airmon-ng stop wlp4s0mon 1> /dev/null")
     # analyse output
     # Extract ESSID, BSSID, signal strength, and channel
-    with open("airodump"+datetime+".csv") as text:
-        for line in text:
-            # print(line)
-            parts = line.split()
-            radio_channel = parts[0]
-            signal_strength = parts[1]
-            bssid = parts[2]
-            essid = parts[3]
-            if (essid == "<MISSING>"):
-                # print("das war hier schon")
-                # essid=None
-                # essid="MISSING"
-                continue
-            else:
-                essid = bytearray.fromhex(essid).decode()
-            radio_channel_list.append(radio_channel)
-            signal_strength_list.append(signal_strength)
-            bssid_list.append(bssid)
-            essid_list.append(essid)
+    import csv
+    filename = filename+"-01.csv"
+    lines = 0
+    with open(filename, "r") as f:
+        text = f.readlines()
+
+        # if a line is empty, break
+        count = 0
+        for i in range(len(text)):
+            lines += 1
+            if len(text[i]) <= 10:
+                count += 1
+            if count == 2:
+                break
+    print("lines:", lines)
+
+    import pandas as pd
+    df = pd.read_csv(filename, nrows=lines-3)
+    print(df.columns)
+    essid_list = df[' ESSID'].tolist()
+    bssid_list = df['BSSID'].tolist()
+    signal_strength_list = df[' Power'].tolist()
+    channel_list = df[' channel'].tolist()
+
+    print(essid_list, bssid_list, signal_strength_list, channel_list, sep="\n")
+    print(len(essid_list), len(bssid_list), len(signal_strength_list), len(channel_list))
+    # if (essid == "<MISSING>"):
+    #     pass
+    # else:
+    #     essid = bytearray.fromhex(essid).decode()
 
     # stopping:
     os.system("sudo airmon-ng stop wlp4s0mon 1> /dev/null")

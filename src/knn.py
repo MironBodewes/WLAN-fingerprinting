@@ -8,7 +8,6 @@ from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.model_selection import train_test_split
 import sklearn.preprocessing as oh
 from linux_scan import scan_func
-from airdump import my_scan_function
 #########
 INDEX = 0
 INDEX_FINGERPRINT = 0
@@ -162,7 +161,7 @@ def knn_func(path: str, fingerprint_count: int, verbose_level: int = 0):
     df_len = len(df)
     # print("df.head()=\n", df.head(11))
     twenty_percent = int(0.2*df_len)
-    current_position_scan = my_scan_function(fingerprint_count, locate=True)
+    current_position_scan = scan_func(fingerprint_count, locate=True)
     current_pos_dict = {}
     for ap in current_position_scan:
         current_pos_dict[ap[INDEX_BSSID]] = ap[INDEX_SIGNAL]

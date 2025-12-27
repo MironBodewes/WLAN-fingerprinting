@@ -29,7 +29,7 @@ def get_frequency_band(freq):
         return "Unknown"
 
 
-def my_scan_function(fingerprint_number: int, locate=True, debug=False) -> list:
+def scan_func(fingerprint_number: int, locate=True, debug=False) -> list:
     # scan the wifi
     if locate == False:
         location_name = input("Where are you? ")
@@ -92,7 +92,7 @@ if __name__ == "__main__":
 
     if SCAN == True:
         for i in range(ITERATIONS):
-            fingerprint_list.append(my_scan_function(i))
+            fingerprint_list.append(scan_func(i))
         # Saving and loading the list so we can restart the program without scanning.
         os.makedirs("./test/data", exist_ok=True)
         with open(FILENAME, 'wb') as f:
