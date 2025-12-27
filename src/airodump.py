@@ -33,12 +33,13 @@ def my_scan_function():
     # os.system("sudo airmon-ng check kill 1> /dev/null")
     # ahhhhhhhhhhhhh
     os.system("nmcli device set " + WLAN_INTERFACE+" managed no")
-    Path("./airdumps").mkdir(parents=True, exist_ok=True)
+    directory_path = Path.cwd() / "data/airdumps"
+    Path(directory_path).mkdir(parents=True, exist_ok=True)
     try:
         os.system("sudo airmon-ng start " + WLAN_INTERFACE + " 1> /dev/null")
     except:
         pass
-    filename = "airodump"+datetime
+    filename = "data/airdumps/"+datetime
     cmd = "sudo airodump-ng -f 1600 -w " + filename + " --channel 1,3,6,9,11 --output-format csv --write-interval 2 "+WLAN_INTERFACEMON
     try:
         p = subprocess.Popen(cmd, shell=True, start_new_session=True)
@@ -64,7 +65,7 @@ def my_scan_function():
                 count += 1
             if count == 2:
                 break
-    print("lines:", lines)
+    # print("lines:", lines)
 
     import pandas as pd
     df = pd.read_csv(filename, nrows=lines-3)
@@ -74,8 +75,8 @@ def my_scan_function():
     signal_strength_list = df[' Power'].tolist()
     channel_list = df[' channel'].tolist()
 
-    print(essid_list, bssid_list, signal_strength_list, channel_list, sep="\n")
-    print(len(essid_list), len(bssid_list), len(signal_strength_list), len(channel_list))
+    # print(essid_list, bssid_list, signal_strength_list, channel_list, sep="\n")
+    # print(len(essid_list), len(bssid_list), len(signal_strength_list), len(channel_list))
     # if (essid == "<MISSING>"):
     #     pass
     # else:
