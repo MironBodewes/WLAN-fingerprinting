@@ -1,39 +1,258 @@
 ;fingerprint;x-pos;y-pos;ssid;bssidd;signal_strength;frequency_standard;location_name
-0;0;;; Vodafone Homespot;7A:6A:1F:3A:95:B9;-50;2.4 GHz;sofa
-1;0;;; Schirmakazie2;78:6A:1F:3A:95:E9;-41;2.4 GHz;sofa
-2;0;;; AP_2080636372;D4:27:87:12:65:28;-78;2.4 GHz;sofa
-3;0;;; Vodafone Hotspot;7A:6A:1F:3A:95:99;-50;2.4 GHz;sofa
-4;0;;; SCharger-22KT-S0-NS2352789872;2C:52:AF:15:C8:2A;-81;2.4 GHz;sofa
-5;0;;; Schirmakazie;24:65:11:8A:E8:9F;-63;2.4 GHz;sofa
-6;0;;; TP-Link_7104;90:9A:4A:07:71:04;-84;2.4 GHz;sofa
-7;0;;; ;92:9A:4A:27:71:04;-85;2.4 GHz;sofa
-8;0;;; uniwifi;E0:63:DA:74:57:E3;-87;2.4 GHz;sofa
-9;0;;; ;DC:15:C8:0F:4A:95;-1;2.4 GHz;sofa
-10;0;;; WiTre_IoT;E6:63:DA:15:71:BE;-89;2.4 GHz;sofa
-11;0;;; ;E6:63:DA:07:47:21;-86;2.4 GHz;sofa
-12;0;;; WiTre_IoT;E6:63:DA:74:57:E3;-87;2.4 GHz;sofa
-13;0;;; 942A6F7AEE6E;94:2A:6F:7A:EE:6F;-90;2.4 GHz;sofa
-14;0;;; ;60:B5:8D:D3:6E:6C;-91;2.4 GHz;sofa
-15;0;;; WLAN-343813;CC:D4:2E:20:FE:EA;-87;2.4 GHz;sofa
-16;0;;; WiTre_Gast;EA:63:DA:74:57:E3;-88;2.4 GHz;sofa
-17;0;;; WiTre_Gast;EA:63:DA:15:71:BE;-89;2.4 GHz;sofa
-18;0;;; ;E0:63:DA:15:71:BE;-85;2.4 GHz;sofa
-0;1;;; Vodafone Hotspot;7A:6A:1F:3A:95:99;-46;2.4 GHz;küche
-1;1;;; Vodafone Homespot;7A:6A:1F:3A:95:B9;-47;2.4 GHz;küche
-2;1;;; Schirmakazie2;78:6A:1F:3A:95:E9;-46;2.4 GHz;küche
-3;1;;; AP_2080636372;D4:27:87:12:65:28;-75;2.4 GHz;küche
-4;1;;; FRITZ!Box 7590 DX;2C:91:AB:D2:B8:4C;-89;2.4 GHz;küche
-5;1;;; Schirmakazie;24:65:11:8A:E8:9F;-76;2.4 GHz;küche
-6;1;;; TP-Link_7104;90:9A:4A:07:71:04;-79;2.4 GHz;küche
-7;1;;; ;92:9A:4A:27:71:04;-79;2.4 GHz;küche
-8;1;;; WiTre_IoT;E6:63:DA:74:57:E3;-89;2.4 GHz;küche
-9;1;;; WiTre_Gast;EA:63:DA:74:57:E3;-89;2.4 GHz;küche
-10;1;;; WiTre_IoT;E6:63:DA:07:47:21;-91;2.4 GHz;küche
-11;1;;; WiTre_Gast;EA:63:DA:07:47:21;-92;2.4 GHz;küche
-12;1;;; uniwifi;E0:63:DA:15:71:BE;-87;2.4 GHz;küche
-13;1;;; WiTre_IoT;E6:63:DA:15:71:BE;-86;2.4 GHz;küche
-14;1;;; WiTre_Gast;EA:63:DA:15:71:BE;-87;2.4 GHz;küche
-15;1;;; DTUBI-93143010;54:F2:9F:4E:54:44;-80;2.4 GHz;küche
-16;1;;; DTUBI-92318054;54:F2:9F:13:CE:AA;-76;2.4 GHz;küche
-17;1;;; ;60:B5:8D:D3:6E:6C;-1;2.4 GHz;küche
-18;1;;; WLAN-343813;CC:D4:2E:20:FE:EA;-92;2.4 GHz;küche
+0;0;;; Schirmakazie;24:65:11:8A:E8:9F;-85;2.4 GHz;obensüdwest
+1;0;;; Vodafone Hotspot;7A:6A:1F:3A:95:99;-70;2.4 GHz;obensüdwest
+2;0;;; Vodafone Homespot;7A:6A:1F:3A:95:B9;-70;2.4 GHz;obensüdwest
+3;0;;; Schirmakazie2;78:6A:1F:3A:95:E9;-70;2.4 GHz;obensüdwest
+4;0;;; AP_2080636372;D4:27:87:12:65:28;-67;2.4 GHz;obensüdwest
+5;0;;; WLAN-244575;30:B1:B5:09:D2:36;-84;2.4 GHz;obensüdwest
+6;0;;; TP-Link_7104;90:9A:4A:07:71:04;-89;2.4 GHz;obensüdwest
+7;0;;; ;92:9A:4A:27:71:04;-87;2.4 GHz;obensüdwest
+8;0;;; DTUBI-93143010;54:F2:9F:4E:54:44;-87;2.4 GHz;obensüdwest
+9;0;;; DTUBI-92318054;54:F2:9F:13:CE:AA;-87;2.4 GHz;obensüdwest
+10;0;;; FRITZ!Box 7530 BZ;50:E6:36:6C:71:45;-89;2.4 GHz;obensüdwest
+11;0;;; FRITZ!Box 7430 NH;7C:FF:4D:58:DC:D8;-88;2.4 GHz;obensüdwest
+12;0;;; ;DC:39:6F:C7:89:E6;-1;2.4 GHz;obensüdwest
+13;0;;; FRITZ!Box 6690 EQ;60:B5:8D:D3:6E:6C;-89;2.4 GHz;obensüdwest
+14;0;;; WiTre_IoT;E6:63:DA:15:71:BE;-91;2.4 GHz;obensüdwest
+15;0;;; DIRECT-FC-HP DeskJet 2900 series;4C:CF:7C:2A:CE:FE;-88;2.4 GHz;obensüdwest
+16;1;;; Schirmakazie;24:65:11:8A:E8:9F;-67;2.4 GHz;obennordwest
+17;1;;; AP_2080636372;D4:27:87:12:65:28;-70;2.4 GHz;obennordwest
+18;1;;; Vodafone Homespot;7A:6A:1F:3A:95:B9;-63;2.4 GHz;obennordwest
+19;1;;; Schirmakazie2;78:6A:1F:3A:95:E9;-64;2.4 GHz;obennordwest
+20;1;;; Vodafone Hotspot;7A:6A:1F:3A:95:99;-63;2.4 GHz;obennordwest
+21;1;;; W-33YA182;BE:FF:4D:F1:45:FA;-90;2.4 GHz;obennordwest
+22;1;;; WLAN-244575;30:B1:B5:09:D2:36;-91;2.4 GHz;obennordwest
+23;1;;; FRITZ!Box 7590 DX;2C:91:AB:D2:B8:4C;-88;2.4 GHz;obennordwest
+24;1;;; TP-Link_7104;90:9A:4A:07:71:04;-85;2.4 GHz;obennordwest
+25;1;;; ;92:9A:4A:27:71:04;-82;2.4 GHz;obennordwest
+26;1;;; DTUBI-93143010;54:F2:9F:4E:54:44;-80;2.4 GHz;obennordwest
+27;1;;; DTUBI-92318054;54:F2:9F:13:CE:AA;-72;2.4 GHz;obennordwest
+28;1;;; WLAN-343813;CC:D4:2E:20:FE:EA;-88;2.4 GHz;obennordwest
+29;1;;; ;C8:0E:14:60:19:C7;-1;2.4 GHz;obennordwest
+30;1;;; FRITZ!Box 7530 BZ;50:E6:36:6C:71:45;-89;2.4 GHz;obennordwest
+31;2;;; FRITZ!Box 7430 NH;7C:FF:4D:58:DC:D8;-84;2.4 GHz;benbad
+32;2;;; Schirmakazie;24:65:11:8A:E8:9F;-77;2.4 GHz;benbad
+33;2;;; Vodafone Homespot;7A:6A:1F:3A:95:B9;-76;2.4 GHz;benbad
+34;2;;; Schirmakazie2;78:6A:1F:3A:95:E9;-76;2.4 GHz;benbad
+35;2;;; FRITZ!Box 7590 DX;2C:91:AB:D2:B8:4C;-85;2.4 GHz;benbad
+36;2;;; AP_2080636372;D4:27:87:12:65:28;-87;2.4 GHz;benbad
+37;2;;; Vodafone Hotspot;7A:6A:1F:3A:95:99;-75;2.4 GHz;benbad
+38;2;;; W-33YA182;BE:FF:4D:F1:45:FA;-89;2.4 GHz;benbad
+39;2;;; TP-Link_7104;90:9A:4A:07:71:04;-79;2.4 GHz;benbad
+40;2;;; ;92:9A:4A:27:71:04;-78;2.4 GHz;benbad
+41;2;;; DTUBI-92318054;54:F2:9F:13:CE:AA;-73;2.4 GHz;benbad
+42;2;;; WiTre_Gast;EA:63:DA:15:71:BE;-90;2.4 GHz;benbad
+43;2;;; DTUBI-93143010;54:F2:9F:4E:54:44;-69;2.4 GHz;benbad
+44;2;;; FRITZ!Box 6690 EQ;60:B5:8D:D3:6E:6C;-88;2.4 GHz;benbad
+45;2;;; ;D4:24:DD:AD:FB:1D;-1;2.4 GHz;benbad
+46;2;;; WiTre_IoT;E6:63:DA:15:71:BE;-89;2.4 GHz;benbad
+47;2;;; uniwifi;E0:63:DA:15:71:BE;-89;2.4 GHz;benbad
+48;2;;; Vodafone-3584;98:9D:5D:31:35:88;-89;2.4 GHz;benbad
+49;2;;; Vodafone Homespot;9A:9D:5D:31:35:8A;-89;2.4 GHz;benbad
+50;2;;; Vodafone Hotspot;9A:9D:5D:31:35:8C;-88;2.4 GHz;benbad
+51;2;;; WLAN-343813;CC:D4:2E:20:FE:EA;-85;2.4 GHz;benbad
+52;2;;; ;CC:CE:1E:6A:A9:54;-90;2.4 GHz;benbad
+53;2;;; ;3C:A6:2F:F5:AA:CA;-1;2.4 GHz;benbad
+54;3;;; FRITZ!Box 7590 DX;2C:91:AB:D2:B8:4C;-85;2.4 GHz;obensüden
+55;3;;; Deutsche-Glasfaser-6FR;DC:97:E6:07:34:D4;-91;2.4 GHz;obensüden
+56;3;;; AP_2080636372;D4:27:87:12:65:28;-83;2.4 GHz;obensüden
+57;3;;; Schirmakazie;24:65:11:8A:E8:9F;-76;2.4 GHz;obensüden
+58;3;;; Vodafone Homespot;7A:6A:1F:3A:95:B9;-71;2.4 GHz;obensüden
+59;3;;; Schirmakazie2;78:6A:1F:3A:95:E9;-71;2.4 GHz;obensüden
+60;3;;; Vodafone Hotspot;7A:6A:1F:3A:95:99;-70;2.4 GHz;obensüden
+61;3;;; W-33YA182;BE:FF:4D:F1:45:FA;-86;2.4 GHz;obensüden
+62;3;;; FRITZ!Box 7590;E0:28:6D:7F:AF:76;-87;2.4 GHz;obensüden
+63;3;;; WLAN-244575;30:B1:B5:09:D2:36;-87;2.4 GHz;obensüden
+64;3;;; TP-Link_7104;90:9A:4A:07:71:04;-89;2.4 GHz;obensüden
+65;3;;; DTUBI-92318054;54:F2:9F:13:CE:AA;-63;2.4 GHz;obensüden
+66;3;;; DTUBI-93143010;54:F2:9F:4E:54:44;-85;2.4 GHz;obensüden
+67;3;;; WiTre_IoT;E6:63:DA:07:47:21;-87;2.4 GHz;obensüden
+68;3;;; WiTre_Gast;EA:63:DA:07:47:21;-88;2.4 GHz;obensüden
+69;3;;; FRITZ!Box 6690 EQ;60:B5:8D:D3:6E:6C;-74;2.4 GHz;obensüden
+70;3;;; FRITZ!Box 6690 EQ_EXT;40:ED:00:25:E0:01;-89;2.4 GHz;obensüden
+71;3;;; uniwifi;E0:63:DA:15:71:BE;-83;2.4 GHz;obensüden
+72;3;;; WiTre_IoT;E6:63:DA:15:71:BE;-84;2.4 GHz;obensüden
+73;3;;; WiTre_Gast;EA:63:DA:15:71:BE;-84;2.4 GHz;obensüden
+74;3;;; FRITZ!Box 7430 NH;7C:FF:4D:58:DC:D8;-77;2.4 GHz;obensüden
+75;3;;; WiTre_IoT;E6:63:DA:74:57:E3;-88;2.4 GHz;obensüden
+76;3;;; WiTre_Gast;EA:63:DA:74:57:E3;-87;2.4 GHz;obensüden
+77;3;;; WLAN-343813;CC:D4:2E:20:FE:EA;-90;2.4 GHz;obensüden
+78;4;;; Vodafone Hotspot;7A:6A:1F:3A:95:99;-73;2.4 GHz;chlafzimmer
+79;4;;; Vodafone Homespot;7A:6A:1F:3A:95:B9;-73;2.4 GHz;chlafzimmer
+80;4;;; Schirmakazie2;78:6A:1F:3A:95:E9;-73;2.4 GHz;chlafzimmer
+81;4;;; AP_3918853428;EC:FD:F8:94:9A:2E;-90;2.4 GHz;chlafzimmer
+82;4;;; W-33YA182;BE:FF:4D:F1:45:FA;-77;2.4 GHz;chlafzimmer
+83;4;;; FRITZ!Box 7590 DX;2C:91:AB:D2:B8:4C;-79;2.4 GHz;chlafzimmer
+84;4;;; FRITZ!Box 7590 DX;DC:39:6F:A4:17:1C;-89;2.4 GHz;chlafzimmer
+85;4;;; Schirmakazie;24:65:11:8A:E8:9F;-85;2.4 GHz;chlafzimmer
+86;4;;; TP-Link_7104;90:9A:4A:07:71:04;-89;2.4 GHz;chlafzimmer
+87;4;;; DTUBI-92318054;54:F2:9F:13:CE:AA;-70;2.4 GHz;chlafzimmer
+88;4;;; WiTre_IoT;E6:63:DA:74:57:E3;-90;2.4 GHz;chlafzimmer
+89;4;;; WiTre_Gast;EA:63:DA:74:57:E3;-88;2.4 GHz;chlafzimmer
+90;4;;; uniwifi;E0:63:DA:07:47:21;-87;2.4 GHz;chlafzimmer
+91;4;;; WiTre_IoT;E6:63:DA:07:47:21;-87;2.4 GHz;chlafzimmer
+92;4;;; WiTre_Gast;EA:63:DA:07:47:21;-88;2.4 GHz;chlafzimmer
+93;4;;; WiTre_IoT;E6:63:DA:15:71:BE;-89;2.4 GHz;chlafzimmer
+94;4;;; WiTre_Gast;EA:63:DA:15:71:BE;-87;2.4 GHz;chlafzimmer
+95;4;;; DTUBI-93143010;54:F2:9F:4E:54:44;-83;2.4 GHz;chlafzimmer
+96;4;;; FRITZ!Box 6690 EQ;60:B5:8D:D3:6E:6C;-76;2.4 GHz;chlafzimmer
+97;4;;; FRITZ!Box 6690 EQ_EXT;40:ED:00:25:E0:01;-89;2.4 GHz;chlafzimmer
+98;4;;; SCharger-22KT-S0-NS2551094724;1C:E5:04:CB:6E:4C;-91;2.4 GHz;chlafzimmer
+99;4;;; ;E0:63:DA:15:71:BE;-87;2.4 GHz;chlafzimmer
+100;4;;; FRITZ!Box 7430 NH;7C:FF:4D:58:DC:D8;-76;2.4 GHz;chlafzimmer
+101;4;;; FRITZ!Box 6591 Cable RV_EXT;8C:90:2D:B8:9D:90;-85;2.4 GHz;chlafzimmer
+102;4;;; Vodafone Hotspot;4E:15:C8:0F:4A:95;-89;2.4 GHz;chlafzimmer
+103;4;;; FRITZ!Box 6591 Cable RV;DC:15:C8:0F:4A:95;-90;2.4 GHz;chlafzimmer
+104;4;;; WLAN-343813;CC:D4:2E:20:FE:EA;-84;2.4 GHz;chlafzimmer
+105;4;;; Vodafone Homespot;5E:15:C8:0F:4A:95;-90;2.4 GHz;chlafzimmer
+106;4;;; AP_2080636372;D4:27:87:12:65:28;-88;2.4 GHz;chlafzimmer
+107;4;;; BKA;B0:F2:08:44:7F:51;-90;2.4 GHz;chlafzimmer
+108;5;;; Schirmakazie;24:65:11:8A:E8:9F;-78;2.4 GHz;treppe
+109;5;;; Vodafone Homespot;7A:6A:1F:3A:95:B9;-57;2.4 GHz;treppe
+110;5;;; Schirmakazie2;78:6A:1F:3A:95:E9;-56;2.4 GHz;treppe
+111;5;;; Vodafone Hotspot;7A:6A:1F:3A:95:99;-56;2.4 GHz;treppe
+112;5;;; W-33YA182;BE:FF:4D:F1:45:FA;-90;2.4 GHz;treppe
+113;5;;; Deutsche-Glasfaser-6FR;DC:97:E6:07:34:D4;-91;2.4 GHz;treppe
+114;5;;; AP_2080636372;D4:27:87:12:65:28;-64;2.4 GHz;treppe
+115;5;;; TP-Link_7104;90:9A:4A:07:71:04;-91;2.4 GHz;treppe
+116;5;;; ;92:9A:4A:27:71:04;-89;2.4 GHz;treppe
+117;5;;; DTUBI-93143010;54:F2:9F:4E:54:44;-87;2.4 GHz;treppe
+118;5;;; uniwifi;E0:63:DA:74:57:E3;-88;2.4 GHz;treppe
+119;5;;; WiTre_IoT;E6:63:DA:74:57:E3;-89;2.4 GHz;treppe
+120;5;;; WiTre_Gast;EA:63:DA:74:57:E3;-88;2.4 GHz;treppe
+121;5;;; uniwifi;E0:63:DA:07:47:21;-88;2.4 GHz;treppe
+122;5;;; WiTre_IoT;E6:63:DA:07:47:21;-90;2.4 GHz;treppe
+123;5;;; WiTre_Gast;EA:63:DA:07:47:21;-89;2.4 GHz;treppe
+124;5;;; DTUBI-92318054;54:F2:9F:13:CE:AA;-80;2.4 GHz;treppe
+125;5;;; uniwifi;E0:63:DA:15:71:BE;-82;2.4 GHz;treppe
+126;5;;; WiTre_IoT;E6:63:DA:15:71:BE;-81;2.4 GHz;treppe
+127;5;;; WiTre_Gast;EA:63:DA:15:71:BE;-80;2.4 GHz;treppe
+128;5;;; ;60:B5:8D:D3:6E:6C;-91;2.4 GHz;treppe
+129;5;;; FRITZ!Box 7430 NH;7C:FF:4D:58:DC:D8;-88;2.4 GHz;treppe
+130;5;;; uniwifi;94:2A:6F:7A:EE:6F;-91;2.4 GHz;treppe
+131;5;;; WiTre_IoT;9A:2A:6F:7A:EE:6F;-91;2.4 GHz;treppe
+132;5;;; WiTre_Gast;9E:2A:6F:7A:EE:6F;-90;2.4 GHz;treppe
+133;5;;; FRITZ!Box 7530 BZ;50:E6:36:6C:71:45;-89;2.4 GHz;treppe
+134;5;;; WLAN-244575;30:B1:B5:09:D2:36;-91;2.4 GHz;treppe
+135;5;;; ;DC:15:C8:0F:4A:95;-1;2.4 GHz;treppe
+136;6;;; Schirmakazie;24:65:11:8A:E8:9F;-57;2.4 GHz;vordertür
+137;6;;; WLAN-244575;30:B1:B5:09:D2:36;-81;2.4 GHz;vordertür
+138;6;;; AP_2080636372;D4:27:87:12:65:28;-71;2.4 GHz;vordertür
+139;6;;; Schirmakazie2;78:6A:1F:3A:95:E9;-61;2.4 GHz;vordertür
+140;6;;; Vodafone Hotspot;7A:6A:1F:3A:95:99;-62;2.4 GHz;vordertür
+141;6;;; Vodafone Homespot;7A:6A:1F:3A:95:B9;-62;2.4 GHz;vordertür
+142;6;;; FRITZ!Box 5690 NH;34:E1:A9:1B:25:40;-90;2.4 GHz;vordertür
+143;6;;; FRITZ!Box Gastzugang;34:E1:A9:1B:25:42;-91;2.4 GHz;vordertür
+144;6;;; TP-Link_7104;90:9A:4A:07:71:04;-83;2.4 GHz;vordertür
+145;6;;; ;92:9A:4A:27:71:04;-82;2.4 GHz;vordertür
+146;6;;; DTUBI-92318054;54:F2:9F:13:CE:AA;-83;2.4 GHz;vordertür
+147;6;;; uniwifi;E0:63:DA:74:57:E3;-76;2.4 GHz;vordertür
+148;6;;; WiTre_IoT;E6:63:DA:74:57:E3;-80;2.4 GHz;vordertür
+149;6;;; WiTre_Gast;EA:63:DA:74:57:E3;-76;2.4 GHz;vordertür
+150;6;;; uniwifi;E0:63:DA:07:47:21;-76;2.4 GHz;vordertür
+151;6;;; WiTre_IoT;E6:63:DA:07:47:21;-76;2.4 GHz;vordertür
+152;6;;; WiTre_Gast;EA:63:DA:07:47:21;-75;2.4 GHz;vordertür
+153;6;;; uniwifi;E0:63:DA:15:71:BE;-79;2.4 GHz;vordertür
+154;6;;; WiTre_IoT;E6:63:DA:15:71:BE;-76;2.4 GHz;vordertür
+155;6;;; WiTre_Gast;EA:63:DA:15:71:BE;-77;2.4 GHz;vordertür
+156;6;;; ;60:B5:8D:D3:6E:6C;-92;2.4 GHz;vordertür
+157;6;;; DTUBI-93143010;54:F2:9F:4E:54:44;-83;2.4 GHz;vordertür
+158;6;;; uniwifi;94:2A:6F:7A:EE:6F;-86;2.4 GHz;vordertür
+159;6;;; WiTre_Gast;9E:2A:6F:7A:EE:6F;-85;2.4 GHz;vordertür
+160;6;;; WiTre_IoT;9A:2A:6F:7A:EE:6F;-85;2.4 GHz;vordertür
+161;6;;; FRITZ!Box 7530 BZ;50:E6:36:6C:71:45;-86;2.4 GHz;vordertür
+162;6;;; ;DC:39:6F:C7:89:E6;-1;2.4 GHz;vordertür
+163;6;;; ;7C:FF:4D:58:DC:D8;-90;2.4 GHz;vordertür
+164;6;;; ;74:42:7F:3F:8F:E2;-90;2.4 GHz;vordertür
+165;6;;; W-33YA182;BE:FF:4D:F1:45:FA;-89;2.4 GHz;vordertür
+166;7;;; Schirmakazie;24:65:11:8A:E8:9F;-72;2.4 GHz;hintertür
+167;7;;; AP_2080636372;D4:27:87:12:65:28;-61;2.4 GHz;hintertür
+168;7;;; Schirmakazie2;78:6A:1F:3A:95:E9;-57;2.4 GHz;hintertür
+169;7;;; Vodafone Hotspot;7A:6A:1F:3A:95:99;-57;2.4 GHz;hintertür
+170;7;;; Vodafone Homespot;7A:6A:1F:3A:95:B9;-58;2.4 GHz;hintertür
+171;7;;; TP-Link_7104;90:9A:4A:07:71:04;-92;2.4 GHz;hintertür
+172;7;;; ;92:9A:4A:27:71:04;-91;2.4 GHz;hintertür
+173;7;;; uniwifi;E0:63:DA:15:71:BE;-86;2.4 GHz;hintertür
+174;7;;; WiTre_IoT;E6:63:DA:15:71:BE;-90;2.4 GHz;hintertür
+175;7;;; WiTre_Gast;EA:63:DA:15:71:BE;-87;2.4 GHz;hintertür
+176;7;;; DTUBI-93143010;54:F2:9F:4E:54:44;-89;2.4 GHz;hintertür
+177;7;;; DTUBI-92318054;54:F2:9F:13:CE:AA;-90;2.4 GHz;hintertür
+178;7;;; WiTre_Gast;EA:63:DA:74:57:E3;-86;2.4 GHz;hintertür
+179;7;;; WiTre_IoT;E6:63:DA:07:47:21;-90;2.4 GHz;hintertür
+180;7;;; WiTre_Gast;EA:63:DA:07:47:21;-91;2.4 GHz;hintertür
+181;7;;; uniwifi;E0:63:DA:74:57:E3;-86;2.4 GHz;hintertür
+182;7;;; WiTre_IoT;E6:63:DA:74:57:E3;-86;2.4 GHz;hintertür
+183;7;;; ;CC:CE:1E:6A:A9:54;-1;2.4 GHz;hintertür
+184;7;;; ;DC:15:C8:0F:4A:95;-1;2.4 GHz;hintertür
+185;8;;; AP_2080636372;D4:27:87:12:65:28;-72;2.4 GHz;flur
+186;8;;; Schirmakazie;24:65:11:8A:E8:9F;-84;2.4 GHz;flur
+187;8;;; Vodafone Homespot;7A:6A:1F:3A:95:B9;-44;2.4 GHz;flur
+188;8;;; Schirmakazie2;78:6A:1F:3A:95:E9;-44;2.4 GHz;flur
+189;8;;; Vodafone Hotspot;7A:6A:1F:3A:95:99;-44;2.4 GHz;flur
+190;8;;; ;DC:39:6F:C7:89:E6;-1;2.4 GHz;flur
+191;8;;; TP-Link_7104;90:9A:4A:07:71:04;-86;2.4 GHz;flur
+192;8;;; ;92:9A:4A:27:71:04;-85;2.4 GHz;flur
+193;8;;; DTUBI-93143010;54:F2:9F:4E:54:44;-87;2.4 GHz;flur
+194;8;;; uniwifi;E0:63:DA:74:57:E3;-88;2.4 GHz;flur
+195;8;;; WiTre_IoT;E6:63:DA:74:57:E3;-87;2.4 GHz;flur
+196;8;;; WiTre_Gast;EA:63:DA:74:57:E3;-88;2.4 GHz;flur
+197;8;;; WiTre_IoT;E6:63:DA:07:47:21;-87;2.4 GHz;flur
+198;8;;; DTUBI-92318054;54:F2:9F:13:CE:AA;-86;2.4 GHz;flur
+199;8;;; uniwifi;E0:63:DA:15:71:BE;-80;2.4 GHz;flur
+200;8;;; WiTre_IoT;E6:63:DA:15:71:BE;-80;2.4 GHz;flur
+201;8;;; WiTre_Gast;EA:63:DA:15:71:BE;-80;2.4 GHz;flur
+202;8;;; WiTre_Gast;EA:63:DA:07:47:21;-88;2.4 GHz;flur
+203;8;;; WLAN-343813;CC:D4:2E:20:FE:EA;-91;2.4 GHz;flur
+204;8;;; WiTre_IoT;9A:2A:6F:7A:EE:6F;-90;2.4 GHz;flur
+205;8;;; WiTre_Gast;9E:2A:6F:7A:EE:6F;-90;2.4 GHz;flur
+206;8;;; uniwifi;94:2A:6F:7A:EE:6F;-88;2.4 GHz;flur
+207;8;;; ;7C:FF:4D:58:DC:D8;-89;2.4 GHz;flur
+208;8;;; W-33YA182;BE:FF:4D:F1:45:FA;-91;2.4 GHz;flur
+209;9;;; Schirmakazie;24:65:11:8A:E8:9F;-88;2.4 GHz;tisch
+210;9;;; Schirmakazie2;78:6A:1F:3A:95:E9;-43;2.4 GHz;tisch
+211;9;;; Vodafone Hotspot;7A:6A:1F:3A:95:99;-43;2.4 GHz;tisch
+212;9;;; Vodafone Homespot;7A:6A:1F:3A:95:B9;-43;2.4 GHz;tisch
+213;9;;; AP_2080636372;D4:27:87:12:65:28;-75;2.4 GHz;tisch
+214;9;;; ;92:9A:4A:27:71:04;-88;2.4 GHz;tisch
+215;9;;; TP-Link_7104;90:9A:4A:07:71:04;-88;2.4 GHz;tisch
+216;9;;; FRITZ!Box 6690 EQ;60:B5:8D:D3:6E:6C;-88;2.4 GHz;tisch
+217;9;;; uniwifi;E0:63:DA:15:71:BE;-85;2.4 GHz;tisch
+218;9;;; WiTre_IoT;E6:63:DA:15:71:BE;-86;2.4 GHz;tisch
+219;9;;; WiTre_Gast;EA:63:DA:15:71:BE;-87;2.4 GHz;tisch
+220;9;;; DTUBI-92318054;54:F2:9F:13:CE:AA;-78;2.4 GHz;tisch
+221;9;;; DTUBI-93143010;54:F2:9F:4E:54:44;-80;2.4 GHz;tisch
+222;9;;; WiTre_Gast;EA:63:DA:74:57:E3;-89;2.4 GHz;tisch
+223;9;;; WiTre_IoT;E6:63:DA:07:47:21;-87;2.4 GHz;tisch
+224;9;;; WiTre_Gast;EA:63:DA:07:47:21;-88;2.4 GHz;tisch
+225;9;;; WiTre_IoT;E6:63:DA:74:57:E3;-88;2.4 GHz;tisch
+226;9;;; uniwifi;E0:63:DA:74:57:E3;-88;2.4 GHz;tisch
+227;9;;; WiTre_IoT;9A:2A:6F:7A:EE:6F;-90;2.4 GHz;tisch
+228;9;;; WiTre_Gast;9E:2A:6F:7A:EE:6F;-90;2.4 GHz;tisch
+229;9;;; WLAN-343813;CC:D4:2E:20:FE:EA;-90;2.4 GHz;tisch
+230;9;;; FRITZ!Box 7430 NH;7C:FF:4D:58:DC:D8;-89;2.4 GHz;tisch
+231;9;;; ;D4:24:DD:AD:FB:1D;-1;2.4 GHz;tisch
+232;10;;; Schirmakazie;24:65:11:8A:E8:9F;-72;2.4 GHz;radioküche
+233;10;;; AP_2080636372;D4:27:87:12:65:28;-80;2.4 GHz;radioküche
+234;10;;; Vodafone Hotspot;7A:6A:1F:3A:95:99;-55;2.4 GHz;radioküche
+235;10;;; Vodafone Homespot;7A:6A:1F:3A:95:B9;-55;2.4 GHz;radioküche
+236;10;;; Schirmakazie2;78:6A:1F:3A:95:E9;-55;2.4 GHz;radioküche
+237;10;;; FRITZ!Box 7590 DX;2C:91:AB:D2:B8:4C;-86;2.4 GHz;radioküche
+238;10;;; ;0C:72:74:54:FF:E9;-1;2.4 GHz;radioküche
+239;10;;; TP-Link_7104;90:9A:4A:07:71:04;-76;2.4 GHz;radioküche
+240;10;;; ;92:9A:4A:27:71:04;-76;2.4 GHz;radioküche
+241;10;;; DTUBI-93143010;54:F2:9F:4E:54:44;-82;2.4 GHz;radioküche
+242;10;;; WiTre_IoT;E6:63:DA:15:71:BE;-89;2.4 GHz;radioküche
+243;10;;; WiTre_Gast;EA:63:DA:15:71:BE;-90;2.4 GHz;radioküche
+244;10;;; DTUBI-92318054;54:F2:9F:13:CE:AA;-82;2.4 GHz;radioküche
+245;10;;; WiTre_IoT;E6:63:DA:74:57:E3;-88;2.4 GHz;radioküche
+246;10;;; WiTre_Gast;EA:63:DA:74:57:E3;-89;2.4 GHz;radioküche
+247;10;;; ;E0:63:DA:15:71:BE;-89;2.4 GHz;radioküche
+248;10;;; uniwifi;E0:63:DA:74:57:E3;-87;2.4 GHz;radioküche
+249;10;;; WLAN-343813;CC:D4:2E:20:FE:EA;-91;2.4 GHz;radioküche
+250;10;;; WLAN-343813;CC:CE:1E:6A:A9:54;-89;2.4 GHz;radioküche
+251;10;;; WiTre_Gast;9E:2A:6F:7A:EE:6F;-92;2.4 GHz;radioküche
+252;10;;; FRITZ!Box 7430 NH;7C:FF:4D:58:DC:D8;-90;2.4 GHz;radioküche
+253;10;;; W-33YA182;BE:FF:4D:F1:45:FA;-91;2.4 GHz;radioküche
+254;10;;; ;60:B5:8D:D3:6E:6C;-1;2.4 GHz;radioküche
+255;10;;; ;D4:24:DD:AD:FB:1D;-1;2.4 GHz;radioküche
+256;10;;; ;3C:A6:2F:F5:AA:CA;-1;2.4 GHz;radioküche

@@ -253,7 +253,7 @@ def knn_func(path: str, fingerprint_count: int, verbose_level: int = 0):
     """change the format of the df to use it with knn.
     format should be bssidd -> list[fingerprint_ID,signal_strength]
     format in df is currently: 
-    fingerprint_ID, bssid, signalstrength
+    fingerprint_ID, bssid, signalstrengthc
     ...
     """
     x_train = np.zeros((fingerprint_count, UNIQUE_APS_TOTAL))
