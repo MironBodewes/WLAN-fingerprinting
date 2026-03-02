@@ -149,7 +149,7 @@ if __name__ == "__main__":
             config_df.to_csv(CONFIG_PATH)
             datetime=strftime("%Y-%m-%d_%H:%M:%S", gmtime())
             print(datetime)
-            my_df.to_csv("aps.csv"+datetime)
+            my_df.to_csv("aps"+datetime+".csv")
 
         else:
             print(

@@ -1,0 +1,6 @@
+knn -> knnfunc2 weiter Schreiben
+
+
+
+
+
