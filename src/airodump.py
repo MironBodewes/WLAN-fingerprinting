@@ -69,11 +69,11 @@ def my_scan_function():
 
     import pandas as pd
     df = pd.read_csv(filename, nrows=lines-3)
-    print(df.columns)
+    # print(df.columns)
     essid_list = df[' ESSID'].tolist()
     bssid_list = df['BSSID'].tolist()
     signal_strength_list = df[' Power'].tolist()
-    channel_list = df[' channel'].tolist()
+    radio_channel_list = df[' channel'].tolist()
 
     # print(essid_list, bssid_list, signal_strength_list, channel_list, sep="\n")
     # print(len(essid_list), len(bssid_list), len(signal_strength_list), len(channel_list))

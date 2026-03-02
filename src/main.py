@@ -6,6 +6,7 @@ from knn import knn_func
 # from windows_scan import scan_func
 from linux_scan import scan_func
 from pathlib import Path
+from time import gmtime, strftime
 
 BYTE_N = 78  # N
 BYTE_COLON = bytes(":", encoding="utf8")  # 112
@@ -53,7 +54,7 @@ if __name__ == "__main__":
         fingerprints_path = fingerprints_base+str(config_df.loc[:, DATASET][0])
         # print(type(fingerprint_number))
         print(fingerprints_path)
-        print("datasetid=",dataset_id,"\n",type(dataset_id))
+        print("datasetid=",dataset_id)
     except FileNotFoundError:
         # testing sphinx documentation
         print("except in config_reading, FileNotFoundError")
@@ -104,10 +105,9 @@ if __name__ == "__main__":
             df.to_csv("aps.csv", sep=";")
 
             # cleanup
-            mylist = []  # I only know how to make a df out of a list # TODO
-            mylist.append(fingerprint_count)
+            mylist = [[fingerprint_count,dataset_id]]  # I only know how to make a df out of a list # TODO
             print("DEBUG:dataset=",dataset_id,"\nfingerprint_number=", fingerprint_count)
-            config_df = pd.DataFrame(mylist, columns=[FID])
+            config_df = pd.DataFrame(mylist, columns=[FID, DATASET])
             config_df.to_csv(CONFIG_PATH)
         elif befehl == "ssss" or befehl == "save":
             # save is deprecated
@@ -147,7 +147,6 @@ if __name__ == "__main__":
             print(my_array)
             config_df = pd.DataFrame(my_array, columns=[FID, DATASET])
             config_df.to_csv(CONFIG_PATH)
-            from time import gmtime, strftime
             datetime=strftime("%Y-%m-%d_%H:%M:%S", gmtime())
             print(datetime)
             my_df.to_csv("aps.csv"+datetime)
