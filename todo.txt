@@ -1,0 +1,26 @@
+knn -> knnfunc2 weiter Schreiben
+- Visualisieren 2.4 ghz vs 5 ghz
+- Vergleichen der Zahlen
+netsh unter windows?
+2,4 GHz vs 5 GHz
+- 2,4 GHz 
+
+Wie genau? (Meter)
+Knn -> 1,2,3 wahl soll angezeigt werden mit konfidenz
+Das Lernen der Räue soll nicht zu umständlich sein
+- Wenn jemand ein Hotspot macht, und sich dann bewegt, dann wird das Ergebnis verfälscht
+-> Wenn das Einlernen der Räume ohne Aufsicht eines Menschen erfolgt, dann könnten sich Hotspots einschleichen, die die Genauigkeit verschlechtern
+
+Bewertung der Ergebnisse:
+- die Genauigkeit ist möglicherweise nicht im Bereich von 2-4 Metern sondern eher schlechter
+- die nutzer müssen software installieren
+- Hotspots
+- adminrechte notwendig für bessere scans
+- RoundTripTime in Android 9 bereits vorhanden, benötigt keine rechte, genauigkeit von ca. 1-2 Metern, benötigt aber Router mit **********IEEE 802.11az 
+
+idealerweise im hauptprogramm einstellen, ob mit oder ohne adminrechten gescannt wird (mit für wlanmon wlan channel switching usw.)
+
+
+
+
+
