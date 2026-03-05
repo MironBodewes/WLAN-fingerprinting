@@ -45,6 +45,7 @@ def get_integer_input() -> int:
 # start of main
 if __name__ == "__main__":
     # try reading the config. If it does not exist, initialize with 0
+    #TODO saving fingerprints extends the file but the numbers in the first column start from 0 again... might cause bugs
     try:
         config_df = pd.read_csv(CONFIG_PATH)
         # print(type(config_df))

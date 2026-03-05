@@ -3,12 +3,11 @@ from matplotlib import pyplot as plt
 import numpy as np
 from sklearn import neighbors, neural_network, tree
 import pandas as pd
+from linux_scan import scan_func
 from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.model_selection import train_test_split
-import sklearn.preprocessing as oh
-from linux_scan import scan_func
 from sklearn.metrics import accuracy_score
 from sklearn.neighbors import NearestNeighbors, KNeighborsClassifier
 from sklearn import naive_bayes
@@ -215,6 +214,8 @@ def knn_func2(path: str, path2: str, amount_of_fingerprints: int):
     HIGH = HIGHEST_AMOUNT_OF_ACCESSPOINTS_IN_A_FINGERPRINT
     UNIQUE_APS_TOTAL = 120  # TODO remove magic numbers
     df = pd.read_pickle(path)
+    df1_2GHz = df[df.loc[:, "frequency_band"] == "2.4 GHz"]
+    df1_5GHz = df[df.loc[:, "frequency_band"] == "5 GHz"]
     df2 = pd.read_pickle(path2)
     bssid_map = {}
     """bssid_map key: bssid, value: index of that bssid

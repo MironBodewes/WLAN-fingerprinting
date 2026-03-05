@@ -1,4 +1,8 @@
 knn -> knnfunc2 weiter Schreiben
+- vergleichen von verschiedenen programmen zur datengewinnung
+    - netsh
+    - tshark
+    -
 - Visualisieren 2.4 ghz vs 5 ghz
 - Vergleichen der Zahlen
 netsh unter windows?
