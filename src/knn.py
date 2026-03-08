@@ -1,18 +1,20 @@
 import copy
-from matplotlib import pyplot as plt
+import time
 import numpy as np
-from sklearn import neighbors, neural_network, tree
 import pandas as pd
+import sklearn.preprocessing as oh
+from linux_scan import scan_func
+from matplotlib import pyplot as plt
+from matplotlib.axes import Axes
+from sklearn import neighbors, neural_network, tree
+from sklearn import naive_bayes
+from sklearn import svm
 from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.model_selection import train_test_split
-import sklearn.preprocessing as oh
-from linux_scan import scan_func
 from sklearn.metrics import accuracy_score
 from sklearn.neighbors import NearestNeighbors, KNeighborsClassifier
-from sklearn import naive_bayes
-from sklearn import svm
 
 #########
 INDEX = 0
@@ -168,7 +170,7 @@ def compute_decisiontree_classifier(x_train, y_train, x_test, y_test, max_depth=
     cm = confusion_matrix(y_test, y_prediction_test)
     print(cm)
     plt.show()
-    return clf, train_accu, test_accu
+    return train_accu, test_accu
 
 
 def compute_randomforest_classifier(x_train, y_train, x_test, y_test, n_estimators=100, max_depth=None, random_state=56, plot_decisionboundary=True):
@@ -182,34 +184,112 @@ def compute_randomforest_classifier(x_train, y_train, x_test, y_test, n_estimato
     print("train accuracy: {} %".format(train_accu))
     print("test accuracy: {} %".format(test_accu))
 
-    return clf, train_accu, test_accu
+    return train_accu, test_accu
 
 
 def compute_all_small_data(x_train, y_train, x_test, y_test):
     # print(x_train.shape)
+    accs = []
     print("randomforest")
-    print(compute_randomforest_classifier(x_train, y_train, x_test, y_test, n_estimators=100, max_depth=None, random_state=56, plot_decisionboundary=True))
-
+    accs.append(compute_randomforest_classifier(x_train, y_train, x_test, y_test,
+                n_estimators=100, max_depth=None, random_state=56, plot_decisionboundary=True))
     print("decision_tree")
-    compute_decisiontree_classifier(x_train, y_train, x_test, y_test)
+    accs.append(compute_decisiontree_classifier(x_train, y_train, x_test, y_test))
     print("naive_bayes")
-    compute_naive_bayes(x_train, y_train, x_test, y_test)
+    accs.append(compute_naive_bayes(x_train, y_train, x_test, y_test))
     print("svm")
-    compute_svm(x_train, y_train, x_test, y_test)
+    accs.append(compute_svm(x_train, y_train, x_test, y_test))
     print("nearest_neighbors")
-    compute_nearest_neighbors(x_train, y_train, x_test, y_test)
+    accs.append(compute_nearest_neighbors(x_train, y_train, x_test, y_test))
     print("nearest_centroid")
-    compute_nearest_centroid(x_train, y_train, x_test, y_test)
+    accs.append(compute_nearest_centroid(x_train, y_train, x_test, y_test))
     print("perceptron")
-    compute_perceptron(x_train, y_train, x_test, y_test)
+    accs.append(compute_perceptron(x_train, y_train, x_test, y_test))
     print("mlp")
-    compute_mlp(x_train, y_train, x_test, y_test)
+    accs.append(compute_mlp(x_train, y_train, x_test, y_test))
+    return accs
 
+def call_functions(x_train, y_train, x_test, y_test):
+    trainaccs_dict = {}
+    testaccs_dict = {}
+    kernels = []
+    functions = [compute_randomforest_classifier, compute_decisiontree_classifier,
+             compute_decisiontree_classifier, compute_naive_bayes, compute_svm, compute_nearest_neighbors,
+             compute_nearest_centroid, compute_perceptron, compute_mlp, compute_KNeighbors_classifier]
+    for function in functions:
+        print(function.__name__)
+        start = time.time()
+        if function == compute_svm:
+            kernels, trainaccs_svm, testaccs_svm = compute_svm(x_train, y_train, x_test, y_test)
+            for i in range(len(kernels)):
+                print("kernel=", kernels[i], "\ntrainacc=",
+                      trainaccs_svm[i], "testacc=", testaccs_svm[i])
+                trainaccs_dict[function.__name__+" "+kernels[i]] = trainaccs_svm[i]
+                testaccs_dict[function.__name__+" "+kernels[i]] = testaccs_svm[i], ((time.time()-start)/4)
+        else:
+            returned_tuple = function(x_train, y_train, x_test, y_test)
+            trainaccs_dict[function.__name__] = returned_tuple[-2]
+            testaccs_dict[function.__name__] = returned_tuple[-1], time.time()-start
+            print(time.time()-start)
+    amount_of_rows=100
+    TIME_IN_SECONDS_STRING = "time in seconds"
+    # sorting the testaccs by value... there has to be a better way...
+    sorted_list = sorted(testaccs_dict.items(), key=lambda x: x[1][0])
+    testacc_dict_sorted = {}
+    values0 = []
+    values1 = []
+    names = []
+    for key, values in sorted_list:
+        names.append(key)
+        values0.append(values[0])
+        values1.append(values[1])
+    values0_tuple = tuple(values0)
+    testacc_dict_sorted = {"test_accuracy in %": tuple(values0), TIME_IN_SECONDS_STRING: tuple(values1)}
 
-def calculate_something():
-    pass
+    # GROUPED PLOTS from https://matplotlib.org/stable/gallery/lines_bars_and_markers/barchart.html#sphx-glr-gallery-lines-bars-and-markers-barchart-py
+    # Plot 1
+    x = np.arange(len(testaccs_dict))  # the label locations
+    height = 0.4  # the width of the bars
+    multiplier = 0
+    fig, ax = plt.subplots(layout='constrained')
+    ax: Axes = ax  # this line is necessary for code recommendations (seeing what methods the class has)..
+    for attribute, measurement in testacc_dict_sorted.items():
+        offset = height * multiplier
+        barContainers = ax.barh(x + offset, measurement, height, label=attribute)
+        ax.bar_label(barContainers, padding=3)
+        multiplier += 1
+
+    # Add some text for labels, title and custom x-axis tick labels, etc.
+    # plt.title("accuracy_score of select classifiers for a sample size of "+str(amount_of_rows))
+    ax.set_title("accuracy_score of select classifiers for a sample size of "+str(amount_of_rows))
+    ax.set_yticks(x + height, names)
+    ax.legend(loc='upper right', ncols=1)
+    plt.show()
+
+    # Plot 2 with zoom in
+    fig, ax = plt.subplots(layout='constrained')
+    ax: Axes = ax  # this line is necessary for code recommendations (seeing what methods the class has)..
+    for attribute, measurement in testacc_dict_sorted.items():
+        if (attribute == TIME_IN_SECONDS_STRING):
+            continue
+        offset = height * multiplier
+        barContainers = ax.barh(x + offset, measurement, height, label=attribute)
+        ax.bar_label(barContainers, padding=3)
+        multiplier += 1
+    # Add some text for labels, title and custom x-axis tick labels, etc.
+    # plt.title("accuracy_score of select classifiers for a sample size of "+str(amount_of_rows))
+    ax.set_title("accuracy_score of select classifiers for a sample size of "+str(amount_of_rows))
+    ax.set_xlabel('test accuracy in %')
+    ax.set_yticks(x + height, names)
+    # plt.legend(loc='upper left', ncols=3)
+    ax.legend(loc='lower right', ncols=1, labels=["test_accuracy in %"])
+    ax.set_xlim(90, 100)
+    plt.show()
+    return trainaccs_dict, testaccs_dict
 
 # currently used for comparing two datasets with different machine learning algorithms. the name is missleading
+
+
 def knn_func2(path: str, path2: str, amount_of_fingerprints: int):
     HIGHEST_AMOUNT_OF_ACCESSPOINTS_IN_A_FINGERPRINT = 100  # TODO
     HIGH = HIGHEST_AMOUNT_OF_ACCESSPOINTS_IN_A_FINGERPRINT
@@ -280,9 +360,8 @@ def knn_func2(path: str, path2: str, amount_of_fingerprints: int):
             correct_predictions += 1
         j += 1
     print("knn accuracy=", correct_predictions*100/len(predict), "%")
-    compute_all_small_data(x_train, y_train, x_test, y_test)
-    # compute_decisiontree_classifier(x_train, y_train, x_test, y_test, max_depth=20)
-    # return "current location="+str(fingerprint_location_map[minindex])
+    call_functions(x_train, y_train, x_test, y_test)
+    #accs = compute_all_small_data(x_train, y_train, x_test, y_test)
 
     pass
 
