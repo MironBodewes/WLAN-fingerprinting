@@ -22,7 +22,7 @@ ENDING = ".pcapng"
 # TODO rename
 
 
-def my_scan_function():
+def my_scan_function(freq: float = 2.4) -> list:
     datetime = strftime("%Y-%m-%d_%H:%M:%S", gmtime())
     filepath = FILEPATHRAW+datetime+"_"
     radio_channel_list = []
@@ -40,7 +40,11 @@ def my_scan_function():
     except:
         pass
     filename = "data/airdumps/"+datetime
-    cmd = "sudo airodump-ng -f 1600 -w " + filename + " --channel 1,3,6,9,11 --output-format csv --write-interval 2 "+WLAN_INTERFACEMON
+    if(freq == 2.4):
+        channels= "1,3,6,9,11"
+    elif(freq == 5):
+        channels= "36,40,44,48,100,104,149,153,157,161" #fake news TODO
+    cmd = "sudo airodump-ng -f 1600 -w " + filename + " --channel " + channels + " --output-format csv --write-interval 2 "+WLAN_INTERFACEMON
     try:
         p = subprocess.Popen(cmd, shell=True, start_new_session=True)
         p.wait(timeout=20)

@@ -39,7 +39,7 @@ def get_frequency_band(channel):
     
 
 
-def scan_func(fingerprint_number: int, locate=True, debug=False) -> list:
+def scan_func(fingerprint_number: int, locate=True, debug=False,freq=2.4) -> list:
     start_time = time.time()
 
     # scan the wifi
@@ -54,7 +54,7 @@ def scan_func(fingerprint_number: int, locate=True, debug=False) -> list:
     # changed to iw
     try:
         # Run the iw command to scan for wireless networks
-        channel_list, signal_strength_list, bssid_list, essid_list, = my_scan_function()
+        channel_list, signal_strength_list, bssid_list, essid_list, = my_scan_function(freq=freq)
     except subprocess.CalledProcessError as e:
         print(f"Error: {e}")
 

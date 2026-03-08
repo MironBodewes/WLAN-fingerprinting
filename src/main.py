@@ -87,7 +87,7 @@ if __name__ == "__main__":
             fingerprints = []
             fingerprints.clear()
             for i in range(int(count)):
-                fingerprints.extend(scan_func(fingerprint_count, locate=False))
+                fingerprints.extend(scan_func(fingerprint_count, locate=False,freq=5))
                 print("fingerprint:\n", fingerprints)
                 fingerprint_count += 1
 
